@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Proj1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="720" Width="1280">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
 
+        <Border Grid.Row="0" Grid.ColumnSpan="2" Background="#000" Padding="10">
+            <TextBlock Text="Welcome to PixaF0rk!" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF9F43" FontFamily="Consolas"/>
+        </Border>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Left Pane -->
+            <Border Grid.Row="1" Grid.Column="0" Background="LightGray" Margin="5">
+                <TextBlock Text="Left Pane" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+
+            <!-- Right Pane -->
+            <Border Grid.Row="1" Grid.Column="1" Background="LightYellow" Margin="5">
+                <TextBlock Text="Right Pane" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+        </Grid>
     </Grid>
 </Window>
