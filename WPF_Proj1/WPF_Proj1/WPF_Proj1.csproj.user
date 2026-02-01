@@ -5,7 +5,16 @@
     <Compile Update="View\MainPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\MainPageAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserControls\DailyMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\UserControls\Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserControls\Overview.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\UserControls\Register.xaml.cs">

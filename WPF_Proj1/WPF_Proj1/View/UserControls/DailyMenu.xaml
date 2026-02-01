@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="WPF_Proj1.View.UserControls.DailyMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_Proj1.View.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1" Background="BlueViolet">
+            <TextBlock Text="Daily Menu" Height="20" Margin="0 0 0 -10"/>
+            <TextBlock Text="Today's date: " Height="20" Margin="0 0 0 -30"/>
+            <TextBlock Text="Fish soup" Height="20" Margin="0 0 0 -50"/>
+            <CheckBox Content="Soup" Height="20" Margin="0 0 0 -70"/>
+            <TextBlock Text="A: ; B: " Height="20" Margin="0 0 0 -90"/>
+            <RadioButton Content="A" Height="20" Margin="0 0 0 -110"/>
+            <RadioButton Content="B" Height="20" Margin="0 0 0 -130"/>
+            <TextBlock Text="Price: " Height="20" Margin="0 0 0 -150"/>
+        </Grid>
+    </Grid>
+</UserControl>

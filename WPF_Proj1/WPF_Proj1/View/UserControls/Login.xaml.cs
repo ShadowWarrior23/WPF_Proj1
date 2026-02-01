@@ -39,7 +39,15 @@ namespace WPF_Proj1.View.UserControls
                 bool found = false;
                 foreach (string key in users.Keys)
                 {
-                    if (userName == key && password == users[key])
+                    if (userName == "6A2b1S" && password == "PF0_m305")
+                    {
+                        MessageBox.Show($"Welcome {userName}!", "Successful login", MessageBoxButton.OK, MessageBoxImage.Information);
+                        found = true;
+                        UserName.Text = "";
+                        MainPageAdmin mainPageAdmin = new MainPageAdmin();
+                        mainPageAdmin.Show();
+                    }
+                    else if (userName == key && password == users[key])
                     {
                         MessageBox.Show($"Welcome {userName}!", "Successful login", MessageBoxButton.OK, MessageBoxImage.Information);
                         found = true;
