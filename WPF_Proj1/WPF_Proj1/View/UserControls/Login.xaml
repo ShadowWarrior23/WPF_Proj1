@@ -10,9 +10,9 @@
     <Grid>
         <Grid Background="#16213E">
             <TextBlock Text="LOGIN" Height="50" Width="90" VerticalAlignment="Center" Margin="0 0 0 300" FontWeight="Bold" Foreground="#00ADB5" FontSize="30"/>
-            <UserControls1:ClearableTextboxDark2 Width="250" Height="40" Margin="0 0 0 200" Placeholder="Username"/>
-            <UserControls1:ClearableTextboxDark2 Width="250" Height="40" Margin="0 0 0 100" Placeholder="Password"/>
-            <Button Content="Login" Width="300" Margin="0 0 0 -150" VerticalAlignment="Center" Background="#00ADB5" Foreground="#0A192F" Padding="5" FontSize="20" BorderBrush="Purple" BorderThickness="2"/>
+            <UserControls1:ClearableTextboxDark2 x:Name="UserName" Width="250" Height="40" Margin="0 0 0 200" Placeholder="Username"/>
+            <UserControls1:ClearableTextboxDark2 x:Name="Password" Width="250" Height="40" Margin="0 0 0 100" Placeholder="Password"/>
+            <Button Content="Login" Width="300" Margin="0 0 0 -150" VerticalAlignment="Center" Background="#00ADB5" Foreground="#0A192F" Padding="5" FontSize="20" BorderBrush="#6610F2" BorderThickness="2" Click="Button_Click"/>
         </Grid>
     </Grid>
 </UserControl>

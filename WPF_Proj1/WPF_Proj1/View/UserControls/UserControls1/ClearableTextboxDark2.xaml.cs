@@ -37,6 +37,12 @@ namespace WPF_Proj1.View.UserControls.UserControls1
             }
         }
 
+        public string Text
+        {
+            get { return Input.Text; }
+            set { Input.Text = value; }
+        }
+
         private void BtnClear_Click(object sender, RoutedEventArgs e)
         {
             Input.Clear();

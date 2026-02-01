@@ -30,3 +30,5 @@ C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\ClearableTextboxDark2.g.cs
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\Login.baml
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\ClearableTextboxDark2.baml
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\MainPage.g.cs
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\MainPage.baml

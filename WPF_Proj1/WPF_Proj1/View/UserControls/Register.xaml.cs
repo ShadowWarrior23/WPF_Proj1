@@ -56,6 +56,8 @@ namespace WPF_Proj1.View.UserControls
             LName.Text = "";
             Email.Text = "";
             FName.Focus();
+
+
         }
 
     }

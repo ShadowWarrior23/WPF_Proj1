@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF_Proj1.View.MainPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Proj1.View"
+        mc:Ignorable="d"
+        Title="Main page" Height="720" Width="1280">
+    <Grid Background="#121212">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="85*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Background="#16213E">
+            <TextBlock Text="PixaF0rk" Foreground="#E0E0E0" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Grid>
+    </Grid>
+</Window>
