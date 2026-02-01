@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\App.xaml
-11407045341
+6-1186831986
 
-470796316
+91206812301
 198347540315
-MainWindow.xaml;
+MainWindow.xaml;View\UserControls\Login.xaml;View\UserControls\Register.xaml;View\UserControls\UserControls1\ClearableTextbox.xaml;View\UserControls\UserControls1\ClearableTextboxDark.xaml;View\UserControls\UserControls1\ClearableTextboxDark2.xaml;
 
 False
 

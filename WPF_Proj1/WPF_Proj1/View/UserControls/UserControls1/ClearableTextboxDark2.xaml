@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="WPF_Proj1.View.UserControls.UserControls1.ClearableTextboxDark2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_Proj1.View.UserControls.UserControls1"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="150">
+    <Grid Background="#0F172A">
+        <TextBox x:Name="Input" VerticalContentAlignment="Center" FontSize="16" FontWeight="Light" Background="Transparent" Foreground="#E6E0EB" BorderBrush="#007A7A" TextChanged="Input_TextChanged" CaretBrush="#D48166"/>
+        <TextBlock x:Name="TextBlockPlaceholder" FontSize="16" Text="{Binding Placeholder}" FontWeight="Light" Foreground="DarkGray" VerticalAlignment="Center" Margin="10 0 0 0" Panel.ZIndex="-1"/>
+        <Button x:Name="btnClear" Click="BtnClear_Click" Width="30" HorizontalAlignment="Right" Content="X" Background="Transparent" Foreground="LightGray" BorderThickness="0"/>
+    </Grid>
+</UserControl>

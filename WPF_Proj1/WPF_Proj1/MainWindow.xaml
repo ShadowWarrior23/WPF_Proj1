@@ -4,8 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Proj1"
+        xmlns:UserControls="clr-namespace:WPF_Proj1.View.UserControls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1280">
+        Title="PixaF0rk" Height="720" Width="1280">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
@@ -21,16 +22,9 @@
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
-
-            <!-- Left Pane -->
-            <Border Grid.Row="1" Grid.Column="0" Background="LightGray" Margin="5">
-                <TextBlock Text="Left Pane" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Border>
-
-            <!-- Right Pane -->
-            <Border Grid.Row="1" Grid.Column="1" Background="LightYellow" Margin="5">
-                <TextBlock Text="Right Pane" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Border>
+            
+            <UserControls:Register Grid.Row="1" Grid.Column="0" />
+            <UserControls:Login Grid.Row="1" Grid.Column="1" />
         </Grid>
     </Grid>
 </Window>

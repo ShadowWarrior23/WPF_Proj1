@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WPF_Proj1.View.UserControls.Register"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_Proj1.View.UserControls"
+             xmlns:UserControls1="clr-namespace:WPF_Proj1.View.UserControls.UserControls1"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid Background="#2D1B2D">
+            <TextBlock Text="REGISTER" Height="50" Width="140" VerticalAlignment="Center" Margin="0 0 0 300" FontWeight="Bold" Foreground="#D48166" FontSize="30"/>
+            <UserControls1:ClearableTextboxDark x:Name="FName"  Width="250" Height="40" Margin="0 0 0 200" Placeholder="First Name"/>
+            <UserControls1:ClearableTextboxDark x:Name="LName"  Width="250" Height="40" Margin="0 0 0 100" Placeholder="Last Name"/>
+            <UserControls1:ClearableTextboxDark x:Name="Email"  Width="250" Height="40" Margin="0 0 0 0" Placeholder="Email"/>
+            <Button Content="Register" Width="300" Margin="0 0 0 -150" VerticalAlignment="Center" Background="#D48166" Foreground="#2A1B1B" Padding="5" FontSize="20" BorderBrush="Purple" BorderThickness="2" Click="Button_Click"/>
+        </Grid>
+    </Grid>
+</UserControl>
