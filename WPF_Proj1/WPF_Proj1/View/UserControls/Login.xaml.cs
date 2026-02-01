@@ -34,20 +34,25 @@ namespace WPF_Proj1.View.UserControls
 
             if (String.IsNullOrEmpty(userName) || String.IsNullOrEmpty(password)) MessageBox.Show("Please, fill in all informations correctly!");
 
-            bool found = false;
-            foreach (string key in users.Keys)
+            else
             {
-                if (userName == key && password == users[key])
+                bool found = false;
+                foreach (string key in users.Keys)
                 {
-                    MessageBox.Show($"Welcome {userName}!", "Successful login", MessageBoxButton.OK, MessageBoxImage.Information);
-                    found = true;
-                    UserName.Text = "";
+                    if (userName == key && password == users[key])
+                    {
+                        MessageBox.Show($"Welcome {userName}!", "Successful login", MessageBoxButton.OK, MessageBoxImage.Information);
+                        found = true;
+                        UserName.Text = "";
+                        MainPage mainPage = new MainPage();
+                        mainPage.Show();
+                    }
                 }
-            }
-            if (found == false)
-            {
-                MessageBox.Show("Please make sure to check your username-password combination!");
-                Password.Focus();
+                if (found == false)
+                {
+                    MessageBox.Show("Please make sure to check your username-password combination!");
+                    Password.Focus();
+                }
             }
 
             Password.Text = "";
