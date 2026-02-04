@@ -14,3 +14,9 @@ Rendelések kezelése
 Napi menü listázása
 Bevétel számítás
 Exportálás
+
+## TODO !!
+- Overview style
+    - táblázat (ételek száma a hónapban, levesek száma a hónapban, havi étkezés ára)
+    - napi menü (csak megjelenítés)
+    - + valami
