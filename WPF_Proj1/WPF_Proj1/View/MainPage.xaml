@@ -33,7 +33,7 @@
             </Grid>
             <Grid Grid.Column="1">
                 <Grid Margin="25" Background="#1A111A">
-                    <UserControls:DailyMenu/>
+                    <UserControls:DailyMenu BorderBrush="DarkCyan" BorderThickness="1"/>
                 </Grid>
             </Grid>
         </Grid>

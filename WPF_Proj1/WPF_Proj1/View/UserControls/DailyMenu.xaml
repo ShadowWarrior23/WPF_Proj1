@@ -24,7 +24,8 @@
                 <RadioButton Content="A" Height="20" Margin="0 0 0 -110" HorizontalAlignment="Center"/>
                 <RadioButton Content="B" Height="20" Margin="0 0 0 -130" HorizontalAlignment="Center"/>
             </Grid>
-            <TextBlock Text="Price: " Height="40" Margin="0 0 0 -200" HorizontalAlignment="Center" FontSize="32"/>
+            <TextBlock Text="Price: {Binding Price}" Height="40" Margin="0 0 0 -200" HorizontalAlignment="Center" FontSize="32"/>
+            <Button Height="40" Margin="0 0 0 -350" Width="160" Content="Save changes" FontSize="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#800080" Foreground="#00ADB5" BorderThickness="1" BorderBrush="#4A354A"/>
         </Grid>
     </Grid>
 </UserControl>
