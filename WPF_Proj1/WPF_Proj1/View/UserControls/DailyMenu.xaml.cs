@@ -21,7 +21,7 @@ namespace WPF_Proj1.View.UserControls
     public partial class DailyMenu : UserControl
     {
         public string TodayDate =>
-    $"Today's date: {DateTime.Now:yyyy.MM.dd. (dddd)}";
+    $"Today's date: \n{DateTime.Now:yyyy.MM.dd. (dddd)}";
 
         public DailyMenu()
         {
