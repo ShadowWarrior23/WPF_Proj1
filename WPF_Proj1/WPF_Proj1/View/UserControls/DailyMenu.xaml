@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF_Proj1.View.UserControls"
              mc:Ignorable="d" 
-             d:DesignHeight="576" d:DesignWidth="1024">
+             d:DesignHeight="526" d:DesignWidth="974">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
@@ -13,15 +13,18 @@
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="1" Background="BlueViolet">
-            <TextBlock Text="Daily Menu" Height="50" Margin="0 0 0 500" HorizontalAlignment="Center" FontSize="40" FontWeight="DemiBold" FontFamily="Modern No. 20"/>
-            <Grid Height="5" Margin="0 0 0 450" Background="Black" Width="200"></Grid>
-            <TextBlock Text="Today's date: {Binding TodayDate}" Height="80" Margin="0 0 0 350" Width="300" FontSize="25"/>
-            <TextBlock Text="Fish soup" Height="20" Margin="0 0 0 -50" FontSize="25"/>
-            <CheckBox Content="Soup" Height="20" Margin="0 0 0 -70"/>
-            <TextBlock Text="A: ; B: " Height="20" Margin="0 0 0 -90"/>
-            <RadioButton Content="A" Height="20" Margin="0 0 0 -110"/>
-            <RadioButton Content="B" Height="20" Margin="0 0 0 -130"/>
-            <TextBlock Text="Price: " Height="20" Margin="0 0 0 -150"/>
+            <TextBlock Text="Daily Menu" Height="70" Margin="0,0,0,430" FontSize="40" FontWeight="DemiBold" FontFamily="Modern No. 20" Background="Transparent" HorizontalAlignment="Center"/>
+            <Grid Height="5" Margin="0 0 0 400" Background="Black" Width="200"></Grid>
+            <TextBlock Text="Today's date: {Binding TodayDate}" Height="80" Margin="0 0 0 300" Width="300" FontSize="25"/>
+            <TextBlock Text="Fish soup" Height="30" Margin="0,0,0,190" FontSize="25" HorizontalAlignment="Center"/>
+            <CheckBox Content="Soup" Height="25" Margin="0 0 0 140" HorizontalAlignment="Center" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <TextBlock Text="A: {Binding A}" Height="30" Margin="0,0,0,50" HorizontalAlignment="Center" FontSize="25"/>
+            <TextBlock Text="B: {Binding A}" Height="30" Margin="0 0 0 -50" HorizontalAlignment="Center" FontSize="25"/>
+            <Grid VerticalAlignment="Center">
+                <RadioButton Content="A" Height="20" Margin="0 0 0 -110" HorizontalAlignment="Center"/>
+                <RadioButton Content="B" Height="20" Margin="0 0 0 -130" HorizontalAlignment="Center"/>
+            </Grid>
+            <TextBlock Text="Price: " Height="40" Margin="0 0 0 -200" HorizontalAlignment="Center" FontSize="32"/>
         </Grid>
     </Grid>
 </UserControl>

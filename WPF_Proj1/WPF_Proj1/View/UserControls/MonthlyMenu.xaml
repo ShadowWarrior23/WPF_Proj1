@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:WPF_Proj1.View.UserControls"
              mc:Ignorable="d" 
              d:DesignHeight="576" d:DesignWidth="1024">
-    <Grid>
+    <Grid Background="AliceBlue">
             
     </Grid>
 </UserControl>
