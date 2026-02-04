@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF_Proj1.View.UserControls"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="576" d:DesignWidth="1024">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
@@ -13,8 +13,9 @@
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="1" Background="BlueViolet">
-            <TextBlock Text="Daily Menu" Height="20" Margin="0 0 0 -10"/>
-            <TextBlock Text="Today's date: " Height="20" Margin="0 0 0 -30"/>
+            <TextBlock Text="Daily Menu" Height="50" Margin="0 0 0 500" HorizontalAlignment="Center" FontSize="40" FontWeight="DemiBold" FontFamily="Modern No. 20"/>
+            <Grid Height="5" Margin="0 0 0 450" Background="Black" Width="200"></Grid>
+            <TextBlock Text="Today's date: {Binding TodayDate}" Height="40" Margin="0 0 0 350" Width="300" FontSize="25"/>
             <TextBlock Text="Fish soup" Height="20" Margin="0 0 0 -50"/>
             <CheckBox Content="Soup" Height="20" Margin="0 0 0 -70"/>
             <TextBlock Text="A: ; B: " Height="20" Margin="0 0 0 -90"/>

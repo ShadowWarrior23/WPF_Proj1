@@ -16,14 +16,11 @@ using System.Windows.Shapes;
 namespace WPF_Proj1.View.UserControls
 {
     /// <summary>
-    /// Interaction logic for DailyMenu.xaml
+    /// Interaction logic for MonthlyMenu.xaml
     /// </summary>
-    public partial class DailyMenu : UserControl
+    public partial class MonthlyMenu : UserControl
     {
-        public string TodayDate =>
-    $"Today's date: {DateTime.Now:yyyy.MM.dd. (dddd)}";
-
-        public DailyMenu()
+        public MonthlyMenu()
         {
             InitializeComponent();
         }

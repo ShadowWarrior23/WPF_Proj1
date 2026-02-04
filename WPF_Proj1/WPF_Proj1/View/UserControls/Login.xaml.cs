@@ -41,7 +41,7 @@ namespace WPF_Proj1.View.UserControls
                 {
                     if (userName == "6A2b1S" && password == "PF0_m305")
                     {
-                        MessageBox.Show($"Welcome {userName}!", "Successful login", MessageBoxButton.OK, MessageBoxImage.Information);
+                        MessageBox.Show($"Welcome {userName}! Admin detected", "Successful admin login", MessageBoxButton.OK, MessageBoxImage.Information);
                         found = true;
                         UserName.Text = "";
                         MainPageAdmin mainPageAdmin = new MainPageAdmin();

@@ -9,6 +9,6 @@
     <Grid Background="#0F172A">
         <TextBox x:Name="Input" VerticalContentAlignment="Center" FontSize="16" FontWeight="Light" Background="Transparent" Foreground="#E6E0EB" BorderBrush="#007A7A" TextChanged="Input_TextChanged" CaretBrush="#D48166" Padding="5"/>
         <TextBlock x:Name="TextBlockPlaceholder" FontSize="16" Text="{Binding Placeholder}" FontWeight="Light" Foreground="DarkGray" VerticalAlignment="Center" Margin="10 0 0 0" Panel.ZIndex="-1"/>
-        <Button x:Name="btnClear" Click="BtnClear_Click" Width="30" HorizontalAlignment="Right" Content="X" Background="Transparent" Foreground="LightGray" BorderThickness="0"/>
+        <Button x:Name="btnClear" Click="BtnClear_Click" Width="30" HorizontalAlignment="Right" Content="X" Foreground="LightGray" BorderThickness="0" Background="Transparent"/>
     </Grid>
 </UserControl>
