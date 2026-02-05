@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -21,20 +22,21 @@ namespace WPF_Proj1.View.UserControls
     /// </summary>
     public partial class DailyMenu : UserControl
     {
-        public string TodayDate =>
-            $"Todays date: \n{DateTime.Now:yyyy.MM.dd. (dddd)}";
+        public string today =>
+            $"Today's date:\n{DateTime.Now.ToString("yyyy.MM.dd. (dddd)", new CultureInfo("en-US"))}";
+        public string todayDate = DateTime.Now.ToString("yyyy.MM.dd.");
 
         public DailyMenu()
         {
             InitializeComponent();
+            tDate.Text = today;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string tDate = "2026.02.03.";
             bool? soup = Soup.IsChecked;
             string dish = None.IsChecked == true ? "None" : A.IsChecked == true ? "A" : "B";
-            MessageBox.Show($"Today: {tDate}\nSoup: {Convert.ToString(soup)}; Dish: {dish}");
+            MessageBox.Show($"{todayDate}\nSoup: {Convert.ToString(soup == true ? "Yes": "No")}; Dish: {dish}");
         }
     }
 }

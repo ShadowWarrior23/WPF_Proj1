@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\DailyMenu.xaml.cs",
               "ToolTip": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\DailyMenu.xaml.cs",
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\DailyMenu.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAUwCQAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwBoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T15:02:46.243Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T07:36:25.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T07:36:25.817Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "ToolTip": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\MainPage.xaml",
               "RelativeToolTip": "WPF_Proj1\\View\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-01T04:49:44.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T04:49:44.845Z"
             },
             {
               "$type": "Document",
@@ -106,8 +104,7 @@
               "ToolTip": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\MonthlyMenu.xaml",
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\MonthlyMenu.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-03T15:08:19.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T15:08:19.491Z"
             }
           ]
         }

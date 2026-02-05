@@ -15,7 +15,7 @@
         <Grid Grid.Column="1" Background="BlueViolet">
             <TextBlock Text="Daily Menu" Height="70" Margin="0,0,0,430" FontSize="40" FontWeight="DemiBold" FontFamily="Modern No. 20" Background="Transparent" HorizontalAlignment="Center"/>
             <Grid Height="5" Margin="0 0 0 400" Background="Black" Width="200"></Grid>
-            <TextBlock Text="{Binding TodayDate}" Height="80" Margin="0 0 0 300" Width="300" FontSize="25"/>
+            <TextBlock x:Name="tDate" Height="80" Margin="0 0 0 300" Width="300" FontSize="25"/>
             <TextBlock Text="Fish soup" Height="30" Margin="0,0,0,190" FontSize="25" HorizontalAlignment="Center"/>
             <CheckBox x:Name="Soup" Content="Soup" Height="25" Margin="0 0 0 140" HorizontalAlignment="Center" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
             <TextBlock Text="A: {Binding A}" Height="30" Margin="0,0,0,50" HorizontalAlignment="Center" FontSize="25"/>
