@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+      "projectUniqueName": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
       "projectName": "WPF_Proj1",
-      "projectPath": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+      "projectPath": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
       "packagesPath": "C:\\Users\\bence\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\obj\\",
+      "outputPath": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

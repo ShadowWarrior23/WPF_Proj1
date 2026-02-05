@@ -14,7 +14,7 @@
         </Grid.RowDefinitions>
 
         <Grid Background="#16213E" Grid.Column="0" Grid.Row="0">
-            <TextBlock Text="PixaF0rk" Foreground="#E0E0E0" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="PixaF0rk" Foreground="#E0E0E0" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Cascadia Mono"/>
         </Grid>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -34,7 +34,6 @@
             <Grid Grid.Column="1">
                 <Grid Margin="25" Background="#1A111A">
                     <UserControls:DailyMenu BorderBrush="DarkCyan" BorderThickness="1"/>
-                    y
                 </Grid>
             </Grid>
         </Grid>
