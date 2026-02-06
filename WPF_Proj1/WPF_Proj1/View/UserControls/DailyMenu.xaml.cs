@@ -25,6 +25,7 @@ namespace WPF_Proj1.View.UserControls
         public string today =>
             $"Today's date:\n{DateTime.Now.ToString("yyyy.MM.dd. (dddd)", new CultureInfo("en-US"))}";
         public string todayDate = DateTime.Now.ToString("yyyy.MM.dd.");
+        public DateTime todayDate2 = DateTime.Now;
 
         public DailyMenu()
         {
@@ -32,6 +33,8 @@ namespace WPF_Proj1.View.UserControls
             tDate.Text = today;
 
             using var db = new AppDbContext();
+
+            Soup.Text = db.DailyMenus.Where(x => x.Day == todayDate2).Select(x => x.Soup);
 
             var today0 = db.DailyMenus
                           .FirstOrDefault(m => m.Day == new DateTime(2025, 2, 5));
@@ -46,16 +49,17 @@ namespace WPF_Proj1.View.UserControls
             Console.WriteLine("\nAll orders:");
             var orders = db.Orders.ToList();
 
-            foreach (var o in orders)
+            //Works, only for convenience comment
+            /*foreach (var o in orders)
             {
                 MessageBox.Show(
                     $"User {o.UserId} ordered {o.DishChoice} on {o.Day}");
-            }
+            }*/
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            bool? soup = Soup.IsChecked;
+            bool? soup = SoupCb.IsChecked;
             string dish = None.IsChecked == true ? "None" : A.IsChecked == true ? "A" : "B";
             MessageBox.Show($"{todayDate}\nSoup: {Convert.ToString(soup == true ? "Yes": "No")}; Dish: {dish}");
         }

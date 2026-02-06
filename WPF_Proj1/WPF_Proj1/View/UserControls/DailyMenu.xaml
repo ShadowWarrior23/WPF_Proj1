@@ -16,10 +16,10 @@
             <TextBlock Text="Daily Menu" Height="70" Margin="0,0,0,430" FontSize="40" FontWeight="DemiBold" FontFamily="Modern No. 20" Background="Transparent" HorizontalAlignment="Center"/>
             <Grid Height="5" Margin="0 0 0 400" Background="Black" Width="200"></Grid>
             <TextBlock x:Name="tDate" Height="80" Margin="0 0 0 300" Width="300" FontSize="25"/>
-            <TextBlock Text="Fish soup" Height="30" Margin="0,0,0,190" FontSize="25" HorizontalAlignment="Center"/>
-            <CheckBox x:Name="Soup" Content="Soup" Height="25" Margin="0 0 0 140" HorizontalAlignment="Center" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-            <TextBlock Text="A: {Binding A}" Height="30" Margin="0,0,0,50" HorizontalAlignment="Center" FontSize="25"/>
-            <TextBlock Text="B: {Binding B}" Height="30" Margin="0 0 0 -50" HorizontalAlignment="Center" FontSize="25"/>
+            <TextBlock x:Name="Soup" Height="30" Margin="0,0,0,190" FontSize="25" HorizontalAlignment="Center"/>
+            <CheckBox x:Name="SoupCb" Content="Soup" Height="25" Margin="0 0 0 140" HorizontalAlignment="Center" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <TextBlock x:Name="DishA" Height="30" Margin="0,0,0,50" HorizontalAlignment="Center" FontSize="25"/>
+            <TextBlock x:Name="DishB" Height="30" Margin="0 0 0 -50" HorizontalAlignment="Center" FontSize="25"/>
             <RadioButton x:Name="None" Content="None" IsChecked="True" Height="20" Margin="0 0 200 -110" HorizontalAlignment="Center"/>
                 <RadioButton x:Name="A" Content="Option A" Height="20" Margin="0 0 0 -110" HorizontalAlignment="Center"/>
             <RadioButton x:Name="B" Content="Option B" Height="20" Margin="0 0 -200 -110" HorizontalAlignment="Center"/>
