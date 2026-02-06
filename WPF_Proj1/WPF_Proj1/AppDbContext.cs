@@ -23,5 +23,12 @@ namespace WPF_Proj1
                 ServerVersion.AutoDetect(conn)
             );
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>().ToTable("users");
+            modelBuilder.Entity<DailyMenu>().ToTable("daily_menu");
+            modelBuilder.Entity<Order>().ToTable("orders");
+        }
     }
 }

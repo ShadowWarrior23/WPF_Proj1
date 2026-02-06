@@ -36,12 +36,12 @@ namespace WPF_Proj1.View.UserControls
             var today0 = db.DailyMenus
                           .FirstOrDefault(m => m.Day == new DateTime(2025, 2, 5));
 
-            if (today0 != null)
+            /*if (today0 != null)
             {
                 Console.WriteLine($"Soup: {today0.Soup}");
                 Console.WriteLine($"A: {today0.DishA}");
                 Console.WriteLine($"B: {today0.DishB}");
-            }
+            }*/
 
             Console.WriteLine("\nAll orders:");
             var orders = db.Orders.ToList();
