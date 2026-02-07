@@ -247,3 +247,5 @@ C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\bin\
 C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\WPF_Proj1.csproj.AssemblyReference.cache
 C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\WPF_Proj1.csproj.Up2Date
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\WPF_Proj1.csproj.AssemblyReference.cache
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\MonthlyMenu.g.cs

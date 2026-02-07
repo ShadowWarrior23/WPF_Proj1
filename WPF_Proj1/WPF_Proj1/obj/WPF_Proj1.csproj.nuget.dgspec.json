@@ -51,7 +51,23 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.23, )"
             },
@@ -61,9 +77,13 @@
               "target": "Package",
               "version": "[8.0.23, )"
             },
-            "Pomelo.EntityFrameworkCore.MySql": {
+            "System.Data.SQLite": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[2.0.2, )"
+            },
+            "System.Data.SQLite.x64": {
+              "target": "Package",
+              "version": "[1.0.119, )"
             }
           },
           "imports": [

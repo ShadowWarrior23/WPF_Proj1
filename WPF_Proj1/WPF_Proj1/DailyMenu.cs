@@ -11,7 +11,7 @@ namespace WPF_Proj1
     class DailyMenu
     {
         [Key]
-        public DateTime Day { get; set; }
+        public DateOnly Day { get; set; }
 
         public string Soup { get; set; }
 

@@ -34,7 +34,7 @@ namespace WPF_Proj1.View.UserControls
 
             using var db = new AppDbContext();
 
-            Soup.Text = db.DailyMenus.Where(x => x.Day == todayDate2).Select(x => x.Soup);
+            //Soup.Text = db.DailyMenus.Where(x => x.Day == todayDate2).Select(x => x.Soup);
 
             var today0 = db.DailyMenus
                           .FirstOrDefault(m => m.Day == new DateTime(2025, 2, 5));

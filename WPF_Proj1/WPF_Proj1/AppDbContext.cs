@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.IO;
 
 namespace WPF_Proj1
 {
@@ -15,13 +12,9 @@ namespace WPF_Proj1
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            string conn =
-                "Server=localhost;Database=pixaf0rk;User=root;Password=;";
-
-            options.UseMySql(
-                conn,
-                ServerVersion.AutoDetect(conn)
-            );
+            // DB file will sit next to your .exe (bin/Debug/netX/)
+            string dbPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "pixaf0rk.db");
+            options.UseSqlite($"Data Source={dbPath}");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
