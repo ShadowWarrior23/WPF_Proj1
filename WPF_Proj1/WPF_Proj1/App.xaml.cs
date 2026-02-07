@@ -9,6 +9,7 @@ namespace WPF_Proj1
     /// </summary>
     public partial class App : Application
     {
+        
     }
 
 }
