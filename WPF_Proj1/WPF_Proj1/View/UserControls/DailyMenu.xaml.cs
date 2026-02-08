@@ -40,6 +40,11 @@ namespace WPF_Proj1.View.UserControls
             bool? soup = SoupCb.IsChecked;
             string dish = None.IsChecked == true ? "None" : A.IsChecked == true ? "A" : "B";
             MessageBox.Show($"{todayDate}\nSoup: {Convert.ToString(soup == true ? "Yes" : "No")}; Dish: {dish}");
+            using var db = new AppDbContext();
+            // read orders
+            // update orders
+            db.SaveChanges();
+
         }
     }
 }

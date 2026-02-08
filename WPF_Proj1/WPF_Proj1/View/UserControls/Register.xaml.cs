@@ -33,7 +33,7 @@ namespace WPF_Proj1.View.UserControls
             string lName = LName.Text;
             string email = Email.Text;
 
-            if (String.IsNullOrEmpty(fName) || String.IsNullOrEmpty(lName) || String.IsNullOrEmpty(email) || !email.Contains("@") || !email.Contains(".com")) MessageBox.Show("Please, fill in all informations correctly!");
+            if (String.IsNullOrEmpty(fName) || String.IsNullOrEmpty(lName) || String.IsNullOrEmpty(email) || !email.Contains("@") || !email.Contains(".com")) MessageBox.Show("Please, fill in all informations correctly!", "Unfilled Registration", MessageBoxButton.OK, MessageBoxImage.Warning);
             else
             {
                 MessageBox.Show($"{fName} {lName} - {email}");
@@ -52,12 +52,15 @@ namespace WPF_Proj1.View.UserControls
                 smtp.Send(mail);*/
             }
 
+            using var db = new AppDbContext();
+            // query/insert user
+            db.SaveChanges();
+
+
             FName.Text = "";
             LName.Text = "";
             Email.Text = "";
             FName.Focus();
-
-
         }
 
     }

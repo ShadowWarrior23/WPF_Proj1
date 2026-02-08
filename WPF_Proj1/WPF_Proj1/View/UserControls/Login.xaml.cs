@@ -32,7 +32,7 @@ namespace WPF_Proj1.View.UserControls
             string userName = UserName.Text;
             string password = Password.Text;
 
-            if (String.IsNullOrEmpty(userName) || String.IsNullOrEmpty(password)) MessageBox.Show("Please, fill in all informations correctly!");
+            if (String.IsNullOrEmpty(userName) || String.IsNullOrEmpty(password)) MessageBox.Show("Please, fill in all informations correctly!", "Unfilled Login", MessageBoxButton.OK, MessageBoxImage.Warning);
 
             else
             {
@@ -58,7 +58,7 @@ namespace WPF_Proj1.View.UserControls
                 }
                 if (found == false)
                 {
-                    MessageBox.Show("Please make sure to check your username-password combination!");
+                    MessageBox.Show("Please make sure to check your username-password combination!", "Incorrect Login Infos", MessageBoxButton.OK, MessageBoxImage.Warning);
                     Password.Focus();
                 }
             }
