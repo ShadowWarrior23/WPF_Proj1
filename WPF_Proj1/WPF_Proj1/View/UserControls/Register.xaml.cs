@@ -37,19 +37,6 @@ namespace WPF_Proj1.View.UserControls
             else
             {
                 MessageBox.Show($"{fName} {lName} - {email}");
-                /*var smtp = new SmtpClient("smtp.gmail.com", 587)
-                {
-                    Credentials = new NetworkCredential("gpl.76.x@gmail.com", "app-password"),
-                    EnableSsl = true
-                };
-
-                var mail = new MailMessage();
-                mail.From = new MailAddress("jjobudos@gmail.com");
-                mail.To.Add("gamernagylolhih@example.com");
-                mail.Subject = "Test";
-                mail.Body = "Hello from WPF";
-
-                smtp.Send(mail);*/
             }
 
             using var db = new AppDbContext();
