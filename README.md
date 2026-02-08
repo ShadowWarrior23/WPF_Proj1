@@ -1,16 +1,3 @@
-# WPF_Proj1
+# PixaF0rk - your BEST bet for a canteen system
 
-## Alapfeladat:
-16. Iskolai menza rendelő
-    
-Főbb attribútumok:
-Név
-Menü
-Ár
-Dátum
-
-Funkciók:
-Rendelések kezelése
-Napi menü listázása
-Bevétel számítás
-Exportálás
+## PixaF0rk is an interactive canteen-managing system built for students and managers.
