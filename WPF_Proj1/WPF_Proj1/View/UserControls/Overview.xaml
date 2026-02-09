@@ -3,10 +3,58 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:UserControls="clr-namespace:WPF_Proj1.View.UserControls"
              xmlns:local="clr-namespace:WPF_Proj1.View.UserControls"
              mc:Ignorable="d" 
              d:DesignHeight="576" d:DesignWidth="1024">
     <Grid Background="#1A111A">
-        <TextBlock Text="Something"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <TextBlock Text="Overview" Height="70" FontSize="40" FontWeight="DemiBold" FontFamily="Modern No. 20" Background="Transparent" HorizontalAlignment="Center" Foreground="Black"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="70*"/>
+                    <RowDefinition Height="15*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Days with order:"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Soups:"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Main dishes (A/B/None):"/>
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="Current price:"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Days with orderV"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="SoupsV"/>
+                    <TextBlock Grid.Row="2" Grid.Column="1" Text="Main dishes (A/B/None)V"/>
+                    <TextBlock Grid.Row="3" Grid.Column="1" Text="Current priceV"/>
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="1">
+
+            </Grid>
+        </Grid>
+
+
     </Grid>
 </UserControl>
