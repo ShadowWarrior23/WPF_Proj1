@@ -13,42 +13,63 @@
             <RowDefinition Height="8*"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
-            <TextBlock Text="Overview" Height="70" FontSize="40" FontWeight="DemiBold" FontFamily="Modern No. 20" Background="Transparent" HorizontalAlignment="Center" Foreground="Black"/>
+            <TextBlock Text="Overview" Height="70" FontSize="40" FontWeight="DemiBold" FontFamily="Modern No. 20" Background="Transparent" HorizontalAlignment="Center" Foreground="#D48166"/>
         </Grid>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="6*"/>
-                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="65*"/>
+                <ColumnDefinition Width="30*"/>
             </Grid.ColumnDefinitions>
 
-            <Grid Grid.Column="0">
+            <Grid Grid.Column="1">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="15*"/>
                     <RowDefinition Height="70*"/>
                     <RowDefinition Height="15*"/>
                 </Grid.RowDefinitions>
 
-                <Grid Grid.Row="1">
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
+                <Border BorderBrush="#800080" BorderThickness="3" Grid.Row="1">
+                    <Grid Background="#251825" Opacity=".7">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
 
-                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Days with order:"/>
-                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Soups:"/>
-                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Main dishes (A/B/None):"/>
-                    <TextBlock Grid.Row="3" Grid.Column="0" Text="Current price:"/>
-                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Days with orderV"/>
-                    <TextBlock Grid.Row="1" Grid.Column="1" Text="SoupsV"/>
-                    <TextBlock Grid.Row="2" Grid.Column="1" Text="Main dishes (A/B/None)V"/>
-                    <TextBlock Grid.Row="3" Grid.Column="1" Text="Current priceV"/>
-                </Grid>
+                        <Border BorderBrush="#4A354A" Grid.Row="0" Grid.Column="0" BorderThickness="1">
+                            <TextBlock Text="Days with order" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="0" Grid.Column="1" BorderThickness="1">
+                            <TextBlock Text="Days" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="1" Grid.Column="0" BorderThickness="1">
+                            <TextBlock Text="Soups" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="1" Grid.Column="1" BorderThickness="1">
+                            <TextBlock Text="Soup number" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="2" Grid.Column="0" BorderThickness="1">
+                            <TextBlock Text="Dishes (A/B/None)" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="2" Grid.Column="2" BorderThickness="1">
+                            <TextBlock Text="A/B/None" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="3" Grid.Column="0" BorderThickness="1">
+                            <TextBlock  Text="Expectable price" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="3" Grid.Column="1" BorderThickness="1">
+                            <TextBlock  Text="X" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+
+
+                    </Grid>
+                </Border>
             </Grid>
             <Grid Grid.Column="1">
 
