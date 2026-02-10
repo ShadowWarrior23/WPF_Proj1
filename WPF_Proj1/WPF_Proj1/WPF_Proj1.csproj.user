@@ -32,5 +32,8 @@
     <Compile Update="View\UserControls\UserControls1\ClearableTextboxDark2.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\UserControls\UserControls1\DailyMenuOnlyView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
