@@ -10,10 +10,9 @@
         <Grid Background="BlueViolet">
             <TextBlock Text="Daily Menu" Height="70" Margin="0,10,0,300" FontSize="40" FontWeight="DemiBold" FontFamily="Modern No. 20" Background="Transparent" HorizontalAlignment="Center"/>
             <Grid Height="5" Margin="0 0 0 260" Background="Black" Width="200"></Grid>
-            <TextBlock x:Name="tDate" Height="80" Margin="15 0 0 150" FontSize="20" />
-            <CheckBox x:Name="SoupCb" Content="Soup" Height="25" Margin="0 0 0 40" HorizontalAlignment="Center" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsEnabled="False"/>
-            <TextBlock Height="30" Margin="0 0 0 -50" HorizontalAlignment="Center" FontSize="25" Text="Chosen dish:"/>
-            <TextBlock x:Name="DishB" Height="30" Margin="0 0 0 -150" HorizontalAlignment="Center" FontSize="25" Text="Test"/>
+            <TextBlock x:Name="tDate" Height="80" Margin="0 0 0 150" FontSize="20" TextAlignment="Center"/>
+            <CheckBox x:Name="SoupCb" Content="Soup" Height="32" Margin="0 0 0 40" HorizontalAlignment="Center" FontSize="24" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsEnabled="False"/>
+            <TextBlock Height="125" Margin="0 0 0 -200" HorizontalAlignment="Center" FontSize="25" TextWrapping="Wrap" TextAlignment="Center" Text="Chosen dish: Chicken risotto with mushroom stew"/>
         </Grid>
     </Grid>
 </UserControl>
