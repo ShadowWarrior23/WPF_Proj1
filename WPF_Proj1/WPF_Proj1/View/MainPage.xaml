@@ -33,7 +33,7 @@
             </Grid>
             <Grid Grid.Column="1">
                 <Grid Margin="25" Background="#1A111A">
-                    <UserControls:Overview BorderBrush="DarkCyan" BorderThickness="1"/>
+                    <UserControls:MonthlyMenu BorderBrush="DarkCyan" BorderThickness="1"/>
                 </Grid>
             </Grid>
         </Grid>
