@@ -31,8 +31,6 @@ namespace WPF_Proj1.View.UserControls
         {
             InitializeComponent();
             tDate.Text = today;
-
-            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

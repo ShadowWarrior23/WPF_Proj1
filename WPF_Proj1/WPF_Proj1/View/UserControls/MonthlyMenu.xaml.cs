@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,11 @@ namespace WPF_Proj1.View.UserControls
     /// </summary>
     public partial class MonthlyMenu : UserControl
     {
+        public string today2 = DateTime.Now.ToString("yyyy.MMMM", new CultureInfo("en-US"));
         public MonthlyMenu()
         {
             InitializeComponent();
+            tDateWoDay.Text = today2;
         }
     }
 }

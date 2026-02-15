@@ -8,53 +8,63 @@
              mc:Ignorable="d" 
              d:DesignHeight="576" d:DesignWidth="974">
     <Grid Background="#1A111A">
-        <ListBox Background="Transparent">
-            <ListBox.Resources>
-                <Style TargetType="ScrollBar">
-                    <Setter Property="Width" Value="8"/>
-                    <Setter Property="Background" Value="#3B1F3B"/>
-                    <Setter Property="Foreground" Value="#800080"/>
-                </Style>
-            </ListBox.Resources>
-            <UserControls:DayInMonth Width="900" Height="50"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Valami"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-            <ListBoxItem Content="Suttyó"/>
-        </ListBox>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" HorizontalAlignment="Center">
+            <TextBlock Text="Monthly Menu" Margin="0 20 0 0" FontSize="32" Foreground="#D48166"/>
+            <TextBlock x:Name="tDateWoDay" Margin="0 70 0 0" FontSize="24" Foreground="#00ADB5"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <ListBox Background="Transparent" VerticalAlignment="Center">
+                <ListBox.Resources>
+                    <Style TargetType="ScrollBar">
+                        <Setter Property="Width" Value="8"/>
+                        <Setter Property="Background" Value="#3B1F3B"/>
+                        <Setter Property="Foreground" Value="#800080"/>
+                    </Style>
+                </ListBox.Resources>
+                <UserControls:DayInMonth Width="900" Height="50"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Valami"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+                <ListBoxItem Content="Suttyó"/>
+            </ListBox>
+        </Grid>
     </Grid>
 </UserControl>
