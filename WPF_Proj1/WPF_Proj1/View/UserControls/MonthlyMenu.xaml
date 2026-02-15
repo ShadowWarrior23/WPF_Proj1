@@ -13,9 +13,10 @@
                 <Style TargetType="ScrollBar">
                     <Setter Property="Width" Value="8"/>
                     <Setter Property="Background" Value="#3B1F3B"/>
+                    <Setter Property="Foreground" Value="#800080"/>
                 </Style>
             </ListBox.Resources>
-            <UserControls:DayInMonth Height="20" Background="#251825" BorderBrush="#800080" BorderThickness="1"/>
+            <UserControls:DayInMonth Width="900" Height="50"/>
             <ListBoxItem Content="Suttyó"/>
             <ListBoxItem Content="Suttyó"/>
             <ListBoxItem Content="Suttyó"/>

@@ -12,6 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.EntityFrameworkCore;
+using System.Globalization;
+using System.IO;
+
 
 namespace WPF_Proj1.View.UserControls.UserControls1
 {
@@ -20,9 +24,11 @@ namespace WPF_Proj1.View.UserControls.UserControls1
     /// </summary>
     public partial class DayInMonth : UserControl
     {
+        public string today => $"Today's date:\n{DateTime.Now.ToString("dd. (dddd)", new CultureInfo("en-US"))}";
         public DayInMonth()
         {
             InitializeComponent();
+            tDay.Text = today;
         }
     }
 }

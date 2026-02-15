@@ -523,3 +523,7 @@ C:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\
 C:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\WPF_Proj1.csproj.Up2Date
 C:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\DayInMonth.g.cs
 C:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\DayInMonth.baml
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\DailyMenuOnlyView.g.cs
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\DayInMonth.g.cs
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\DailyMenuOnlyView.baml
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\DayInMonth.baml
