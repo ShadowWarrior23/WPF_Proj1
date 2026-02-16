@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -21,13 +22,13 @@ namespace WPF_Proj1.View.UserControls
     /// <summary>
     /// Interaction logic for DailyMenu.xaml
     /// </summary>
-    public partial class DailyMenu : UserControl
+    public partial class TodayMenu : UserControl
     {
         public string today => $"Today's date:\n{DateTime.Now.ToString("yyyy.MM.dd. (dddd)", new CultureInfo("en-US"))}";
         public string todayDate = DateTime.Now.ToString("yyyy.MM.dd.");
         public DateTime todayDate2 = DateTime.Now;
 
-        public DailyMenu()
+        public TodayMenu()
         {
             InitializeComponent();
             tDate.Text = today;

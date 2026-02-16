@@ -8,9 +8,6 @@
     <Compile Update="View\MainPageAdmin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\UserControls\DailyMenu.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="View\UserControls\Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -21,6 +18,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\UserControls\Register.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserControls\TodayMenu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\UserControls\UserControls1\ClearableTextbox.xaml.cs">

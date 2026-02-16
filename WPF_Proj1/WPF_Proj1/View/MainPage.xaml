@@ -24,17 +24,21 @@
 
             <Grid Grid.Column="0" Background="#000000">
                 <TextBlock Text="NAVIGATION" Foreground="#FF9F43" FontSize="32" HorizontalAlignment="Center" Margin="0,0,0,500" Height="40"/>
-                <ListBox Height="500" Margin="20 0 20 -75" BorderBrush="#800080" BorderThickness="4" Background="#1A111A" HorizontalContentAlignment="Center">
+                <ListBox x:Name="Pages" Height="500" Margin="20 0 20 -75" BorderBrush="#800080" BorderThickness="4" Background="#1A111A" HorizontalContentAlignment="Center" SelectionChanged="PageChanger">
                     <ListBoxItem Content="Overview" Foreground="#E0E7E1" FontSize="25"/>
                     <ListBoxItem Content="Today's Menu" Foreground="#E0E7E1" FontSize="25"/>
                     <ListBoxItem Content="Monthly Menu" Foreground="#E0E7E1" FontSize="25"/>
-                    <Button Content="Export" Foreground="#E0E7E1" Background="Purple" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="4" FontSize="25"/>
+                    <ListBoxItem>
+                        <Button Content="Export" Foreground="#E0E7E1" Background="Purple" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="4" FontSize="25"/>
+                    </ListBoxItem>
                 </ListBox>
             </Grid>
             <Grid Grid.Column="1">
-                <Grid Margin="25" Background="#1A111A">
-                    <UserControls:MonthlyMenu BorderBrush="DarkCyan" BorderThickness="1"/>
-                </Grid>
+                <Border BorderBrush="DarkCyan" BorderThickness="1">
+                    <ContentControl x:Name="Page" Margin="25" Background="#1A111A">
+                        <!--<UserControls:MonthlyMenu/>-->
+                    </ContentControl>
+                </Border>
             </Grid>
         </Grid>
     </Grid>

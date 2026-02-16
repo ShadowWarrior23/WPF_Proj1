@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using WPF_Proj1.View.UserControls;
 
 namespace WPF_Proj1.View
 {
@@ -19,9 +20,44 @@ namespace WPF_Proj1.View
     /// </summary>
     public partial class MainPage : Window
     {
+        private readonly UserControl _overview = new Overview();
+        private readonly UserControl _todayMenu = new TodayMenu();
+        private readonly UserControl _monthlyMenu = new MonthlyMenu();
         public MainPage()
         {
             InitializeComponent();
+            Pages.SelectedIndex = 0;
+            Page.Content = _overview;
         }
+
+        private void PageChanger(object sender, RoutedEventArgs e)
+        {
+            int currentPage = Pages.SelectedIndex;
+            switch (currentPage)
+            {
+                case 0:
+                    Page.Content = _overview;
+                    break;
+                case 1:
+                    Page.Content = _todayMenu;
+                    break;
+
+                case 2:
+                    Page.Content = _monthlyMenu;
+                    break;
+
+                /*case 3:
+                    // Export action (don’t change page)
+                    DoExport();
+                    Pages.SelectedIndex = 0; // optional: bounce back
+                    break;*/
+            }
+        }
+
+        /*private void DoExport()
+        {
+            MessageBox.Show("Export clicked!");
+            // your export logic here
+        }*/
     }
 }
