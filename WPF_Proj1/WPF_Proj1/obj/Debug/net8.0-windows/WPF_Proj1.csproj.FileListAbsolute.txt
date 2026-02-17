@@ -533,3 +533,5 @@ C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\
 C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\OverviewAdmin.g.cs
 C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\MonthlyMenuAdmin.baml
 C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\OverviewAdmin.baml
+C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\FinancesAdmin.g.cs
+C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\FinancesAdmin.baml

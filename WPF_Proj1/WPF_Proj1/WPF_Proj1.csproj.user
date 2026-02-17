@@ -8,6 +8,9 @@
     <Compile Update="View\MainPageAdmin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\UserControls\FinancesAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\UserControls\Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

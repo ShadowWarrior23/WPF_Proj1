@@ -32,7 +32,7 @@
             </Grid>
             <Grid Grid.Column="1">
                 <Border BorderBrush="DarkCyan" BorderThickness="1">
-                    <ContentControl x:Name="Page" Margin="25" BorderBrush="DarkCyan" BorderThickness="1"/>
+                    <ContentControl x:Name="PageAdmin" Margin="25" BorderBrush="DarkCyan" BorderThickness="1"/>
                 </Border>
             </Grid>
         </Grid>
