@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <None Remove="pixaf0rk_sqlite.sql" />
+    <None Remove="View\pixaf0rk_logo.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +25,10 @@
     </PackageReference>
     <PackageReference Include="System.Data.SQLite" Version="2.0.2" />
     <PackageReference Include="System.Data.SQLite.x64" Version="1.0.119" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\pixaf0rk_logo.jpg" />
   </ItemGroup>
 
 </Project>

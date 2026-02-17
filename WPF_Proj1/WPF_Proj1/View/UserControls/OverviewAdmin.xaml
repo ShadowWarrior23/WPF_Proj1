@@ -1,0 +1,79 @@
+﻿<UserControl x:Class="WPF_Proj1.View.UserControls.OverviewAdmin"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_Proj1.View.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="576" d:DesignWidth="974">
+    <Grid Background="#1A111A">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <TextBlock Text="Overview" Height="70" FontSize="40" FontWeight="DemiBold" FontFamily="Modern No. 20" Background="Transparent" HorizontalAlignment="Center" Foreground="#D48166"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="65*"/>
+                <ColumnDefinition Width="30*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="70*"/>
+                    <RowDefinition Height="15*"/>
+                </Grid.RowDefinitions>
+
+                <Border BorderBrush="#800080" BorderThickness="3" Grid.Row="1">
+                    <Grid Background="#251825" Opacity=".7">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Border BorderBrush="#4A354A" Grid.Row="0" Grid.Column="0" BorderThickness="1">
+                            <TextBlock Text="Active users" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="0" Grid.Column="1" BorderThickness="1">
+                            <TextBlock Text="Users" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="1" Grid.Column="0" BorderThickness="1">
+                            <TextBlock Text="X" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="1" Grid.Column="1" BorderThickness="1">
+                            <TextBlock Text="Y" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="2" Grid.Column="0" BorderThickness="1">
+                            <TextBlock Text="Dishes (A/B/None)" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="2" Grid.Column="2" BorderThickness="1">
+                            <TextBlock Text="A/B/None" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="3" Grid.Column="0" BorderThickness="1">
+                            <TextBlock  Text="Expectable price" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border BorderBrush="#4A354A" Grid.Row="3" Grid.Column="1" BorderThickness="1">
+                            <TextBlock  Text="X" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+
+
+                    </Grid>
+                </Border>
+            </Grid>
+            <Grid Grid.Column="2">
+            </Grid>
+        </Grid>
+
+
+    </Grid>
+</UserControl>

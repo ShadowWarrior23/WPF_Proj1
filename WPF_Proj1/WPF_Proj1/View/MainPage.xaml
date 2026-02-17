@@ -6,6 +6,7 @@
         xmlns:UserControls="clr-namespace:WPF_Proj1.View.UserControls"
         xmlns:local="clr-namespace:WPF_Proj1.View"
         mc:Ignorable="d"
+        Icon="/View/pixaf0rk_logo.jpg"
         Title="Main page" Height="720" Width="1280">
     <Grid Background="#121212">
         <Grid.RowDefinitions>
@@ -28,16 +29,12 @@
                     <ListBoxItem Content="Overview" Foreground="#E0E7E1" FontSize="25"/>
                     <ListBoxItem Content="Today's Menu" Foreground="#E0E7E1" FontSize="25"/>
                     <ListBoxItem Content="Monthly Menu" Foreground="#E0E7E1" FontSize="25"/>
-                    <ListBoxItem>
-                        <Button Content="Export" Foreground="#E0E7E1" Background="Purple" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="4" FontSize="25"/>
-                    </ListBoxItem>
+                    <ListBoxItem Content="Export" Foreground="#E0E7E1" Background="Purple" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="4" FontSize="25"/>
                 </ListBox>
             </Grid>
             <Grid Grid.Column="1">
                 <Border BorderBrush="DarkCyan" BorderThickness="1">
-                    <ContentControl x:Name="Page" Margin="25" Background="#1A111A">
-                        <!--<UserControls:MonthlyMenu/>-->
-                    </ContentControl>
+                    <ContentControl x:Name="Page" Margin="25" BorderBrush="DarkCyan" BorderThickness="1"/>
                 </Border>
             </Grid>
         </Grid>

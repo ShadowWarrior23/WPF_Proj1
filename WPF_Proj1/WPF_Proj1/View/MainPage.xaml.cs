@@ -46,18 +46,10 @@ namespace WPF_Proj1.View
                     Page.Content = _monthlyMenu;
                     break;
 
-                /*case 3:
-                    // Export action (don’t change page)
-                    DoExport();
-                    Pages.SelectedIndex = 0; // optional: bounce back
-                    break;*/
+                case 3:
+                    MessageBox.Show("Export");
+                    break;
             }
         }
-
-        /*private void DoExport()
-        {
-            MessageBox.Show("Export clicked!");
-            // your export logic here
-        }*/
     }
 }

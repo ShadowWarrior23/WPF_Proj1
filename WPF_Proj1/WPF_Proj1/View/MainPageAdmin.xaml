@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
 
         <Grid Background="#16213E" Grid.Column="0" Grid.Row="0">
-            <TextBlock Text="PixaF0rk - Admin" Foreground="#E0E0E0" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="PixaF0rk - Admin" Foreground="#E0E0E0" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Cascadia Mono"/>
         </Grid>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -23,17 +23,17 @@
 
             <Grid Grid.Column="0" Background="#000000">
                 <TextBlock Text="NAVIGATION" Foreground="#FF9F43" FontSize="32" HorizontalAlignment="Center" Margin="0,0,0,500" Height="40"/>
-                <ListBox Height="500" Margin="20 0 20 -75" BorderBrush="#800080" BorderThickness="4" Background="#1A111A" HorizontalContentAlignment="Center">
-                    <ListBoxItem Content="Overview" Foreground="#E0E7E1"/>
-                    <ListBoxItem Content="Today's Menu" Foreground="#E0E7E1"/>
-                    <ListBoxItem Content="Monthly Menu" Foreground="#E0E7E1"/>
-                    <Button Content="Export" Foreground="#E0E7E1" Background="Purple" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="3"/>
+                <ListBox x:Name="PagesAdmin" Height="500" Margin="20 0 20 -75" BorderBrush="#800080" BorderThickness="4" Background="#1A111A" HorizontalContentAlignment="Center" SelectionChanged="PageChangerAdmin">
+                    <ListBoxItem Content="Overview" Foreground="#E0E7E1" FontSize="25"/>
+                    <ListBoxItem Content="Monthly Menu" Foreground="#E0E7E1" FontSize="25"/>
+                    <ListBoxItem Content="Finances" Foreground="#E0E7E1" FontSize="25"/>
+                    <ListBoxItem Content="Export" Foreground="#E0E7E1" Background="Purple" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="4" FontSize="25"/>
                 </ListBox>
             </Grid>
             <Grid Grid.Column="1">
-                <Grid Margin="25" Background="#1A111A">
-                    
-                </Grid>
+                <Border BorderBrush="DarkCyan" BorderThickness="1">
+                    <ContentControl x:Name="Page" Margin="25" BorderBrush="DarkCyan" BorderThickness="1"/>
+                </Border>
             </Grid>
         </Grid>
     </Grid>

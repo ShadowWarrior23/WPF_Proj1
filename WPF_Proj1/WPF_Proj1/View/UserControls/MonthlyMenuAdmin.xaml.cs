@@ -10,23 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPF_Proj1.View
+namespace WPF_Proj1.View.UserControls
 {
     /// <summary>
-    /// Interaction logic for MainPageAdmin.xaml
+    /// Interaction logic for MonthlyMenuAdmin.xaml
     /// </summary>
-    public partial class MainPageAdmin : Window
+    public partial class MonthlyMenuAdmin : UserControl
     {
-        public MainPageAdmin()
+        public MonthlyMenuAdmin()
         {
             InitializeComponent();
-        }
-
-        private void PageChangerAdmin(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
