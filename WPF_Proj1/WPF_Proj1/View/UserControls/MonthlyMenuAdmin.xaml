@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:UserControls="clr-namespace:WPF_Proj1.View.UserControls.UserControls1"
+             xmlns:UserControls1="clr-namespace:WPF_Proj1.View.UserControls.UserControls1.UserControls11"
              xmlns:local="clr-namespace:WPF_Proj1.View.UserControls"
              mc:Ignorable="d" 
              d:DesignHeight="546" d:DesignWidth="972">
@@ -26,7 +27,7 @@
                     </Style>
                 </ListBox.Resources>
                 <UserControls:DayInMonthAdmin Width="900" Height="50"/>
-                <ListBoxItem Content="Suttyó"/>
+                <UserControls:DayInMonthAdmin Width="900" Height="50"/>
                 <ListBoxItem Content="Suttyó"/>
                 <ListBoxItem Content="Suttyó"/>
                 <ListBoxItem Content="Suttyó"/>
@@ -66,5 +67,8 @@
                 <ListBoxItem Content="Suttyó"/>
             </ListBox>
         </Grid>
+        <ContentControl Panel.ZIndex="2" x:Name="pu">
+
+        </ContentControl>
     </Grid>
 </UserControl>

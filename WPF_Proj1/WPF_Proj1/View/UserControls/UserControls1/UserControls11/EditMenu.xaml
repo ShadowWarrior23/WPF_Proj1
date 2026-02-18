@@ -14,10 +14,14 @@
                     <RowDefinition Height="95*"/>
                 </Grid.RowDefinitions>
 
-                <!--<Menu>
-                    <MenuItem Header="X"/>
-                </Menu>-->
-                
+                <Border Background="#800080" CornerRadius="20 20 0 0" BorderThickness="0 0 0 2" BorderBrush="#808080">
+                    <Grid>
+                        <Border CornerRadius="30">
+                            <Button Content="X" Width="20"/>
+                        </Border>
+                    </Grid>
+                </Border>
+
             </Grid>
         </Border>
     </Grid>
