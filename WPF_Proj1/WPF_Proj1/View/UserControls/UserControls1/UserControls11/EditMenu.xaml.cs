@@ -25,7 +25,9 @@ namespace WPF_Proj1.View.UserControls.UserControls1.UserControls11
             InitializeComponent();
         }
 
-        private void SaveChanges(object sender, EventArgs e){
-            MessageBox.Show("Are you sure about these changes?", "Confirm changes", MessageBoxButton.YesNo,MessageBoxImage.Question);
+        private void SaveChanges(object sender, EventArgs e)
+        {
+            MessageBox.Show("Are you sure about these changes?", "Confirm changes", MessageBoxButton.YesNo, MessageBoxImage.Question);
+        }
     }
 }
