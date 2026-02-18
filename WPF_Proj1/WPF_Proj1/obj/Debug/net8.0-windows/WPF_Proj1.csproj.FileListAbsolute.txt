@@ -547,3 +547,5 @@ C:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\
 C:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\TodayMenu.baml
 C:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\DayInMonthAdmin.baml
 C:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\EditMenu.baml
+C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\EditMenu.g.cs
+C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\EditMenu.baml
