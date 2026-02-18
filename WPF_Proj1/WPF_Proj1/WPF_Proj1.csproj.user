@@ -47,5 +47,11 @@
     <Compile Update="View\UserControls\UserControls1\DayInMonth.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\UserControls\UserControls1\DayInMonthAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserControls\UserControls1\UserControls11\EditMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
