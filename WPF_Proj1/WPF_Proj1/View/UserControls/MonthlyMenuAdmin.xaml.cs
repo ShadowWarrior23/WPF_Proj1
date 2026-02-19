@@ -12,17 +12,35 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPF_Proj1.View.UserControls.UserControls1;
+using WPF_Proj1.View.UserControls.UserControls1.UserControls11;
 
 namespace WPF_Proj1.View.UserControls
 {
-    /// <summary>
-    /// Interaction logic for MonthlyMenuAdmin.xaml
-    /// </summary>
     public partial class MonthlyMenuAdmin : UserControl
     {
         public MonthlyMenuAdmin()
         {
             InitializeComponent();
+            
         }
+
+        /*private void DayInMonthAdmin_EditMenuRequested(object sender, RoutedEventArgs e)
+        {
+            if (e is not EditMenuRequestedEventArgs args)
+                return;
+
+            var edit = new EditMenu();
+
+            // Pass day/menu info (pick one pattern)
+            // edit.Day = args.Day;
+            // or: edit.DataContext = args.Day;
+            // or: edit.Load(args.Day);
+
+            pu.Content = edit;
+            pu.Visibility = Visibility.Visible;
+
+            e.Handled = true;
+        }*/
     }
 }

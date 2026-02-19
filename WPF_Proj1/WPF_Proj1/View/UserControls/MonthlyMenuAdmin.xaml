@@ -19,6 +19,7 @@
         </Grid>
         <Grid Grid.Row="1">
             <ListBox Background="Transparent" VerticalAlignment="Center">
+                <!--UserControls:DayInMonthAdmin.EditMenuRequested="DayInMonthAdmin_EditMenuRequested"-->
                 <ListBox.Resources>
                     <Style TargetType="ScrollBar">
                         <Setter Property="Width" Value="8"/>
@@ -27,44 +28,6 @@
                     </Style>
                 </ListBox.Resources>
                 <UserControls:DayInMonthAdmin Width="900" Height="50"/>
-                <UserControls:DayInMonthAdmin Width="900" Height="50"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Valami"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
             </ListBox>
         </Grid>
         <ContentControl Panel.ZIndex="2" x:Name="pu">

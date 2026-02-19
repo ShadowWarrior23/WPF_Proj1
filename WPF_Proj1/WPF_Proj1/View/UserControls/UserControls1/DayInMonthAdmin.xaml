@@ -21,7 +21,7 @@
                         <TextBlock Grid.Row="0" Text="A: Chicken risotto with mushroom stew"/>
                         <TextBlock Grid.Row="1" Text="B: Steak with steamed potato"/>
                     </Grid>
-                    <Button Width="50" Margin="600 0 0 0" BorderThickness="2" BorderBrush="#800080" Background="#FF9F43" Content="Edit" Click="Popup"/>
+                    <Button Width="50" Margin="600 0 0 0" BorderThickness="2" BorderBrush="#800080" Background="#FF9F43" Content="Edit" Click="Popup" x:Name="EditBtn"/>
                 </Grid>
 
 

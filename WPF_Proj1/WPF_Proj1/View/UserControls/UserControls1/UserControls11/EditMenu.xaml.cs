@@ -29,5 +29,13 @@ namespace WPF_Proj1.View.UserControls.UserControls1.UserControls11
         {
             MessageBox.Show("Are you sure about these changes?", "Confirm changes", MessageBoxButton.YesNo, MessageBoxImage.Question);
         }
+
+        /*public event EventHandler? CloseRequested;
+
+        private void Close_Click(object sender, RoutedEventArgs e)
+        {
+            CloseRequested?.Invoke(this, EventArgs.Empty);
+        }*/
+
     }
 }
