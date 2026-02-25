@@ -722,3 +722,5 @@ C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\
 C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\WPF_Proj1.pdb
 C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\WPF_Proj1.genruntimeconfig.cache
 C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\ref\WPF_Proj1.dll
+C:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\UserControls111\EditMenuClearableTextbox.g.cs
+C:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\UserControls111\EditMenuClearableTextbox.baml

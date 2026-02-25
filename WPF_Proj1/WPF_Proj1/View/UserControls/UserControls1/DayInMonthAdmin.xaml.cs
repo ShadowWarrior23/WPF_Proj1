@@ -21,7 +21,6 @@ namespace WPF_Proj1.View.UserControls.UserControls1
     /// </summary>
     public partial class DayInMonthAdmin : UserControl
     {
-        private readonly UserControl _editMenu = new EditMenu();
         public DayInMonthAdmin()
         {
             InitializeComponent();

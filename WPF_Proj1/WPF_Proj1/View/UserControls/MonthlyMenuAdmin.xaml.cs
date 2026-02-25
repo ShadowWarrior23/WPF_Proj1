@@ -25,22 +25,9 @@ namespace WPF_Proj1.View.UserControls
             
         }
 
-        /*private void DayInMonthAdmin_EditMenuRequested(object sender, RoutedEventArgs e)
+        /*private void OpenEditMenu(object sender, RoutedEventArgs e)
         {
-            if (e is not EditMenuRequestedEventArgs args)
-                return;
-
-            var edit = new EditMenu();
-
-            // Pass day/menu info (pick one pattern)
-            // edit.Day = args.Day;
-            // or: edit.DataContext = args.Day;
-            // or: edit.Load(args.Day);
-
-            pu.Content = edit;
-            pu.Visibility = Visibility.Visible;
-
-            e.Handled = true;
+            
         }*/
     }
 }
