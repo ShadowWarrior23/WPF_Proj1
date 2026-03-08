@@ -1,12 +1,12 @@
-﻿<UserControl x:Class="WPF_Proj1.View.UserControls.UserControls1.UserControls11.EditMenu"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:UserControls="clr-namespace:WPF_Proj1.View.UserControls.UserControls1.UserControls11.UserControls111"
-             xmlns:local="clr-namespace:WPF_Proj1.View.UserControls.UserControls1.UserControls11"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+﻿<Window x:Class="WPF_Proj1.View.UserControls.UserControls1.UserControls11.EditMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:UserControls="clr-namespace:WPF_Proj1.View.UserControls.UserControls1.UserControls11.UserControls111"
+        xmlns:local="clr-namespace:WPF_Proj1.View.UserControls.UserControls1.UserControls11"
+        mc:Ignorable="d"
+        Title="EditMenu" Height="450" Width="800" Background="Transparent" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Border BorderThickness="3" BorderBrush="Cyan" CornerRadius="20">
             <Grid>
@@ -20,7 +20,7 @@
                         <TextBlock Text="2026. 02.25." Margin="15 0 0 0" VerticalAlignment="Center" FontSize="20" FontFamily="DejaVu Math TeX Gyre"/>
                         <Border CornerRadius="30">
                             <Grid>
-                                <Button Content="X" Width="20" Margin="750 0 0 0" Foreground="red" Background="Transparent" FontWeight="bold" BorderBrush="Transparent" FontSize="16" VerticalAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Padding="0,0,0,0"/>
+                                <Button Content="X" Width="20" Margin="750 0 0 0" Foreground="red" Background="Transparent" FontWeight="bold" BorderBrush="Transparent" FontSize="16" VerticalAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" x:Name="CloseBtn" Click="CloseWindow"/>
                             </Grid>
                         </Border>
                     </Grid>
@@ -42,15 +42,15 @@
                                 <RowDefinition Height="1*"/>
                             </Grid.RowDefinitions>
                             <TextBlock Grid.Row="0" Text="Soup" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
-                            <UserControls:EditMenuClearableTextbox Grid.Row="1" Width="400" Height="50"/>
-                            <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Text="Dish A"/>
-                            <UserControls:EditMenuClearableTextbox Grid.Row="3" Width="400" Height="50"/>
-                            <TextBlock Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Text="Dish B"/>
+                        <UserControls:EditMenuClearableTextbox Grid.Row="1" Width="400" Height="50"/>
+                        <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Text="Dish A"/>
+                        <UserControls:EditMenuClearableTextbox Grid.Row="3" Width="400" Height="50"/>
+                        <TextBlock Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Text="Dish B"/>
                             <UserControls:EditMenuClearableTextbox Grid.Row="5" Width="400" Height="50"/>
                         </Grid>
                         <Grid Grid.Column="1">
                             <Border Width="50" Height="30" Background="LimeGreen" CornerRadius="15">
-                                <Button Content="Save" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontSize="18" Background="Transparent" BorderBrush="Transparent" Click="SaveChanges" Margin="0,0,0,1"/>
+                                <Button Content="Save" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="18" Background="Transparent" BorderBrush="Transparent" Margin="0,1,0,0" Click="SaveChanges"/>
                             </Border>
                         </Grid>
                     </Grid>
@@ -58,4 +58,4 @@
             </Grid>
         </Border>
     </Grid>
-</UserControl>
+</Window>

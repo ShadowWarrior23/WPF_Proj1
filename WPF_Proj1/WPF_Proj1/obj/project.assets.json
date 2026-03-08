@@ -3624,6 +3624,7 @@
       "Microsoft.Data.Sqlite >= 8.0.23",
       "Microsoft.Data.Sqlite.Core >= 8.0.23",
       "Microsoft.EntityFrameworkCore >= 8.0.23",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.23",
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.23",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.23",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.23",
@@ -3632,23 +3633,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\Bence\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+      "projectUniqueName": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
       "projectName": "WPF_Proj1",
-      "projectPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\obj\\",
+      "projectPath": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+      "packagesPath": "C:\\Users\\Bence\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bence\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3694,6 +3695,12 @@
             "target": "Package",
             "version": "[8.0.23, )"
           },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[8.0.23, )"
+          },
           "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[8.0.23, )"
@@ -3736,7 +3743,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\",
+  "WorkspaceRootPath": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\user\\documents\\szb 12.b\\gui c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\usercontrols11\\editmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\usercontrols11\\editmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\user\\documents\\szb 12.b\\gui c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\usercontrols11\\usercontrols111\\editmenuclearabletextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\usercontrols11\\usercontrols111\\editmenuclearabletextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\data\\dbinitialiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\data\\dbinitialiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\user\\documents\\szb 12.b\\gui c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\usercontrols11\\usercontrols111\\editmenuclearabletextbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\usercontrols11\\usercontrols111\\editmenuclearabletextbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\user\\documents\\szb 12.b\\gui c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\clearabletextboxdark2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\clearabletextboxdark2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\user\\documents\\szb 12.b\\gui c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\clearabletextboxdark2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\clearabletextboxdark2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\user\\documents\\szb 12.b\\gui c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\usercontrols11\\editmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\usercontrols11\\editmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\data\\models\\dailymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\data\\models\\dailymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +38,97 @@
       "DocumentGroups": [
         {
           "DockedHeight": 387,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditMenuClearableTextbox.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\UserControls111\\EditMenuClearableTextbox.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\UserControls111\\EditMenuClearableTextbox.xaml",
-              "ToolTip": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\UserControls111\\EditMenuClearableTextbox.xaml",
-              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\UserControls111\\EditMenuClearableTextbox.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-25T08:27:32.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditMenuClearableTextbox.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\UserControls111\\EditMenuClearableTextbox.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\UserControls111\\EditMenuClearableTextbox.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\UserControls111\\EditMenuClearableTextbox.xaml.cs",
-              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\UserControls111\\EditMenuClearableTextbox.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwCIAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\Register.xaml.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\Register.xaml.cs*",
+              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\Register.xaml.cs*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwEgAAACVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T08:28:32.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClearableTextboxDark2.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\ClearableTextboxDark2.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\UserControls1\\ClearableTextboxDark2.xaml",
-              "ToolTip": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\ClearableTextboxDark2.xaml",
-              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\UserControls1\\ClearableTextboxDark2.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-25T08:24:43.962Z",
+              "WhenOpened": "2026-03-08T08:37:08.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ClearableTextboxDark2.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\ClearableTextboxDark2.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\UserControls1\\ClearableTextboxDark2.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\ClearableTextboxDark2.xaml.cs",
-              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\UserControls1\\ClearableTextboxDark2.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
+              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T08:28:05.689Z",
+              "WhenOpened": "2026-03-08T08:14:27.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditMenu.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml",
-              "ToolTip": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml",
-              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T06:12:01.224Z",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WPF_Proj1\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WPF_Proj1\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA9wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T06:51:12.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbInitialiser.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\DbInitialiser.cs",
+              "RelativeDocumentMoniker": "WPF_Proj1\\Data\\DbInitialiser.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\DbInitialiser.cs",
+              "RelativeToolTip": "WPF_Proj1\\Data\\DbInitialiser.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA1wC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T06:51:53.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EditMenu.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml.cs",
-              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DailyMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\Models\\DailyMenu.cs",
+              "RelativeDocumentMoniker": "WPF_Proj1\\Data\\Models\\DailyMenu.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\Models\\DailyMenu.cs",
+              "RelativeToolTip": "WPF_Proj1\\Data\\Models\\DailyMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T07:10:58.188Z",
+              "WhenOpened": "2026-03-07T23:52:30.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WPF_Proj1\\Data\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\Models\\User.cs",
+              "RelativeToolTip": "WPF_Proj1\\Data\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T23:52:28.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WPF_Proj1\\Data\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\Models\\Order.cs",
+              "RelativeToolTip": "WPF_Proj1\\Data\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T23:52:14.954Z",
               "EditorCaption": ""
             }
           ]

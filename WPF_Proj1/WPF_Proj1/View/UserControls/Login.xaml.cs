@@ -29,6 +29,8 @@ namespace WPF_Proj1.View.UserControls
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            using var db = new AppDbContext();
+
             string userName = UserName.Text;
             string password = Password.Text;
 
@@ -36,7 +38,7 @@ namespace WPF_Proj1.View.UserControls
 
             else
             {
-                bool found = false;
+                /*bool found = false;
                 foreach (string key in users.Keys)
                 {
                     if (userName == "6A2b1S" && password == "PF0_m305")
@@ -60,7 +62,9 @@ namespace WPF_Proj1.View.UserControls
                 {
                     MessageBox.Show("Please make sure to check your username-password combination!", "Incorrect Login Infos", MessageBoxButton.OK, MessageBoxImage.Warning);
                     Password.Focus();
-                }
+                }*/
+                var users = db.Users.Select(p => new { un = p.Username, pw = p.PasswordHash });
+                
             }
 
             Password.Text = "";

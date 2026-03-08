@@ -16,9 +16,6 @@ using WPF_Proj1.View.UserControls.UserControls1.UserControls11;
 
 namespace WPF_Proj1.View.UserControls.UserControls1
 {
-    /// <summary>
-    /// Interaction logic for DayInMonthAdmin.xaml
-    /// </summary>
     public partial class DayInMonthAdmin : UserControl
     {
         public DayInMonthAdmin()
@@ -28,7 +25,8 @@ namespace WPF_Proj1.View.UserControls.UserControls1
 
         private void Popup(object sender, RoutedEventArgs e)
         {
-            
+            EditMenu _editMenu = new EditMenu();
+            _editMenu.Show();
         }
     }
 }

@@ -27,6 +27,22 @@ namespace WPF_Proj1.View.UserControls
             InitializeComponent();
         }
 
+        private static string CrUsername(string fName, string lName)
+        {
+            Random rnd = new Random();
+
+            return $"{fName[0]}{rnd.Next(0, 10)}{rnd.Next(0, 10)}{rnd.Next(0, 10)}{lName[0]}";
+        }
+
+        private static string CrPw()
+        {
+            Random rnd = new Random();
+            string letters = "qwertzuiopasdfghjklyxcvbnm";
+            string specChars = ",.?:;*-_#&!";
+
+            return $"{letters[rnd.Next(letters.Length)]}{specChars[rnd.Next(specChars.Length)]}{letters[rnd.Next(letters.Length)]}{letters[rnd.Next(letters.Length)]}{specChars[rnd.Next(specChars.Length)]}{rnd.Next(0, 10)}{rnd.Next(0, 10)}{rnd.Next(0, 10)}";
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string fName = FName.Text;
@@ -41,8 +57,20 @@ namespace WPF_Proj1.View.UserControls
 
             using var db = new AppDbContext();
             // query/insert user
+
+            User newUser = new User
+            {
+                Username = CrUsername(fName, lName),
+                FullName = $"{fName} {lName}",
+                PasswordHash = CrPw(),
+                IsAdmin = false,
+                Balance = 0
+            };
+
+            db.Users.Add(newUser);
             db.SaveChanges();
 
+            MessageBox.Show($"You've successfully registered!\nYour login information:\nUsername: {newUser.Username}; Password: {newUser.PasswordHash}");
 
             FName.Text = "";
             LName.Text = "";

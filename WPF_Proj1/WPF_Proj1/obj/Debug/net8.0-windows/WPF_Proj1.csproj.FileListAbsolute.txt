@@ -325,7 +325,6 @@ C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\MainPage.g.cs
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\MainPageAdmin.g.cs
-C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\DailyMenu.g.cs
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\Login.g.cs
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\MonthlyMenu.g.cs
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\Overview.g.cs
@@ -340,7 +339,6 @@ C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\MainPage.baml
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\MainPageAdmin.baml
-C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\DailyMenu.baml
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\Login.baml
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\MonthlyMenu.baml
 C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\Overview.baml
@@ -724,3 +722,17 @@ C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\
 C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\ref\WPF_Proj1.dll
 C:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\UserControls111\EditMenuClearableTextbox.g.cs
 C:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\UserControls111\EditMenuClearableTextbox.baml
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\FinancesAdmin.g.cs
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\MonthlyMenuAdmin.g.cs
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\OverviewAdmin.g.cs
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\TodayMenu.g.cs
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\DayInMonthAdmin.g.cs
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\EditMenu.g.cs
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\UserControls111\EditMenuClearableTextbox.g.cs
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\FinancesAdmin.baml
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\MonthlyMenuAdmin.baml
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\OverviewAdmin.baml
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\TodayMenu.baml
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\DayInMonthAdmin.baml
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\EditMenu.baml
+C:\Users\Bence\Desktop\VSC\GUI_C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\UserControls111\EditMenuClearableTextbox.baml

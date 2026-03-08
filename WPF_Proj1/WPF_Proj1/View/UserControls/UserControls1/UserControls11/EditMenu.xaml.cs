@@ -10,32 +10,26 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WPF_Proj1.View.UserControls.UserControls1.UserControls11
 {
-    /// <summary>
-    /// Interaction logic for EditMenu.xaml
-    /// </summary>
-    public partial class EditMenu : UserControl
+    public partial class EditMenu : Window
     {
         public EditMenu()
         {
             InitializeComponent();
         }
 
-        private void SaveChanges(object sender, EventArgs e)
+        private void SaveChanges(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Are you sure about these changes?", "Confirm changes", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            MessageBox.Show("Saved");
+            this.Close();
         }
 
-        /*public event EventHandler? CloseRequested;
-
-        private void Close_Click(object sender, RoutedEventArgs e)
+        private void CloseWindow(object sender, RoutedEventArgs e)
         {
-            CloseRequested?.Invoke(this, EventArgs.Empty);
-        }*/
-
+            this.Close();
+        }
     }
 }
