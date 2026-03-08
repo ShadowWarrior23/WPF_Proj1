@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WPF_Proj1.Data.Models;
-
-namespace WPF_Proj1.Data.Models
+﻿namespace WPF_Proj1.Data.Models
 {
     public static class DbInitialiser
     {
@@ -18,8 +11,9 @@ namespace WPF_Proj1.Data.Models
             if (!db.Users.Any())
             {
                 db.Users.AddRange(
-                    new User { Username = "S137B", FullName = "Szabó Bence", PasswordHash = "L_LV.843", IsAdmin = false, Balance = 50000 },
-                    new User { Username = "6A2b1S", FullName = "SzB Admin", PasswordHash = "PF0_m305", IsAdmin = true, Balance = 0 }
+                    new User { Username = "6A2b1S", FullName = "SzB Admin", Email="pixaf0rk@gmailcom", PasswordHash = "PF0_m305", IsAdmin = true, Balance = 0 },
+                    new User { Username = "S137B", FullName = "Szabó Bence", Email="bencepor@gmail.com", PasswordHash = "L_LV.843", IsAdmin = false, Balance = 50000 },
+                    new User { Username = "T012Á", FullName = "Takács Ákos", Email = "takacsakos@gmail.com", PasswordHash = "C$FB,000", IsAdmin = false, Balance = 500 }
                 );
             }
 

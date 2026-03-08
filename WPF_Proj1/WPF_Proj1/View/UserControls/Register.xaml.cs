@@ -1,19 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Mail;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace WPF_Proj1.View.UserControls
 {
@@ -50,25 +36,31 @@ namespace WPF_Proj1.View.UserControls
             string email = Email.Text;
 
             if (String.IsNullOrEmpty(fName) || String.IsNullOrEmpty(lName) || String.IsNullOrEmpty(email) || !email.Contains("@") || !email.Contains(".com")) MessageBox.Show("Please, fill in all informations correctly!", "Unfilled Registration", MessageBoxButton.OK, MessageBoxImage.Warning);
-            else
-            {
-                MessageBox.Show($"{fName} {lName} - {email}");
-            }
 
             using var db = new AppDbContext();
-            // query/insert user
-
             User newUser = new User
             {
-                Username = CrUsername(fName, lName),
-                FullName = $"{fName} {lName}",
-                PasswordHash = CrPw(),
+                Username = "",
+                FullName = "",
+                PasswordHash = "",
                 IsAdmin = false,
                 Balance = 0
             };
 
-            db.Users.Add(newUser);
-            db.SaveChanges();
+            if (!db.Users.Select(u => u.Email).Contains(email))
+            {
+                newUser = new User
+                {
+                    Username = CrUsername(fName, lName),
+                    FullName = $"{fName} {lName}",
+                    PasswordHash = CrPw(),
+                    IsAdmin = false,
+                    Balance = 0
+                };
+
+                db.Users.Add(newUser);
+                db.SaveChanges();
+            }
 
             MessageBox.Show($"You've successfully registered!\nYour login information:\nUsername: {newUser.Username}; Password: {newUser.PasswordHash}");
 

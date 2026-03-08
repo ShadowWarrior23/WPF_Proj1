@@ -1,20 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.Xml.Linq;
 
 namespace WPF_Proj1.View.UserControls
 {
@@ -24,7 +9,36 @@ namespace WPF_Proj1.View.UserControls
         public Login()
         {
             InitializeComponent();
-            users["S137B"] = "L_LV.843";
+        }
+
+        private static bool AdminLogin(string userName, UserControls1.ClearableTextboxDark2 UserName)
+        {
+            MessageBox.Show($"Welcome {userName}! Admin detected", "Successful admin login", MessageBoxButton.OK, MessageBoxImage.Information);
+            UserName.Text = "";
+            MainPageAdmin mainPageAdmin = new MainPageAdmin();
+            mainPageAdmin.Show();
+            return true;
+        }
+
+        private static bool CustomerLogin(string userName, UserControls1.ClearableTextboxDark2 UserName)
+        {
+            MessageBox.Show($"Welcome {userName}!", "Successful login", MessageBoxButton.OK, MessageBoxImage.Information);
+            UserName.Text = "";
+            MainPage mainPage = new MainPage();
+            mainPage.Show();
+            return true;
+        }
+
+        private static bool WrongLoginInfo(UserControls1.ClearableTextboxDark2 Password)
+        {
+            MessageBox.Show("Please make sure to check your username-password combination!", "Incorrect Login Infos", MessageBoxButton.OK, MessageBoxImage.Warning);
+            Password.Focus();
+            return false;
+        }
+
+        public static bool LoginStatus(bool status)
+        {
+            return status;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -38,35 +52,20 @@ namespace WPF_Proj1.View.UserControls
 
             else
             {
-                /*bool found = false;
-                foreach (string key in users.Keys)
+                var users = db.Users.Select(p => new { un = p.Username, pw = p.PasswordHash, adm = p.IsAdmin }).ToList();
+                bool logged = false;
+                int i = 0;
+                while (logged == false && i < users.Count)
                 {
-                    if (userName == "6A2b1S" && password == "PF0_m305")
-                    {
-                        MessageBox.Show($"Welcome {userName}! Admin detected", "Successful admin login", MessageBoxButton.OK, MessageBoxImage.Information);
-                        found = true;
-                        UserName.Text = "";
-                        MainPageAdmin mainPageAdmin = new MainPageAdmin();
-                        mainPageAdmin.Show();
-                    }
-                    else if (userName == key && password == users[key])
-                    {
-                        MessageBox.Show($"Welcome {userName}!", "Successful login", MessageBoxButton.OK, MessageBoxImage.Information);
-                        found = true;
-                        UserName.Text = "";
-                        MainPage mainPage = new MainPage();
-                        mainPage.Show();
-                    }
+                    logged = users[i].un == userName && users[i].pw == password ? users[i].adm == true ? AdminLogin(users[i].un, UserName) : CustomerLogin(users[i].un, UserName) : false;
+                    i++;
                 }
-                if (found == false)
-                {
-                    MessageBox.Show("Please make sure to check your username-password combination!", "Incorrect Login Infos", MessageBoxButton.OK, MessageBoxImage.Warning);
-                    Password.Focus();
-                }*/
-                var users = db.Users.Select(p => new { un = p.Username, pw = p.PasswordHash });
-                
-            }
 
+                if (i >= users.Count)
+                {
+                    WrongLoginInfo(Password);
+                }
+            }
             Password.Text = "";
         }
     }

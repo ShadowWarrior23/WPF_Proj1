@@ -85,6 +85,10 @@ namespace WPF_Proj1.Migrations
                     b.Property<int>("Balance")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("FullName")
                         .IsRequired()
                         .HasMaxLength(100)

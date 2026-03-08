@@ -11,7 +11,7 @@ using WPF_Proj1;
 namespace WPF_Proj1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260308113921_InitialCreate")]
+    [Migration("20260308165740_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -87,6 +87,10 @@ namespace WPF_Proj1.Migrations
 
                     b.Property<int>("Balance")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("FullName")
                         .IsRequired()

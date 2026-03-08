@@ -30,8 +30,5 @@
                 <UserControls:DayInMonthAdmin Width="900" Height="50"/>
             </ListBox>
         </Grid>
-        <ContentControl Panel.ZIndex="2" x:Name="pu">
-
-        </ContentControl>
     </Grid>
 </UserControl>

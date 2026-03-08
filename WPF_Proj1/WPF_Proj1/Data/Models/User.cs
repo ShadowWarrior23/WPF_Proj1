@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WPF_Proj1
 {
@@ -21,6 +18,8 @@ namespace WPF_Proj1
         [MaxLength(100)]
         [Column("full_name")]
         public string FullName { get; set; } = string.Empty;
+
+        public string Email { get; set; } = string.Empty;
 
         [Required]
         public string PasswordHash { get; set; } = string.Empty;
