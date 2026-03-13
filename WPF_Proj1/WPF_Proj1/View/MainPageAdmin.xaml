@@ -27,6 +27,7 @@
                     <ListBoxItem Content="Overview" Foreground="#E0E7E1" FontSize="25"/>
                     <ListBoxItem Content="Monthly Menu" Foreground="#E0E7E1" FontSize="25"/>
                     <ListBoxItem Content="Finances" Foreground="#E0E7E1" FontSize="25"/>
+                    <ListBoxItem Content="Profiles" Foreground="#E0E7E1" FontSize="25"/>
                     <ListBoxItem Content="Export" Foreground="#E0E7E1" Background="Purple" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="4" FontSize="25"/>
                 </ListBox>
             </Grid>

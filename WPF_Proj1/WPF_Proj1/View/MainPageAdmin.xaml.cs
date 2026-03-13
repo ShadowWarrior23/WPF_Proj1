@@ -1,16 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using WPF_Proj1.View.UserControls;
 
 namespace WPF_Proj1.View
@@ -23,6 +12,7 @@ namespace WPF_Proj1.View
         private readonly UserControl _overviewAdmin = new OverviewAdmin();
         private readonly UserControl _monthlyMenuAdmin = new MonthlyMenuAdmin();
         private readonly UserControl _finances = new FinancesAdmin();
+        private readonly UserControl _profiles = new ProfilesAdmin();
         public MainPageAdmin()
         {
             InitializeComponent();
@@ -47,6 +37,9 @@ namespace WPF_Proj1.View
                     break;
 
                 case 3:
+                    PageAdmin.Content = _profiles;
+                    break;
+                case 4:
                     MessageBox.Show("Export");
 
                     break;

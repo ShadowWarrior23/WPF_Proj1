@@ -26,6 +26,9 @@
     <Compile Update="View\UserControls\OverviewAdmin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\UserControls\ProfilesAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\UserControls\Register.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -48,6 +51,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\UserControls\UserControls1\DayInMonthAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserControls\UserControls1\Profile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\UserControls\UserControls1\UserControls11\EditMenu.xaml.cs">

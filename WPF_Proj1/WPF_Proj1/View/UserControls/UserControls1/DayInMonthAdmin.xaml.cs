@@ -1,5 +1,4 @@
-﻿using System.Globalization;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 using WPF_Proj1.View.UserControls.UserControls1.UserControls11;
 
