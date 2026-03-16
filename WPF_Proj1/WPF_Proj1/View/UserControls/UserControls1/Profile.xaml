@@ -7,6 +7,15 @@
              mc:Ignorable="d" 
              d:DesignHeight="50" d:DesignWidth="200">
     <Grid>
-        <Border Background="CadetBlue"></Border>
+        <Border Background="CadetBlue">
+            <Grid>
+                <TextBlock x:Name="Username"/>
+                <TextBlock x:Name="FullName"/>
+                <TextBlock x:Name="Password"/>
+                <Grid>
+                    <Button Width="30" Height="10" Margin="150 30 0 0" Content="Remove" FontSize="5" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="OrangeRed" Background="DarkRed"/>
+                </Grid>
+            </Grid>
+        </Border>
     </Grid>
 </UserControl>

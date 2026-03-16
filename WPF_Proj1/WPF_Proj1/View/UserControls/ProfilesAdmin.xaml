@@ -3,19 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:UserControls1="clr-namespace:WPF_Proj1.View.UserControls.UserControls1"
              xmlns:local="clr-namespace:WPF_Proj1.View.UserControls"
              mc:Ignorable="d" 
              d:DesignHeight="546" d:DesignWidth="972">
     <Grid>
         <Border Background="Blue">
-            <Grid x:Name="profs">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions></Grid.RowDefinitions>
-            </Grid>
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+                <ItemsControl>
+
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <UniformGrid Columns="3" x:Name="UGrid"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <UserControls1:Profile/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+
+                </ItemsControl>
+
+            </ScrollViewer>
         </Border>   
     </Grid>
 </UserControl>

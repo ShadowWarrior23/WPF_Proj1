@@ -41,7 +41,6 @@ namespace WPF_Proj1.View
                     break;
                 case 4:
                     MessageBox.Show("Export");
-
                     break;
             }
         }

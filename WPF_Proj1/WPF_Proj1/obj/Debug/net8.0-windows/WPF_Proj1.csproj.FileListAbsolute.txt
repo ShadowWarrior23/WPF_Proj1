@@ -914,3 +914,9 @@ C:\Users\User\Documents\SzB 12.B\C#_WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\
 C:\Users\User\Documents\SzB 12.B\C#_WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\ProfilesAdmin.g.cs
 C:\Users\User\Documents\SzB 12.B\C#_WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\ProfilesAdmin.baml
 C:\Users\User\Documents\SzB 12.B\C#_WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\Profile.g.cs
+C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\ProfilesAdmin.g.cs
+C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\Profile.g.cs
+C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\UserControls111\EditMenuClearableTextbox.g.cs
+C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\ProfilesAdmin.baml
+C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\Profile.baml
+C:\Users\bence\Desktop\VSC\C# - WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\View\UserControls\UserControls1\UserControls11\UserControls111\EditMenuClearableTextbox.baml

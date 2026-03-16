@@ -5,7 +5,7 @@ namespace WPF_Proj1.View.UserControls
 {
     public partial class Login : UserControl
     {
-        Dictionary<string, string> users = new Dictionary<string, string>();
+        //Dictionary<string, string> users = new Dictionary<string, string>();
         public Login()
         {
             InitializeComponent();
