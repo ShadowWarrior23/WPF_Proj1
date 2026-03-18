@@ -9,7 +9,24 @@
              d:DesignHeight="546" d:DesignWidth="972">
     <Grid>
         <Border Background="Blue">
-            <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <!--<UserControls1:Profile Height="540"/>-->
+                <Grid Grid.Column="0" x:Name="c0" Margin="10">
+                    
+                </Grid>
+                <Grid Grid.Column="1" x:Name="c1" Margin="10">
+
+                </Grid>
+                <Grid Grid.Column="2" x:Name="c2" Margin="10">
+
+                </Grid>
+            </Grid>
+            <!--<ScrollViewer VerticalScrollBarVisibility="Auto">
 
                 <ItemsControl>
 
@@ -27,7 +44,7 @@
 
                 </ItemsControl>
 
-            </ScrollViewer>
+            </ScrollViewer>-->
         </Border>   
     </Grid>
 </UserControl>

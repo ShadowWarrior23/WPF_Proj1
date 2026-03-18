@@ -1,33 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\c# - wpf\\wpf_proj1\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\profilesadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\user\\documents\\szb 12.b\\gui c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\profilesadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\profilesadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\c# - wpf\\wpf_proj1\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\profilesadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\user\\documents\\szb 12.b\\gui c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\profilesadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\profilesadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\c# - wpf\\wpf_proj1\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\user\\documents\\szb 12.b\\gui c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\c# - wpf\\wpf_proj1\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\mainpageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\mainpageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\c# - wpf\\wpf_proj1\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\c# - wpf\\wpf_proj1\\wpf_proj1\\wpf_proj1\\wpf_proj1\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\c# - wpf\\wpf_proj1\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\user\\documents\\szb 12.b\\gui c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,95 +26,56 @@
       "DocumentGroups": [
         {
           "DockedHeight": 387,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\Models\\User.cs",
-              "RelativeDocumentMoniker": "WPF_Proj1\\Data\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\Models\\User.cs",
-              "RelativeToolTip": "WPF_Proj1\\Data\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T19:14:42.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
-              "ToolTip": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
-              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAkwAcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T19:02:29.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPageAdmin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
-              "ToolTip": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
-              "RelativeToolTip": "WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T19:01:02.778Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ProfilesAdmin.xaml",
-              "DocumentMoniker": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml",
               "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml",
-              "ToolTip": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml",
+              "ToolTip": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml",
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-16T19:01:47.342Z",
+              "WhenOpened": "2026-03-18T08:09:38.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProfilesAdmin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml.cs",
               "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml.cs",
-              "ToolTip": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml.cs",
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T19:01:49.808Z",
+              "WhenOpened": "2026-03-18T08:09:40.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Profile.xaml",
-              "DocumentMoniker": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\Profile.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\Profile.xaml",
               "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\UserControls1\\Profile.xaml",
-              "ToolTip": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\Profile.xaml",
+              "ToolTip": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\Profile.xaml",
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\UserControls1\\Profile.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-16T19:01:13.266Z",
+              "WhenOpened": "2026-03-18T08:09:28.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Profile.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\Profile.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\Profile.xaml.cs",
               "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\UserControls1\\Profile.xaml.cs",
-              "ToolTip": "C:\\Users\\bence\\Desktop\\VSC\\C# - WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\Profile.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\Profile.xaml.cs",
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\UserControls1\\Profile.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T19:01:23.496Z",
+              "WhenOpened": "2026-03-18T08:09:30.085Z",
               "EditorCaption": ""
             }
           ]

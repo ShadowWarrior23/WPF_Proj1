@@ -5,15 +5,15 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF_Proj1.View.UserControls.UserControls1"
              mc:Ignorable="d" 
-             d:DesignHeight="50" d:DesignWidth="200">
+             d:DesignHeight="150" d:DesignWidth="300">
     <Grid>
         <Border Background="CadetBlue">
             <Grid>
-                <TextBlock x:Name="Username"/>
-                <TextBlock x:Name="FullName"/>
-                <TextBlock x:Name="Password"/>
+                <TextBlock x:Name="Username" Width="200" Height="30" Margin="0 0 0 100"/>
+                <TextBlock x:Name="FullName" Width="200" Height="30" Margin="0 0 0 50"/>
+                <TextBlock x:Name="Password" Width="200" Height="30" Margin="0 0 0 0"/>
                 <Grid>
-                    <Button Width="30" Height="10" Margin="150 30 0 0" Content="Remove" FontSize="5" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="OrangeRed" Background="DarkRed"/>
+                    <Button Width="75" Height="30" Margin="200 100 0 0" Content="Remove" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="OrangeRed" Background="DarkRed"/>
                 </Grid>
             </Grid>
         </Border>

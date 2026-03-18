@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace WPF_Proj1.View.UserControls.UserControls1.UserControls11.UserControls111
 {
-    /// <summary>
-    /// Interaction logic for EditMenuClearableTextbox.xaml
-    /// </summary>
     public partial class EditMenuClearableTextbox : UserControl
     {
         public EditMenuClearableTextbox()
