@@ -1,24 +1,24 @@
 ﻿
 
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\MainWindow.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\MainPage.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\MainPageAdmin.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\FinancesAdmin.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\Login.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\MonthlyMenu.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\MonthlyMenuAdmin.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\Overview.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\OverviewAdmin.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\ProfilesAdmin.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\Register.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\TodayMenu.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\ClearableTextbox.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\ClearableTextboxDark.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\ClearableTextboxDark2.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\DailyMenuOnlyView.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\DayInMonth.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\DayInMonthAdmin.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\Profile.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\UserControls11\EditMenu.xaml;;
-FC:\Users\User\Documents\SzB 12.B\GUI C#\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\UserControls11\UserControls111\EditMenuClearableTextbox.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\MainWindow.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\MainPage.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\MainPageAdmin.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\FinancesAdmin.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\Login.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\MonthlyMenu.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\MonthlyMenuAdmin.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\Overview.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\OverviewAdmin.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\ProfilesAdmin.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\Register.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\TodayMenu.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\ClearableTextbox.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\ClearableTextboxDark.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\ClearableTextboxDark2.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\DailyMenuOnlyView.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\DayInMonth.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\DayInMonthAdmin.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\Profile.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\UserControls11\EditMenu.xaml;;
+FC:\Users\User\Documents\SzB 12.B\WPF_Proj1\WPF_Proj1\WPF_Proj1\View\UserControls\UserControls1\UserControls11\UserControls111\EditMenuClearableTextbox.xaml;;
 

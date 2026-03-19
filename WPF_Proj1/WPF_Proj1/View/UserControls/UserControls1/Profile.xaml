@@ -7,13 +7,13 @@
              mc:Ignorable="d" 
              d:DesignHeight="150" d:DesignWidth="300">
     <Grid>
-        <Border Background="CadetBlue">
+        <Border Background="#251825" Opacity="0.7" BorderThickness="1" BorderBrush="#800080">
             <Grid>
-                <TextBlock x:Name="Username" Width="200" Height="30" Margin="0 0 0 100"/>
-                <TextBlock x:Name="FullName" Width="200" Height="30" Margin="0 0 0 50"/>
-                <TextBlock x:Name="Password" Width="200" Height="30" Margin="0 0 0 0"/>
+                <TextBlock x:Name="Username" Width="200" Height="30" Margin="0 0 0 100" Foreground="#00ADB5"/>
+                <TextBlock x:Name="FullName" Width="200" Height="30" Margin="0 0 0 50" Foreground="#E2E8F0"/>
+                <TextBlock x:Name="Password" Width="200" Height="30" Margin="0 0 0 0" Foreground="#6E5A6E"/>
                 <Grid>
-                    <Button Width="75" Height="30" Margin="200 100 0 0" Content="Remove" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="OrangeRed" Background="DarkRed"/>
+                    <Button Width="75" Height="30" Margin="200 100 0 0" Content="Remove" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#D48166" Background="#2D1212" Click="RemUser"/>
                 </Grid>
             </Grid>
         </Border>

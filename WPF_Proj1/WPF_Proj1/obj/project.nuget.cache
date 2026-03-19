@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e0G+hzV5Ib4=",
+  "dgSpecHash": "zn3q9DkUkZk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\SzB 12.B\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -78,9 +78,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Data.SQLite.Linq 1.0.119' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\SzB 12.B\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+      "filePath": "C:\\Users\\User\\Documents\\SzB 12.B\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
       "libraryId": "System.Data.SQLite.Linq",
       "targetGraphs": [
         "net8.0-windows7.0"
@@ -90,9 +90,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'System.Data.SQLite.x64 1.0.119' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\SzB 12.B\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+      "filePath": "C:\\Users\\User\\Documents\\SzB 12.B\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
       "libraryId": "System.Data.SQLite.x64",
       "targetGraphs": [
         "net8.0-windows7.0"
