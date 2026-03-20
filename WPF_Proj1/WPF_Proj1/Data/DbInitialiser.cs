@@ -33,6 +33,27 @@
                         Soup = "Bean Soup",
                         DishA = "Pork Stew",
                         DishB = "Vegetable Rice"
+                    }/*,
+                    new DailyMenu
+                    {
+                        Day = new DateOnly(2026, 3, 20),
+                        Soup = "Fish Soup",
+                        DishA = "Beef Stew with Pasta",
+                        DishB = "Stuffed Cabbage"
+                    }*/
+                );
+            }
+
+            if (!db.Orders.Any())
+            {
+                db.Users.AddRange(
+                    new Order
+                    {
+                        UserId = 1,
+                        Day = new DateOnly(2026, 3, 20),
+                        WantsSoup = false,
+                        DishChoice = "n",
+                        User = 
                     }
                 );
             }

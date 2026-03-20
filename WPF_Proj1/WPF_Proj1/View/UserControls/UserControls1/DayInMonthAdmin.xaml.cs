@@ -9,8 +9,8 @@ namespace WPF_Proj1.View.UserControls.UserControls1
         public DayInMonthAdmin()
         {
             InitializeComponent();
-            string d = $"{DateTime.Now.ToString("yyyy.MM.dd.")}";
-            tDay.Text = d;
+            /*using var db = new AppDbContext();
+            var dailyMenu = db.Orders;*/
         }
 
         private void Popup(object sender, RoutedEventArgs e)
