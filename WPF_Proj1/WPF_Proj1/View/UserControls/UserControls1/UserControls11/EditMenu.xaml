@@ -17,7 +17,7 @@
 
                 <Border Background="#800080" CornerRadius="20 20 0 0" BorderThickness="0 0 0 2" BorderBrush="#808080" Panel.ZIndex="2">
                     <Grid>
-                        <TextBlock Text="2026. 02.25." Margin="15 0 0 0" VerticalAlignment="Center" FontSize="20" FontFamily="DejaVu Math TeX Gyre"/>
+                        <TextBlock x:Name="tDate" Margin="15 0 0 0" VerticalAlignment="Center" FontSize="20" FontFamily="DejaVu Math TeX Gyre"/>
                         <Border CornerRadius="30">
                             <Grid>
                                 <Button Content="X" Width="20" Margin="750 0 0 0" Foreground="red" Background="Transparent" FontWeight="bold" BorderBrush="Transparent" FontSize="16" VerticalAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" x:Name="CloseBtn" Click="CloseWindow"/>
@@ -42,11 +42,11 @@
                                 <RowDefinition Height="1*"/>
                             </Grid.RowDefinitions>
                             <TextBlock Grid.Row="0" Text="Soup" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
-                        <UserControls:EditMenuClearableTextbox Grid.Row="1" Width="400" Height="50"/>
+                        <UserControls:EditMenuClearableTextbox Grid.Row="1" Width="400" Height="50" x:Name="tSoup"/>
                         <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Text="Dish A"/>
-                        <UserControls:EditMenuClearableTextbox Grid.Row="3" Width="400" Height="50"/>
+                        <UserControls:EditMenuClearableTextbox Grid.Row="3" Width="400" Height="50" x:Name="tA"/>
                         <TextBlock Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" Text="Dish B"/>
-                            <UserControls:EditMenuClearableTextbox Grid.Row="5" Width="400" Height="50"/>
+                            <UserControls:EditMenuClearableTextbox Grid.Row="5" Width="400" Height="50" x:Name="tB"/>
                         </Grid>
                         <Grid Grid.Column="1">
                             <Border Width="50" Height="30" Background="LimeGreen" CornerRadius="15">

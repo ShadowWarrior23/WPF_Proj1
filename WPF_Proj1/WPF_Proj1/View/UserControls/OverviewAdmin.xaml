@@ -54,7 +54,7 @@
                             <TextBlock x:Name="orderCount" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="2" Grid.Column="0" BorderThickness="1">
-                            <TextBlock Text="Current monthly income" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock Text="Current monthl" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="2" Grid.Column="2" BorderThickness="1">
                             <TextBlock x:Name="monthly" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>

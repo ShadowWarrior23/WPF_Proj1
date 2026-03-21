@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\data\\dbinitialiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\data\\dbinitialiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\usercontrols11\\editmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\usercontrols11\\editmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\overviewadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\overviewadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\usercontrols11\\editmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\usercontrols11\\editmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\overviewadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\overviewadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\dayinmonthadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\dayinmonthadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\dayinmonthadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\dayinmonthadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\monthlymenuadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +31,8 @@
       "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\profilesadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\dayinmonthadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\dayinmonthadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\usercontrols1\\dayinmonthadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\usercontrols1\\dayinmonthadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_c#\\wpf_proj1\\wpf_proj1\\wpf_proj1\\data\\dbinitialiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\data\\dbinitialiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,97 +50,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OverviewAdmin.xaml",
-              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\OverviewAdmin.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\OverviewAdmin.xaml",
-              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\OverviewAdmin.xaml",
-              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\OverviewAdmin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-21T08:09:34.838Z"
+              "DocumentIndex": 0,
+              "Title": "EditMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml.cs",
+              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T15:50:15.082Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OverviewAdmin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\OverviewAdmin.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\OverviewAdmin.xaml.cs",
-              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\OverviewAdmin.xaml.cs",
-              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\OverviewAdmin.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAADUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T08:09:42.007Z"
+              "Title": "EditMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml",
+              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml",
+              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\UserControls1\\UserControls11\\EditMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-21T15:50:12.208Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "DbInitialiser.cs",
               "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\DbInitialiser.cs",
               "RelativeDocumentMoniker": "WPF_Proj1\\Data\\DbInitialiser.cs",
               "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\Data\\DbInitialiser.cs",
               "RelativeToolTip": "WPF_Proj1\\Data\\DbInitialiser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-20T13:15:35.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProfilesAdmin.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml.cs",
               "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml.cs",
               "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml.cs",
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\ProfilesAdmin.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T13:02:17.95Z"
+              "WhenOpened": "2026-03-20T13:02:17.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MonthlyMenuAdmin.xaml",
               "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\MonthlyMenuAdmin.xaml",
               "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\MonthlyMenuAdmin.xaml",
               "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\MonthlyMenuAdmin.xaml",
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\MonthlyMenuAdmin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-20T12:54:22.227Z"
+              "WhenOpened": "2026-03-20T12:54:22.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MonthlyMenuAdmin.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\MonthlyMenuAdmin.xaml.cs",
               "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\MonthlyMenuAdmin.xaml.cs",
               "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\MonthlyMenuAdmin.xaml.cs",
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\MonthlyMenuAdmin.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T12:56:43.992Z"
+              "WhenOpened": "2026-03-20T12:56:43.992Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "DayInMonthAdmin.xaml",
               "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\DayInMonthAdmin.xaml",
               "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\UserControls1\\DayInMonthAdmin.xaml",
               "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\DayInMonthAdmin.xaml",
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\UserControls1\\DayInMonthAdmin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-20T12:56:35.986Z"
+              "WhenOpened": "2026-03-20T12:56:35.986Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "DayInMonthAdmin.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\DayInMonthAdmin.xaml.cs",
               "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\UserControls1\\DayInMonthAdmin.xaml.cs",
               "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\UserControls1\\DayInMonthAdmin.xaml.cs",
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\UserControls1\\DayInMonthAdmin.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T12:56:39.695Z"
+              "WhenOpened": "2026-03-20T12:56:39.695Z",
+              "EditorCaption": ""
             }
           ]
         }

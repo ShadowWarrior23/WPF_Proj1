@@ -12,7 +12,7 @@ namespace WPF_Proj1.View.UserControls
             var dailyMenu = db.DailyMenus;
             foreach (var d in dailyMenu)
             {
-                DayInMonthAdmin _dayInMonthAdmin = new DayInMonthAdmin();
+                DayInMonthAdmin _dayInMonthAdmin = new DayInMonthAdmin(d.Day.ToString(), d.Soup, d.DishA, d.DishB);
                 _dayInMonthAdmin.tDay.Text = d.Day.ToString();
                 _dayInMonthAdmin.Soup.Text = d.Soup;
                 _dayInMonthAdmin.MenuA.Text = d.DishA;
