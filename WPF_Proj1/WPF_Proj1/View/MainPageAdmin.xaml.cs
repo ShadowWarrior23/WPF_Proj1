@@ -9,15 +9,12 @@ namespace WPF_Proj1.View
     /// </summary>
     public partial class MainPageAdmin : Window
     {
-        private readonly UserControl _overviewAdmin = new OverviewAdmin();
-        private readonly UserControl _monthlyMenuAdmin = new MonthlyMenuAdmin();
-        private readonly UserControl _finances = new FinancesAdmin();
-        private readonly UserControl _profiles = new ProfilesAdmin();
+        private readonly UserControl _overviewAdmin0 = new OverviewAdmin();
         public MainPageAdmin()
         {
             InitializeComponent();
             PagesAdmin.SelectedIndex = 0;
-            PageAdmin.Content = _overviewAdmin;
+            PageAdmin.Content = _overviewAdmin0;
         }
 
         private void PageChangerAdmin(object sender, RoutedEventArgs e)
@@ -26,17 +23,21 @@ namespace WPF_Proj1.View
             switch (currentPage)
             {
                 case 0:
+                    UserControl _overviewAdmin = new OverviewAdmin();
                     PageAdmin.Content = _overviewAdmin;
                     break;
                 case 1:
+                    UserControl _monthlyMenuAdmin = new MonthlyMenuAdmin();
                     PageAdmin.Content = _monthlyMenuAdmin;
                     break;
 
                 case 2:
+                    UserControl _finances = new FinancesAdmin();
                     PageAdmin.Content = _finances;
                     break;
 
                 case 3:
+                    UserControl _profiles = new ProfilesAdmin();
                     PageAdmin.Content = _profiles;
                     break;
                 case 4:

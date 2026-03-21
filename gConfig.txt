@@ -1,0 +1,2 @@
+git config user.name SHl4yer
+git config user.email gamernagylolhih@gmail.com

@@ -45,25 +45,25 @@
                             <TextBlock Text="Active users" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="0" Grid.Column="1" BorderThickness="1">
-                            <TextBlock Text="Users" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="userNum" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="1" Grid.Column="0" BorderThickness="1">
                             <TextBlock Text="Current orders" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="1" Grid.Column="1" BorderThickness="1">
-                            <TextBlock Text="Order count" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="orderCount" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="2" Grid.Column="0" BorderThickness="1">
                             <TextBlock Text="Current monthly income" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="2" Grid.Column="2" BorderThickness="1">
-                            <TextBlock Text="Monthly income" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="monthly" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="3" Grid.Column="0" BorderThickness="1">
                             <TextBlock  Text="Expectable Income" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="3" Grid.Column="1" BorderThickness="1">
-                            <TextBlock  Text="Expectable" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock  x:Name="expectable" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
 
 
