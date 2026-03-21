@@ -22,5 +22,23 @@ namespace WPF_Proj1.View.UserControls
                 days.Items.Add(_dayInMonthAdmin);
             }
         }
+
+        private void Load(object sender, System.Windows.RoutedEventArgs e)
+        {
+            days.Items.Clear();
+            using var db = new AppDbContext();
+            var dailyMenu = db.DailyMenus;
+            foreach (var d in dailyMenu)
+            {
+                DayInMonthAdmin _dayInMonthAdmin = new DayInMonthAdmin(d.Day.ToString(), d.Soup, d.DishA, d.DishB);
+                _dayInMonthAdmin.tDay.Text = d.Day.ToString();
+                _dayInMonthAdmin.Soup.Text = d.Soup;
+                _dayInMonthAdmin.MenuA.Text = d.DishA;
+                _dayInMonthAdmin.MenuB.Text = d.DishB;
+                _dayInMonthAdmin.Width = 900;
+                _dayInMonthAdmin.Height = 50;
+                days.Items.Add(_dayInMonthAdmin);
+            }
+        }
     }
 }

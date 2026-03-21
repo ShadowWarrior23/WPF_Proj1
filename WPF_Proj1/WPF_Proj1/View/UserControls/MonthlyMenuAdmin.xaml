@@ -15,7 +15,7 @@
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" HorizontalAlignment="Center">
             <TextBlock Text="Monthly Menu" Margin="0 20 0 0" FontSize="32" Foreground="#D48166"/>
-            <TextBlock x:Name="tDateWoDay" Margin="0 70 0 0" FontSize="24" Foreground="#00ADB5"/>
+            <Button x:Name="loadBtn" Height="45" VerticalAlignment="Bottom" Width="45" Content="🔃" FontSize="30" Background="Transparent" Foreground="#D48166" BorderBrush="Transparent" Click="Load"/>
         </Grid>
         <Grid Grid.Row="1">
             <ListBox Background="Transparent" VerticalAlignment="Center" x:Name="days">
