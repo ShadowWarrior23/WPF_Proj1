@@ -138,7 +138,7 @@
                         UserId = 1,
                         Day = new DateOnly(2026, 3, 20),
                         WantsSoup = false,
-                        DishChoice = "n"
+                        DishChoice = null
                     }
                 );
             }*/

@@ -35,12 +35,65 @@ namespace WPF_Proj1.View.UserControls
             return false;
         }
 
+        private static void FillOrders()
+        {
+            //Add init orders to users without orders
+            using var db = new AppDbContext();
+
+            var users0 = db.Users
+                .Select(u => u.Id)
+                .ToList();
+
+            var menuDays = db.DailyMenus
+                .Select(m => m.Day)
+                .ToList();
+
+            var existingOrders = db.Orders
+                .Select(o => new { o.UserId, o.Day })
+                .ToList();
+
+            foreach (var userId in users0)
+            {
+                foreach (var day in menuDays)
+                {
+                    bool exists = existingOrders.Any(o => o.UserId == userId && o.Day == day);
+
+                    if (!exists)
+                    {
+                        db.Orders.Add(new Order
+                        {
+                            UserId = userId,
+                            Day = day,
+                            WantsSoup = false,
+                            DishChoice = null
+                        });
+                    }
+                }
+            }
+
+            db.SaveChanges();
+
+            // Delete admin from orders
+
+            var admin = db.Users.FirstOrDefault(u => u.IsAdmin);
+
+            if (admin != null)
+            {
+                var orders = db.Orders.Where(o => o.UserId == admin.Id);
+
+                db.Orders.RemoveRange(orders);
+                db.SaveChanges();
+            }
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             using var db = new AppDbContext();
 
             string userName = UserName.Text;
             string password = Password.Text;
+
+            FillOrders();
 
             if (String.IsNullOrEmpty(userName) || String.IsNullOrEmpty(password)) MessageBox.Show("Please, fill in all informations correctly!", "Unfilled Login", MessageBoxButton.OK, MessageBoxImage.Warning);
 

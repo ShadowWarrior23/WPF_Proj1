@@ -70,7 +70,7 @@ namespace WPF_Proj1.View.UserControls
                         UserId = newUser.Id,
                         Day = new DateOnly(yearAndMonth[0], yearAndMonth[1], day),
                         WantsSoup = false,
-                        DishChoice = "n"
+                        DishChoice = null
                     });
                 }
                 db.SaveChanges();
