@@ -13,8 +13,6 @@ namespace WPF_Proj1.View.UserControls.UserControls1
         public DayInMonthAdmin(string day, string soup, string dishA, string dishB)
         {
             InitializeComponent();
-            /*using var db = new AppDbContext();
-            var dailyMenu = db.Orders;*/
             localDay = day;
             localSoup = soup;
             localA = dishA;

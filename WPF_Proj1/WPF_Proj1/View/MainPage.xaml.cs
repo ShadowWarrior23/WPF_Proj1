@@ -27,12 +27,12 @@ namespace WPF_Proj1.View
                     Page.Content = _overview;
                     break;
                 case 1:
-                    UserControl _todayMenu = new TodayMenu();
+                    UserControl _todayMenu = new TodayMenu(uId);
                     Page.Content = _todayMenu;
                     break;
 
                 case 2:
-                    UserControl _monthlyMenu = new MonthlyMenu();
+                    UserControl _monthlyMenu = new MonthlyMenu(uId);
                     Page.Content = _monthlyMenu;
                     break;
 

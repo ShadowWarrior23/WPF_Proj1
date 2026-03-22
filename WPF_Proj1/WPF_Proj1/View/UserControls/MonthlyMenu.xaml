@@ -17,7 +17,7 @@
             <TextBlock x:Name="tDateWoDay" Margin="0 70 0 0" FontSize="24" Foreground="#00ADB5"/>
         </Grid>
         <Grid Grid.Row="1">
-            <ListBox Background="Transparent" VerticalAlignment="Center">
+            <ListBox Background="Transparent" VerticalAlignment="Center" x:Name="menus">
                 <ListBox.Resources>
                     <Style TargetType="ScrollBar">
                         <Setter Property="Width" Value="8"/>
@@ -25,7 +25,7 @@
                         <Setter Property="Foreground" Value="#800080"/>
                     </Style>
                 </ListBox.Resources>
-                <UserControls:DayInMonth Width="900" Height="50"/>
+                <!--<UserControls:DayInMonth Width="900" Height="50"/>-->
                 
             </ListBox>
         </Grid>

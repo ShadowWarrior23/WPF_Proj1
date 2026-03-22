@@ -10,7 +10,7 @@ namespace WPF_Proj1.View.UserControls
         public string todayDate = DateTime.Now.ToString("yyyy.MM.dd.");
         public DateTime todayDate2 = DateTime.Now;
 
-        public TodayMenu()
+        public TodayMenu(int uId)
         {
             InitializeComponent();
             tDate.Text = today;

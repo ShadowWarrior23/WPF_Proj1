@@ -9,13 +9,13 @@
     <Border Background="#4A354A" BorderBrush="#800080" BorderThickness="1">
         <Grid VerticalAlignment="Center">
             <Grid Grid.Row="1">
-                <TextBlock x:Name="tDay"/>
-                <TextBlock Text="Example soup" Margin="0 0 500 0" Width="100" />
-                <CheckBox Margin="0 0 200 0" Width="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <ComboBox Width="300" SelectedIndex="0" Margin="300 0 0 0" Background="BlueViolet">
-                    <ComboBoxItem Content="None" Background="BlueViolet"/>
-                    <ComboBoxItem Content="A: Chicken risotto with mushroom stew" Background="BlueViolet"/>
-                    <ComboBoxItem Content="B: Steak with steamed potato" Background="BlueViolet"/>
+                <TextBlock x:Name="tDay" Width="100" HorizontalAlignment="Left"/>
+                <TextBlock x:Name="soup" Margin="0 0 450 0" Width="150"/>
+                <CheckBox Margin="0 0 200 0" Width="20" VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="soupCb"/>
+                <ComboBox Width="300" SelectedIndex="0" Margin="300 0 0 0" Background="BlueViolet" x:Name="cb">
+                    <ComboBoxItem x:Name="noneC" Content="None" Background="BlueViolet"/>
+                    <ComboBoxItem x:Name="dishA" Background="BlueViolet"/>
+                    <ComboBoxItem x:Name="dishB" Background="BlueViolet"/>
                 </ComboBox>
             </Grid>
             
