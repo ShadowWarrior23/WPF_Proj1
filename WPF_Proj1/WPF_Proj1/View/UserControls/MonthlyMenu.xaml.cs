@@ -28,7 +28,6 @@ namespace WPF_Proj1.View.UserControls
                 dim.dishA.Content = d.Select(m => m.DishA).FirstOrDefault();
                 dim.dishB.Content = d.Select(m => m.DishB).FirstOrDefault();
                 dim.cb.SelectedItem = order.DishChoice == "A" ? dim.dishA : order.DishChoice == "B" ? dim.dishB : dim.noneC;
-                MessageBox.Show(dim.cb.SelectedItem.ToString());
                 dim.Width = 900;
                 dim.Height = 50;
                 menus.Items.Add(dim);
