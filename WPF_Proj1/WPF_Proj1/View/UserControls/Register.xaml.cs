@@ -60,6 +60,20 @@ namespace WPF_Proj1.View.UserControls
 
                 db.Users.Add(newUser);
                 db.SaveChanges();
+                List<int> weekdays = db.DailyMenus.Select(d => d.Day.Day).ToList();
+                //MessageBox.Show($"^{new DateOnly(2026, 4, 1).ToString().Split(".")[2].Trim()}^");
+                int[] yearAndMonth = new int[] { db.DailyMenus.ToList().Last().Day.Year, db.DailyMenus.ToList().Last().Day.Month };
+                foreach (int day in weekdays)
+                {
+                    db.Orders.Add(new Order
+                    {
+                        UserId = newUser.Id,
+                        Day = new DateOnly(yearAndMonth[0], yearAndMonth[1], day),
+                        WantsSoup = false,
+                        DishChoice = "n"
+                    });
+                }
+                db.SaveChanges();
             }
 
             MessageBox.Show($"You've successfully registered!\nYour login information:\nUsername: {newUser.Username}; Password: {newUser.PasswordHash}");

@@ -1,28 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows.Controls;
+using WPF_Proj1.View.UserControls.UserControls1;
 
 namespace WPF_Proj1.View.UserControls
 {
-    /// <summary>
-    /// Interaction logic for Overview.xaml
-    /// </summary>
     public partial class Overview : UserControl
     {
-        public Overview()
+        public Overview(int uId)
         {
             InitializeComponent();
+            using var db = new AppDbContext();
+            var u = db.Orders.Where(u => u.UserId == uId);
+
+            DailyMenuOnlyView _dmow = new DailyMenuOnlyView(uId);
+            daysNum.Text = Convert.ToString(u.Where(d => d.WantsSoup || d.DishChoice == "A" || d.DishChoice == "B").Count());
+            soupAmount.Text = Convert.ToString(u.Where(d => d.WantsSoup).Count());
+            ABNone.Text = $"${u.Where(d => d.DishChoice == "A").Count()}/${u.Where(d => d.DishChoice == "B").Count()}/${u.Where(d => d.DishChoice == "N").Count()}";
+            expPrice.Text = Convert.ToString(u.Where(d => d.WantsSoup).Count() * 300 + u.Where(d => d.DishChoice == "A").Count() * 500 + u.Where(d => d.DishChoice == "B").Count() * 700);
+
         }
     }
 }

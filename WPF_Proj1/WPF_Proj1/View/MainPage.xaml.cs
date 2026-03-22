@@ -1,33 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using WPF_Proj1.View.UserControls;
 
 namespace WPF_Proj1.View
 {
-    /// <summary>
-    /// Interaction logic for MainPage.xaml
-    /// </summary>
     public partial class MainPage : Window
     {
-        private readonly UserControl _overview = new Overview();
-        private readonly UserControl _todayMenu = new TodayMenu();
-        private readonly UserControl _monthlyMenu = new MonthlyMenu();
-        public MainPage()
+        public static int uId;
+        private readonly UserControl _overview = new Overview(uId);
+        public MainPage(string username)
         {
             InitializeComponent();
             Pages.SelectedIndex = 0;
             Page.Content = _overview;
+            using var db = new AppDbContext();
+            uId = db.Users.Where(u => u.Username == username).Select(u => u.Id).FirstOrDefault();
         }
 
         private void PageChanger(object sender, RoutedEventArgs e)
@@ -36,13 +23,16 @@ namespace WPF_Proj1.View
             switch (currentPage)
             {
                 case 0:
+                    UserControl _overview = new Overview(uId);
                     Page.Content = _overview;
                     break;
                 case 1:
+                    UserControl _todayMenu = new TodayMenu();
                     Page.Content = _todayMenu;
                     break;
 
                 case 2:
+                    UserControl _monthlyMenu = new MonthlyMenu();
                     Page.Content = _monthlyMenu;
                     break;
 

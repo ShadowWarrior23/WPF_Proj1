@@ -5,7 +5,6 @@ namespace WPF_Proj1.View.UserControls
 {
     public partial class Login : UserControl
     {
-        //Dictionary<string, string> users = new Dictionary<string, string>();
         public Login()
         {
             InitializeComponent();
@@ -24,7 +23,7 @@ namespace WPF_Proj1.View.UserControls
         {
             MessageBox.Show($"Welcome {userName}!", "Successful login", MessageBoxButton.OK, MessageBoxImage.Information);
             UserName.Text = "";
-            MainPage mainPage = new MainPage();
+            MainPage mainPage = new MainPage(userName);
             mainPage.Show();
             return true;
         }
@@ -34,11 +33,6 @@ namespace WPF_Proj1.View.UserControls
             MessageBox.Show("Please make sure to check your username-password combination!", "Incorrect Login Infos", MessageBoxButton.OK, MessageBoxImage.Warning);
             Password.Focus();
             return false;
-        }
-
-        public static bool LoginStatus(bool status)
-        {
-            return status;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

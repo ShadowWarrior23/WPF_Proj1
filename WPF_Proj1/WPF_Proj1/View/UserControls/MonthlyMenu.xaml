@@ -26,44 +26,7 @@
                     </Style>
                 </ListBox.Resources>
                 <UserControls:DayInMonth Width="900" Height="50"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Valami"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
-                <ListBoxItem Content="Suttyó"/>
+                
             </ListBox>
         </Grid>
     </Grid>

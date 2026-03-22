@@ -46,25 +46,25 @@
                             <TextBlock Text="Days with order" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="0" Grid.Column="1" BorderThickness="1">
-                            <TextBlock Text="Days" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="daysNum" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="1" Grid.Column="0" BorderThickness="1">
                             <TextBlock Text="Soups" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="1" Grid.Column="1" BorderThickness="1">
-                            <TextBlock Text="Soup number" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="soupAmount" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="2" Grid.Column="0" BorderThickness="1">
                             <TextBlock Text="Dishes (A/B/None)" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="2" Grid.Column="2" BorderThickness="1">
-                            <TextBlock Text="A/B/None" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="ABNone" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="3" Grid.Column="0" BorderThickness="1">
                             <TextBlock  Text="Expectable price" Foreground="#00ADB5" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <Border BorderBrush="#4A354A" Grid.Row="3" Grid.Column="1" BorderThickness="1">
-                            <TextBlock  Text="X" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="expPrice" Foreground="#E6E0EB" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
 
 
@@ -72,8 +72,8 @@
                 </Border>
             </Grid>
             <Grid Grid.Column="2">
-                <Border Padding="15">
-                    <UserControls:DailyMenuOnlyView BorderThickness="1" BorderBrush="#800080"/>
+                <Border Padding="15" x:Name="dmow">
+                    <!--<UserControls:DailyMenuOnlyView BorderThickness="1" BorderBrush="#800080"/>-->
                 </Border>
             </Grid>
         </Grid>

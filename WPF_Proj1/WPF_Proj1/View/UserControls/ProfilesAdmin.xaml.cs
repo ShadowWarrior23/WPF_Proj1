@@ -1,6 +1,5 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Controls.Primitives;
 using WPF_Proj1.View.UserControls.UserControls1;
 
 namespace WPF_Proj1.View.UserControls
@@ -72,29 +71,5 @@ namespace WPF_Proj1.View.UserControls
 
             LoadProfiles();
         }
-        /*using var db = new AppDbContext();
-
-
-        //This I'll need later to refresh every time something changes
-        var users0 = db.Users.Select(u => new {u.FullName, u.Username, u.PasswordHash, u.IsAdmin});
-        var users = users0.Where(u => u.IsAdmin == false).ToList();
-
-        int i = 0;
-        foreach (var u in users)
-        {
-            var prof = new Profile();
-            prof.Username.Text = u.Username;
-            prof.FullName.Text = u.FullName;
-            prof.Password.Text = u.PasswordHash;
-            prof.Height = 150;
-            if (i % 3 == 0) c0.Children.Add(prof);
-            else if (i % 3 == 1) c1.Children.Add(prof);
-            else c2.Children.Add(prof);
-            if (i < 3) prof.Margin = new Thickness(0, 0, 0, 350);
-            if (i > 5) prof.Margin = new Thickness(0, 350, 0, 0);
-            i++;
-        }*/
-
-        //If I click the btn in Profile, I want to remove the user (from here of course) from the database and refresh the page
     }
 }
