@@ -11,8 +11,8 @@
             <Grid Grid.Row="1">
                 <TextBlock x:Name="tDay" Width="100" HorizontalAlignment="Left"/>
                 <TextBlock x:Name="soup" Margin="0 0 450 0" Width="150"/>
-                <CheckBox Margin="0 0 200 0" Width="20" VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="soupCb"/>
-                <ComboBox Width="300" SelectedIndex="0" Margin="300 0 0 0" Background="BlueViolet" x:Name="cb">
+                <CheckBox Margin="0 0 200 0" Width="20" VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="soupCb" Checked="changeCb" Unchecked="changeCb"/>
+                <ComboBox Width="300" SelectedIndex="0" Margin="300 0 0 0" Background="BlueViolet" x:Name="cb" SelectionChanged="diffDish">
                     <ComboBoxItem x:Name="noneC" Content="None" Background="BlueViolet"/>
                     <ComboBoxItem x:Name="dishA" Background="BlueViolet"/>
                     <ComboBoxItem x:Name="dishB" Background="BlueViolet"/>

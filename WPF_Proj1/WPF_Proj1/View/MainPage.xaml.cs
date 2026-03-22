@@ -6,15 +6,15 @@ namespace WPF_Proj1.View
 {
     public partial class MainPage : Window
     {
-        public static int uId;
-        private readonly UserControl _overview = new Overview(uId);
+        public int uId;
         public MainPage(string username)
         {
             InitializeComponent();
-            Pages.SelectedIndex = 0;
-            Page.Content = _overview;
             using var db = new AppDbContext();
             uId = db.Users.Where(u => u.Username == username).Select(u => u.Id).FirstOrDefault();
+            Pages.SelectedIndex = 0;
+            UserControl _overview = new Overview(uId);
+            Page.Content = _overview;
         }
 
         private void PageChanger(object sender, RoutedEventArgs e)
