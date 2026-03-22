@@ -7,6 +7,7 @@ namespace WPF_Proj1.View
     public partial class MainPage : Window
     {
         public int uId;
+        public DateOnly nextEligibleDay;
         public MainPage(string username)
         {
             InitializeComponent();
@@ -19,6 +20,7 @@ namespace WPF_Proj1.View
 
         private void PageChanger(object sender, RoutedEventArgs e)
         {
+            using var db = new AppDbContext();
             int currentPage = Pages.SelectedIndex;
             switch (currentPage)
             {
@@ -27,7 +29,13 @@ namespace WPF_Proj1.View
                     Page.Content = _overview;
                     break;
                 case 1:
-                    UserControl _todayMenu = new TodayMenu(uId);
+                    List<DateOnly> weekdays = db.DailyMenus.Select(d => d.Day).OrderBy(d => d).ToList();
+
+                    DateOnly today = DateOnly.FromDateTime(DateTime.Today);
+
+                    DateOnly elDate = weekdays.Any(d => d >= today) ? weekdays.First(d => d >= today) : weekdays.First();
+                    nextEligibleDay = elDate;
+                    UserControl _todayMenu = new TodayMenu(uId, nextEligibleDay);
                     Page.Content = _todayMenu;
                     break;
 

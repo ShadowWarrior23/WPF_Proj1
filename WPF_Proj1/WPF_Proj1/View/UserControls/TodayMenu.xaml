@@ -17,14 +17,14 @@
             <Grid Height="5" Margin="0 0 0 400" Background="Black" Width="200"></Grid>
             <TextBlock x:Name="tDate" Height="80" Margin="0 0 0 300" Width="300" FontSize="25"/>
             <TextBlock x:Name="Soup" Height="30" Margin="0,0,0,190" FontSize="25" HorizontalAlignment="Center"/>
-            <CheckBox x:Name="SoupCb" Content="Soup" Height="25" Margin="0 0 0 140" HorizontalAlignment="Center" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <CheckBox x:Name="SoupCb" Height="25" Margin="0 0 0 140" HorizontalAlignment="Center" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
             <TextBlock x:Name="DishA" Height="30" Margin="0,0,0,50" HorizontalAlignment="Center" FontSize="25"/>
             <TextBlock x:Name="DishB" Height="30" Margin="0 0 0 -50" HorizontalAlignment="Center" FontSize="25"/>
-            <RadioButton x:Name="None" Content="None" IsChecked="True" Height="20" Margin="0 0 200 -110" HorizontalAlignment="Center"/>
-            <RadioButton x:Name="A" Content="Option A" Height="20" Margin="0 0 0 -110" HorizontalAlignment="Center"/>
-            <RadioButton x:Name="B" Content="Option B" Height="20" Margin="0 0 -200 -110" HorizontalAlignment="Center"/>
-            <TextBlock Text="{Binding Price}" Height="40" Margin="0 0 0 -200" HorizontalAlignment="Center" FontSize="32"/>
-            <Button Height="40" Margin="0 0 0 -350" Width="160" Content="Save changes" FontSize="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#800080" Foreground="#00ADB5" BorderThickness="1" BorderBrush="#4A354A" Click="Button_Click"/>
+            <RadioButton x:Name="NoneC" Content="None" IsChecked="True" Height="20" Margin="0 0 200 -110" HorizontalAlignment="Center"/>
+            <RadioButton x:Name="AC" Content="Option A" Height="20" Margin="0 0 0 -110" HorizontalAlignment="Center"/>
+            <RadioButton x:Name="BC" Content="Option B" Height="20" Margin="0 0 -200 -110" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="price" Height="40" Margin="0 0 0 -200" HorizontalAlignment="Center" FontSize="32"/>
+            <Button Height="40" Margin="0 0 0 -350" Width="160" Content="Save changes" FontSize="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#800080" Foreground="#00ADB5" BorderThickness="1" BorderBrush="#4A354A" Click="SaveDailyMenu"/>
         </Grid>
     </Grid>
 
