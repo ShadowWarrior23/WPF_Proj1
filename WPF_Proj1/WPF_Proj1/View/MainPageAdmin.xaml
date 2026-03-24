@@ -29,6 +29,9 @@
                     <ListBoxItem Content="Finances" Foreground="#E0E7E1" FontSize="25"/>
                     <ListBoxItem Content="Profiles" Foreground="#E0E7E1" FontSize="25"/>
                     <ListBoxItem Content="Export" Foreground="#E0E7E1" Background="Purple" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="4" FontSize="25"/>
+                    <ListBoxItem Selected="OpenConsole" Width="50" Margin="0 250 0 0">
+                        <Image Source="/View/pixaf0rk_logo.jpg"/>
+                    </ListBoxItem>
                 </ListBox>
             </Grid>
             <Grid Grid.Column="1">

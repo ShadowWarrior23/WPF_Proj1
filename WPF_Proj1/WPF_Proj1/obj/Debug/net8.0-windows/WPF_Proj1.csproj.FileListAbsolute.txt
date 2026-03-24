@@ -356,3 +356,8 @@ C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\
 C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\WPF_Proj1.pdb
 C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\WPF_Proj1.genruntimeconfig.cache
 C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\obj\Debug\net8.0-windows\ref\WPF_Proj1.dll
+C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\bin\Debug\net8.0-windows\PixaF0rk_Console.deps.json
+C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\bin\Debug\net8.0-windows\PixaF0rk_Console.runtimeconfig.json
+C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\bin\Debug\net8.0-windows\PixaF0rk_Console.exe
+C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\bin\Debug\net8.0-windows\PixaF0rk_Console.dll
+C:\Users\User\Desktop\Coding\C#\GUI\WPF\WPF_Proj1\WPF_Proj1\WPF_Proj1\bin\Debug\net8.0-windows\PixaF0rk_Console.pdb

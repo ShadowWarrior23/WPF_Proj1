@@ -1,6 +1,8 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using WPF_Proj1.View.UserControls;
+using System.Diagnostics;
+using System.IO;
 
 namespace WPF_Proj1.View
 {
@@ -44,6 +46,17 @@ namespace WPF_Proj1.View
                     MessageBox.Show("Export");
                     break;
             }
+        }
+
+        private void OpenConsole(object sender, RoutedEventArgs e)
+        {
+            string exePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\..\\..\\PixaF0rk_Console\\bin\\Debug\\net8.0\\PixaF0rk_Console.exe");
+
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = exePath,
+                UseShellExecute = true
+            });
         }
     }
 }
