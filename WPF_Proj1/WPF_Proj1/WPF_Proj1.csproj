@@ -32,6 +32,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PixaF0rk_Console\PixaF0rk_Console.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="View\pixaf0rk_logo.jpg" />
   </ItemGroup>
 
