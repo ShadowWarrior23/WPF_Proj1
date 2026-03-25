@@ -29,6 +29,14 @@
                     <ListBoxItem Content="Finances" Foreground="#E0E7E1" FontSize="25"/>
                     <ListBoxItem Content="Profiles" Foreground="#E0E7E1" FontSize="25"/>
                     <ListBoxItem Content="Export" Foreground="#E0E7E1" Background="Purple" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="4" FontSize="25"/>
+                    <Grid Width="150" Height="50" Margin="0 250 0 0" >
+                        <ListBoxItem Selected="OpenConsole" Width="50" Margin="0 0 100 0">
+                            <Image Source="/View/console_icon.png"/>
+                        </ListBoxItem>
+                        <ListBoxItem Selected="OpenWeb" Margin="100,0,0,0" HorizontalAlignment="Left" Width="50">
+                            <Image Source="/View/pixaf0rk_logo.jpg"/>
+                        </ListBoxItem>
+                    </Grid>
                 </ListBox>
             </Grid>
             <Grid Grid.Column="1">

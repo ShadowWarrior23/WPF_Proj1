@@ -45,5 +45,15 @@ namespace WPF_Proj1.View
                     break;
             }
         }
+
+        private void OpenConsole(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OpenWeb(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
