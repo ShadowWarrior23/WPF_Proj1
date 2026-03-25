@@ -16,7 +16,7 @@ namespace WPF_Proj1.View.UserControls.UserControls1
             using var db = new AppDbContext();
             /*List<int> weekdays = db.DailyMenus.Select(d => d.Day.Day).ToList();
             int[] yearAndMonth = new int[] { db.DailyMenus.ToList().Last().Day.Year, db.DailyMenus.ToList().Last().Day.Month };*/
-            //int elDay = 1; //weekdays.Contains(new DateOnly().Day) ? new DateOnly().Day : weekdays.Contains(new DateOnly().Day + 1) ? new DateOnly().Day + 1 : weekdays.Contains(new DateOnly().Day + 2) ? new DateOnly().Day + 2 : 1;
+            //int elDay = weekdays.Contains(new DateOnly().Day) ? new DateOnly().Day : weekdays.Contains(new DateOnly().Day + 1) ? new DateOnly().Day + 1 : weekdays.Contains(new DateOnly().Day + 2) ? new DateOnly().Day + 2 : 1;
 
             List<DateOnly> weekdays = db.DailyMenus.Select(d => d.Day).OrderBy(d => d).ToList();
 
