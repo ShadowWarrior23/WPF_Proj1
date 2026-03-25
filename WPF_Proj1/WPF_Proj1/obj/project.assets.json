@@ -3655,11 +3655,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
       "projectName": "WPF_Proj1",
-      "projectPath": "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3674,14 +3674,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj"
+            "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj"
             }
           }
         }
@@ -3696,7 +3697,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -3762,7 +3763,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -3774,7 +3775,7 @@
       "message": "Package 'System.Data.SQLite.Linq 1.0.119' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "System.Data.SQLite.Linq",
       "targetGraphs": [
-        "net8.0-windows"
+        "net8.0-windows7.0"
       ]
     },
     {
@@ -3784,7 +3785,7 @@
       "message": "Package 'System.Data.SQLite.x64 1.0.119' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "System.Data.SQLite.x64",
       "targetGraphs": [
-        "net8.0-windows"
+        "net8.0-windows7.0"
       ]
     }
   ]

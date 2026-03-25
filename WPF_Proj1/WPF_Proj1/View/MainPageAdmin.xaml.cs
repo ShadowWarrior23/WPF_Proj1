@@ -58,5 +58,10 @@ namespace WPF_Proj1.View
                 UseShellExecute = true
             });
         }
+
+        private void OpenWeb(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

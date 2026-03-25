@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj": {}
+    "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj": {
+    "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj",
         "projectName": "PixaF0rk_Console",
-        "projectPath": "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -65,18 +66,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj": {
+    "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
         "projectName": "WPF_Proj1",
-        "projectPath": "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,14 +92,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Coding\\C#\\GUI\\WPF\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj"
+              "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI C#\\WPF_Proj1\\WPF_Proj1\\PixaF0rk_Console\\PixaF0rk_Console.csproj"
               }
             }
           }
@@ -113,7 +115,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -179,7 +181,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
