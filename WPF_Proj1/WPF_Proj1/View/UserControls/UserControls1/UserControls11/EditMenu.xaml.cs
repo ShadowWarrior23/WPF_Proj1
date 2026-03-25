@@ -27,7 +27,7 @@ namespace WPF_Proj1.View.UserControls.UserControls1.UserControls11
 
         private void SaveChanges(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Saved");
+            //MessageBox.Show("Saved");
             using var db = new AppDbContext();
             var newDayMenu = new DailyMenu
             {

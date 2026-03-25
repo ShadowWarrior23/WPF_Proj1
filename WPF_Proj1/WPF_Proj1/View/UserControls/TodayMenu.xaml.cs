@@ -36,7 +36,7 @@ namespace WPF_Proj1.View.UserControls
         {
             bool soupOpt = SoupCb.IsChecked == true ? true : false;
             string dish = NoneC.IsChecked == true ? "None" : AC.IsChecked == true ? "A" : "B";
-            MessageBox.Show($"{todayDO}\nSoup: {Convert.ToString(soupOpt == true ? "Yes" : "No")}; Dish: {dish}");
+            //MessageBox.Show($"{todayDO}\nSoup: {Convert.ToString(soupOpt == true ? "Yes" : "No")}; Dish: {dish}");
             using var db = new AppDbContext();
 
             db.Orders.Where(o => o.UserId == userId && o.Day == todayDO).FirstOrDefault().WantsSoup = soupOpt;
