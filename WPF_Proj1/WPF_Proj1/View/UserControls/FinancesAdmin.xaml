@@ -2,11 +2,32 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:UserControls="clr-namespace:WPF_Proj1.View.UserControls.UserControls1"
              xmlns:local="clr-namespace:WPF_Proj1.View.UserControls"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <Rectangle Fill="Azure"/>
+             d:DesignHeight="576" d:DesignWidth="974">
+    <Grid Background="#1A111A">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Canvas x:Name="PieChart" Width="300" Height="300" Margin="0 0 0 200"/>
+            <TextBlock Width="200" Height="100" Margin="0 350 0 0" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#E6E0EB" x:Name="Info"/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <ComboBox x:Name="UserList"
+          Style="{StaticResource ModernComboBox}"
+          Height="50"
+          Width="200"
+          Margin="0 0 0 200"
+          FontSize="24"
+          SelectionChanged="UserChanged"/>
+            <TextBlock Text="Balance" FontSize="20" Width="70" Height="30" Margin="0 0 0 100" Foreground="#D48166"/>
+            <UserControls:ClearableTextboxDark Width="200" Height="50" x:Name="CBalance"/>
+            <Button Width="100" Height="50" Margin="0 150 0 0" Content="Save" FontSize="24" Background="#00ADB5" Foreground="#1A111A" Click="ChangeBalance"/>
+        </Grid>
     </Grid>
 </UserControl>

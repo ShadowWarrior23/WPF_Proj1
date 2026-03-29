@@ -4,6 +4,140 @@
              xmlns:local="clr-namespace:WPF_Proj1"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
+        <SolidColorBrush x:Key="ComboBackgroundBrush" Color="#251825"/>
+            <SolidColorBrush x:Key="ComboForegroundBrush" Color="#E2E8F0"/>
+            <SolidColorBrush x:Key="ComboBorderBrush" Color="#800080"/>
+            <SolidColorBrush x:Key="ComboHoverBrush" Color="#00ADB5"/>
+            <SolidColorBrush x:Key="ComboSelectedBrush" Color="#393E46"/>
+            <SolidColorBrush x:Key="ComboSelectedTextBrush" Color="White"/>
+
+            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#393E46"/>
+            <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="White"/>
+
+            <Style x:Key="ModernComboBoxItem" TargetType="ComboBoxItem">
+                <Setter Property="Background" Value="{StaticResource ComboBackgroundBrush}"/>
+                <Setter Property="Foreground" Value="{StaticResource ComboForegroundBrush}"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="BorderBrush" Value="{StaticResource ComboBorderBrush}"/>
+                <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ComboBoxItem">
+                            <Border x:Name="Bd"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            Padding="{TemplateBinding Padding}">
+                                <ContentPresenter VerticalAlignment="Center"/>
+                            </Border>
+
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsHighlighted" Value="True">
+                                    <Setter TargetName="Bd" Property="Background" Value="{StaticResource ComboHoverBrush}"/>
+                                    <Setter Property="Foreground" Value="Black"/>
+                                </Trigger>
+
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter TargetName="Bd" Property="Background" Value="{StaticResource ComboSelectedBrush}"/>
+                                    <Setter Property="Foreground" Value="{StaticResource ComboSelectedTextBrush}"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="ModernComboBoxToggleButton" TargetType="ToggleButton">
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="Focusable" Value="False"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ToggleButton">
+                            <Border x:Name="BtnBg"
+                            Background="{StaticResource ComboBackgroundBrush}"
+                            BorderThickness="0">
+                                <TextBlock Text="▼"
+                                   Foreground="{StaticResource ComboBorderBrush}"
+                                   FontSize="16"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                            </Border>
+
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="BtnBg" Property="Background" Value="{StaticResource ComboBackgroundBrush}"/>
+                                </Trigger>
+
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Setter TargetName="BtnBg" Property="Background" Value="{StaticResource ComboSelectedBrush}"/>
+                                </Trigger>
+
+                                <Trigger Property="IsChecked" Value="True">
+                                    <Setter TargetName="BtnBg" Property="Background" Value="{StaticResource ComboBackgroundBrush}"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="ModernComboBox" TargetType="ComboBox">
+                <Setter Property="Background" Value="{StaticResource ComboBackgroundBrush}"/>
+                <Setter Property="Foreground" Value="{StaticResource ComboForegroundBrush}"/>
+                <Setter Property="BorderBrush" Value="{StaticResource ComboBorderBrush}"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="ItemContainerStyle" Value="{StaticResource ModernComboBoxItem}"/>
+
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ComboBox">
+                            <Grid>
+                                <Border x:Name="MainBorder"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                                    <Grid>
+                                        <ContentPresenter Margin="8,0,25,0"
+                                                  VerticalAlignment="Center"
+                                                  HorizontalAlignment="Left"
+                                                  Content="{TemplateBinding SelectionBoxItem}">
+                                            <ContentPresenter.Resources>
+                                                <Style TargetType="TextBlock">
+                                                    <Setter Property="Foreground" Value="{StaticResource ComboForegroundBrush}"/>
+                                                </Style>
+                                            </ContentPresenter.Resources>
+                                        </ContentPresenter>
+
+                                        <ToggleButton HorizontalAlignment="Right"
+                                              Width="30"
+                                              Style="{StaticResource ModernComboBoxToggleButton}"
+                                              IsChecked="{Binding IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}"/>
+                                    </Grid>
+                                </Border>
+
+                                <Popup IsOpen="{TemplateBinding IsDropDownOpen}"
+                               Placement="Bottom"
+                               Focusable="False"
+                               AllowsTransparency="True"
+                               PopupAnimation="Slide">
+                                    <Border Background="{StaticResource ComboBackgroundBrush}"
+                                    BorderBrush="{StaticResource ComboBorderBrush}"
+                                    BorderThickness="1"
+                                    Width="{Binding ActualWidth, RelativeSource={RelativeSource TemplatedParent}}">
+                                        <ScrollViewer>
+                                            <StackPanel IsItemsHost="True"/>
+                                        </ScrollViewer>
+                                    </Border>
+                                </Popup>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
     </Application.Resources>
 </Application>

@@ -37,4 +37,8 @@
     <Resource Include="View\pixaf0rk_logo.jpg" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Web\" />
+  </ItemGroup>
+
 </Project>
