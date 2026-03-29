@@ -1,4 +1,5 @@
-﻿using System.Windows.Controls;
+﻿using System.Windows;
+using System.Windows.Controls;
 
 namespace WPF_Proj1.View.UserControls
 {
@@ -14,7 +15,7 @@ namespace WPF_Proj1.View.UserControls
             userNum.Text = Convert.ToString(db.Users.Count()-1);
             orderCount.Text = Convert.ToString(db.Orders.Where(o => o.WantsSoup).Count() + db.Orders.Where(o => o.DishChoice != null).Count());
             monthly.Text = "0"; //Convert.ToString(db.Orders.Where(o => o.WantsSoup).Count() + db.Orders.Where(o => o.DishChoice != null).Count());
-            expectable.Text = Convert.ToString(db.Orders.Where(o => o.WantsSoup).Count() * 300 + db.Orders.Where(o => o.DishChoice == "a").Count() * 500 + db.Orders.Where(o => o.DishChoice == "a").Count() * 700);
+            expectable.Text = Convert.ToString(db.Orders.Where(o => o.WantsSoup).Count() * 300 + db.Orders.Where(o => o.DishChoice == "A").Count() * 500 + db.Orders.Where(o => o.DishChoice == "B").Count() * 700);
         }
     }
 }
