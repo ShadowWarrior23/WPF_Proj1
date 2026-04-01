@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\wpf_proj1\\view\\weblauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\weblauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\webapplication1\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\wpf_proj1\\view\\mainpageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\mainpageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\webapplication1\\data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\wpf_proj1\\view\\mainpageadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\mainpageadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\webapplication1\\data\\models\\dailymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\models\\dailymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\webapplication1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\webapplication1\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\webapplication1\\dtos\\dailymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dtos\\dailymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +46,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WebLauncher.cs",
-              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\WebLauncher.cs",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\WebLauncher.cs",
-              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\WebLauncher.cs",
-              "RelativeToolTip": "WPF_Proj1\\View\\WebLauncher.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwEgAAAAjAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Data\\Models\\User.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T19:58:41.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPageAdmin.xaml",
-              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\MainPageAdmin.xaml",
-              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml",
-              "RelativeToolTip": "WPF_Proj1\\View\\MainPageAdmin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-25T16:05:45.003Z",
+              "WhenOpened": "2026-04-01T21:37:08.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainPageAdmin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
-              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
-              "RelativeToolTip": "WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
-              "ViewState": "AgIAABABAAAAAAAAAAAxwC4BAAAJAAAAAAAAAA==",
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Data\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Data\\Models\\Order.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T16:05:03.672Z",
+              "WhenOpened": "2026-04-01T21:37:01.579Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DailyMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Data\\Models\\DailyMenu.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\Models\\DailyMenu.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Data\\Models\\DailyMenu.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\Models\\DailyMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T21:36:53.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T21:36:06.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T21:32:29.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DailyMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Dtos\\DailyMenu.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Dtos\\DailyMenu.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Dtos\\DailyMenu.cs",
+              "RelativeToolTip": "WebApplication1\\Dtos\\DailyMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T21:31:13.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebApplication1",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-01T21:30:13.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T21:27:17.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-01T21:26:35.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
