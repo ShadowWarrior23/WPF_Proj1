@@ -64,7 +64,7 @@ namespace WPF_Proj1.View
 
                 Status("Look outside!");
             }
-
+            //
             // 5. Open browser
             Status("The doors are opening!");
             OpenBrowser(_devUrl);
