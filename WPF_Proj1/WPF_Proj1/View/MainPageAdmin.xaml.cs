@@ -7,9 +7,20 @@ using WPF_Proj1.View.UserControls;
 
 namespace WPF_Proj1.View
 {
-    /// <summary>
-    /// Interaction logic for MainPageAdmin.xaml
-    /// </summary>
+    enum WebLaunchState
+    {
+        Initializing,
+        CheckingFrontend,
+        CheckingEnvironment,
+        CheckingDependencies,
+        InstallingDependencies,
+        CheckingServer,
+        StartingServer,
+        WaitingForServer,
+        OpeningBrowser,
+        Completed,
+        Error
+    }
     public partial class MainPageAdmin : Window
     {
         private readonly UserControl _overviewAdmin0 = new OverviewAdmin();
@@ -17,6 +28,7 @@ namespace WPF_Proj1.View
         private Process? _viteProcess;
         private readonly string _frontendPath;
         private const string DevUrl = "http://127.0.0.1:5173";
+        private readonly WebLauncher _webLauncher;
 
         public MainPageAdmin()
         {
@@ -24,8 +36,10 @@ namespace WPF_Proj1.View
             PagesAdmin.SelectedIndex = 0;
             PageAdmin.Content = _overviewAdmin0;
 
-            // TEMP direct path
-            _frontendPath = @"C:\Users\User\Documents\SzB 12.B\GUI CS\WPF_Proj1\WPF_Proj1\WPF_Proj1\Web";
+            // School_30 direct path
+            //_frontendPath = @"C:\Users\User\Documents\SzB 12.B\GUI CS\WPF_Proj1\WPF_Proj1\WPF_Proj1\Web";
+            _frontendPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\Web"));
+            _webLauncher = new WebLauncher(_frontendPath);
         }
 
         private void PageChangerAdmin(object sender, RoutedEventArgs e)
@@ -60,7 +74,7 @@ namespace WPF_Proj1.View
         {
         }
 
-        private void Status(string text)
+        /*private void Status(string text)
         {
             StatusText.Text = text;
         }
@@ -82,7 +96,7 @@ namespace WPF_Proj1.View
         private async Task EnsureNodeAvailable()
         {
             await RunCommandAndWait("cmd.exe", "/c node -v", _frontendPath);
-            await RunCommandAndWait("cmd.exe", "/c npm -v", _frontendPath);
+            await RunCommandAndWait("cmd.exe", "/c pnpm -v", _frontendPath);
         }
 
         private async Task RunCommandAndWait(string fileName, string arguments, string workingDirectory)
@@ -118,8 +132,8 @@ namespace WPF_Proj1.View
         {
             var psi = new ProcessStartInfo
             {
-                FileName = "npm.cmd",
-                Arguments = "run dev -- --host 127.0.0.1 --port 5173",
+                FileName = "pnpm.cmd",
+                Arguments = "dev --host 127.0.0.1 --port 5173",
                 WorkingDirectory = _frontendPath,
                 UseShellExecute = false,
                 CreateNoWindow = true
@@ -186,45 +200,106 @@ namespace WPF_Proj1.View
             base.OnClosed(e);
         }
 
+        private string GetMessage(WebLaunchState state)
+        {
+            return state switch
+            {
+                WebLaunchState.Initializing => "Painting...",
+                WebLaunchState.CheckingFrontend => "Checking for staff...",
+                WebLaunchState.CheckingEnvironment => "A quick check on the admin...",
+                WebLaunchState.CheckingDependencies => "Looking at menus...",
+                WebLaunchState.InstallingDependencies => "Carrying menus...",
+                WebLaunchState.CheckingServer => "Looking outside...",
+                WebLaunchState.StartingServer => "Opening the door...",
+                WebLaunchState.WaitingForServer => "Waiting...",
+                WebLaunchState.OpeningBrowser => "Almost there!",
+                WebLaunchState.Completed => "Fired up!",
+                WebLaunchState.Error => "Something went wrong.",
+                _ => "Working..."
+            };
+        }
+
+        private void SetState(WebLaunchState state)
+        {
+            Status(GetMessage(state));
+        }
+
         private async void OpenWeb(object sender, RoutedEventArgs e)
         {
             try
             {
-                Status("Checking frontend folder...");
+                SetState(WebLaunchState.Initializing);
+
+                SetState(WebLaunchState.CheckingFrontend);
                 EnsureFrontendFolderExists();
 
-                Status("Checking Node/npm...");
+                SetState(WebLaunchState.CheckingEnvironment);
                 await EnsureNodeAvailable();
 
-                Status("Checking dependencies...");
+                SetState(WebLaunchState.CheckingDependencies);
                 if (!NodeModulesExist())
                 {
-                    Status("Installing dependencies...");
-                    await RunCommandAndWait("npm.cmd", "ci", _frontendPath);
+                    SetState(WebLaunchState.InstallingDependencies);
+                    await RunCommandAndWait("npm.cmd", "install", _frontendPath);
                 }
 
-                Status("Checking server...");
+                SetState(WebLaunchState.CheckingServer);
                 if (!await IsServerRunning(DevUrl))
                 {
-                    Status("Starting Vite server...");
+                    SetState(WebLaunchState.StartingServer);
                     StartViteServer();
+
+                    SetState(WebLaunchState.WaitingForServer);
                     await WaitForServer(DevUrl, 20000);
                 }
 
-                Status("Opening browser...");
+                SetState(WebLaunchState.OpeningBrowser);
                 OpenBrowser(DevUrl);
 
-                Status("Done.");
+                SetState(WebLaunchState.Completed);
             }
             catch (Exception ex)
             {
-                Status("Failed.");
+                SetState(WebLaunchState.Error);
+
                 MessageBox.Show(
                     ex.ToString(),
                     "OpenWeb error",
                     MessageBoxButton.OK,
                     MessageBoxImage.Error);
             }
+        }*/
+
+        private async void OpenWeb(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                await _webLauncher.OpenAsync(Status);
+            }
+            catch (Exception ex)
+            {
+                Status("Failed.");
+
+                MessageBox.Show(
+                    ex.ToString(),
+                    "OpenWeb error",
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Error);
+            }
+        }
+
+        private void Status(string text)
+        {
+            Dispatcher.Invoke(() =>
+            {
+                StatusText.Text = text;
+            });
+        }
+
+        protected override void OnClosed(EventArgs e)
+        {
+            _webLauncher.Stop();
+            base.OnClosed(e);
         }
     }
 }

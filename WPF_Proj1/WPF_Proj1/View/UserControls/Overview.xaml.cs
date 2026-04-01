@@ -25,7 +25,7 @@ namespace WPF_Proj1.View.UserControls
             DailyMenuOnlyView _dmow = new DailyMenuOnlyView(uId);
             daysNum.Text = Convert.ToString(u.Where(d => d.WantsSoup || d.DishChoice == "A" || d.DishChoice == "B").Count());
             soupAmount.Text = Convert.ToString(u.Where(d => d.WantsSoup).Count());
-            ABNone.Text = $"${u.Where(d => d.DishChoice == "A").Count()}/${u.Where(d => d.DishChoice == "B").Count()}/${u.Where(d => d.DishChoice == null).Count()}";
+            ABNone.Text = $"{u.Where(d => d.DishChoice == "A").Count()}/{u.Where(d => d.DishChoice == "B").Count()}/{u.Where(d => d.DishChoice == null).Count()}";
             expPrice.Text = Convert.ToString(u.Where(d => d.WantsSoup).Count() * 300 + u.Where(d => d.DishChoice == "A").Count() * 500 + u.Where(d => d.DishChoice == "B").Count() * 700);
             dmow.Child = _dmow;
         }

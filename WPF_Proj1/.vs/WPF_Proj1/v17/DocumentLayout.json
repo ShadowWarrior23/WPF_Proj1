@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI CS\\WPF_Proj1\\WPF_Proj1\\",
+  "WorkspaceRootPath": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\user\\documents\\szb 12.b\\gui cs\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\mainpageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\wpf_proj1\\view\\weblauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\weblauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\wpf_proj1\\view\\mainpageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\mainpageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\user\\documents\\szb 12.b\\gui cs\\wpf_proj1\\wpf_proj1\\wpf_proj1\\view\\mainpageadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\wpf_proj1\\view\\mainpageadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\mainpageadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,11 +30,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "WebLauncher.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\WebLauncher.cs",
+              "RelativeDocumentMoniker": "WPF_Proj1\\View\\WebLauncher.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\WebLauncher.cs",
+              "RelativeToolTip": "WPF_Proj1\\View\\WebLauncher.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwEgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T19:58:41.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainPageAdmin.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI CS\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml",
               "RelativeDocumentMoniker": "WPF_Proj1\\View\\MainPageAdmin.xaml",
-              "ToolTip": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI CS\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml",
               "RelativeToolTip": "WPF_Proj1\\View\\MainPageAdmin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-25T16:05:45.003Z",
@@ -38,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainPageAdmin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI CS\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
               "RelativeDocumentMoniker": "WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\SzB 12.B\\GUI CS\\WPF_Proj1\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
               "RelativeToolTip": "WPF_Proj1\\View\\MainPageAdmin.xaml.cs",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAUwOUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABABAAAAAAAAAAAxwC4BAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T16:05:03.672Z",
               "EditorCaption": ""
