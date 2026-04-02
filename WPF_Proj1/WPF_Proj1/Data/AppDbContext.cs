@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.IO;
 
 namespace WPF_Proj1
 {
@@ -12,7 +13,8 @@ namespace WPF_Proj1
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlite("Data Source=PixaFork.db");
+                var dbPath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "PixaFork.db"));
+                optionsBuilder.UseSqlite($"Data Source={dbPath}");
             }
         }
 
@@ -20,24 +22,20 @@ namespace WPF_Proj1
         {
             base.OnModelCreating(modelBuilder);
 
-            // Match your existing table names
             modelBuilder.Entity<User>().ToTable("users");
             modelBuilder.Entity<DailyMenu>().ToTable("daily_menu");
             modelBuilder.Entity<Order>().ToTable("orders");
 
-            // Unique: one order per user per day
             modelBuilder.Entity<Order>()
                 .HasIndex(o => new { o.UserId, o.Day })
                 .IsUnique();
 
-            // Relation: Order -> User
             modelBuilder.Entity<Order>()
                 .HasOne(o => o.User)
                 .WithMany(u => u.Orders)
                 .HasForeignKey(o => o.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Relation: Order -> DailyMenu
             modelBuilder.Entity<Order>()
                 .HasOne(o => o.DailyMenu)
                 .WithMany(m => m.Orders)

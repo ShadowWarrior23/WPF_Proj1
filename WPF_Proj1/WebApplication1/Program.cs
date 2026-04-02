@@ -25,8 +25,11 @@ namespace WebApplication1
 
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
+            var dbPath = Path.GetFullPath(Path.Combine(builder.Environment.ContentRootPath, "..", "WPF_Proj1", "PixaFork.db"));
+            Console.WriteLine("DB PATH: " + dbPath);
+
             builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+                options.UseSqlite($"Data Source={dbPath}"));
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
