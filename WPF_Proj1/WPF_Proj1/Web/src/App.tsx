@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <header className='h-20 w-full bg-amber-300 text-2xl flex justify-center align-middle pt-3'>
+      <header className='h-20 w-full var(--pf-bg) text-2xl flex justify-center align-middle pt-3'>
         <h2>PixaF0rk</h2>
       </header>
         <MenuPage />

@@ -34,15 +34,15 @@ export default function MenuPage() {
     if (error) return <p>{error}</p>;
 
     return (
-        <main className='w-full flex gap-4 flex-wrap flex-column'>
+        <main className='w-full flex gap-4 flex-wrap flex-column justify-center align-middle p-4 h-full'>
             <h1 className="h-5 w-full text-center">Daily Menus</h1>
-            <section className='w-full flex gap-2 flex-row flex-wrap'>
+            <section className='w-full flex gap-4 flex-row flex-wrap'>
                 {menus.map((m) => (
                     <div className="card" key={m.day}>
-                        <h3>{m.day}</h3>
-                        <p>Soup: {m.soup}</p>
-                        <p>Dish A: {m.dishA}</p>
-                        <p>Dish B: {m.dishB}</p>
+                        <h3 id="cDay">{m.day}</h3>
+                        <p className="cInf">Soup: <span>{m.soup}</span></p>
+                        <p className="cInf">Dish A: <span>{m.dishA}</span></p>
+                        <p className="cInf">Dish B: <span>{m.dishB}</span></p>
                     </div>
                 ))}
             </section>

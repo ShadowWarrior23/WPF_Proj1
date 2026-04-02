@@ -136,7 +136,7 @@ namespace WPF_Proj1.View
             }
         }
 
-        private void StartViteServer()
+        /*private void StartViteServer()
         {
             var psi = new ProcessStartInfo
             {
@@ -145,6 +145,20 @@ namespace WPF_Proj1.View
                 WorkingDirectory = _frontendPath,
                 UseShellExecute = false,
                 CreateNoWindow = true
+            };
+
+            _viteProcess = Process.Start(psi);
+        }*/
+
+        private void StartViteServer()
+        {
+            var psi = new ProcessStartInfo
+            {
+                FileName = "cmd.exe",
+                Arguments = "/k pnpm dev --host 127.0.0.1 --port 5173",
+                WorkingDirectory = _frontendPath,
+                UseShellExecute = true,
+                CreateNoWindow = false
             };
 
             _viteProcess = Process.Start(psi);

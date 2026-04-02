@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+h2{
+    color: var(--pf-copper);
+    text-shadow: 2px 2px 10px var(--pf-copper);
+}

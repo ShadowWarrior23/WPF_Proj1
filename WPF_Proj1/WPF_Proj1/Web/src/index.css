@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+  /* Core Backgrounds */
+  --pf-bg: #1A111A;        /* Deepest Obsidian Plum */
+  --pf-card: #251825;      /* Mid-Plum Card */
+  
+  /* Brand Accents */
+  --pf-purple: #800080;    /* Signature Border / Neon */
+  --pf-copper: #D48166;    /* Glowing Digital Half / Titles */
+  --pf-cyan: #00ADB5;      /* Data Labels / Electric Spark */
+  
+  /* Text */
+  --pf-white: #E2E8F0;     /* Frost White (Dates) */
+  --pf-lavender: #E6E0EB;  /* Soft Lavender (Body Text) */
+}
+
+body{
+    background-color:  var(--pf-bg) ;
+}
