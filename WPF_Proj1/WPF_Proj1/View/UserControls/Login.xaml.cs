@@ -19,11 +19,11 @@ namespace WPF_Proj1.View.UserControls
             return true;
         }
 
-        private static bool CustomerLogin(string userName, UserControls1.ClearableTextboxDark2 UserName)
+        private static bool CustomerLogin(string fullname, string username, UserControls1.ClearableTextboxDark2 UserName)
         {
-            MessageBox.Show($"Welcome {userName}!", "Successful login", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show($"Welcome {fullname}!", "Successful login", MessageBoxButton.OK, MessageBoxImage.Information);
             UserName.Text = "";
-            MainPage mainPage = new MainPage(userName);
+            MainPage mainPage = new MainPage(username);
             mainPage.Show();
             return true;
         }
@@ -99,12 +99,12 @@ namespace WPF_Proj1.View.UserControls
 
             else
             {
-                var users = db.Users.Select(p => new { un = p.Username, pw = p.PasswordHash, adm = p.IsAdmin }).ToList();
+                var users = db.Users.Select(p => new { fn = p.FullName, un = p.Username, pw = p.PasswordHash, adm = p.IsAdmin }).ToList();
                 bool logged = false;
                 int i = 0;
                 while (logged == false && i < users.Count)
                 {
-                    logged = users[i].un == userName && users[i].pw == password ? users[i].adm == true ? AdminLogin(users[i].un, UserName) : CustomerLogin(users[i].un, UserName) : false;
+                    logged = users[i].un == userName && users[i].pw == password ? users[i].adm == true ? AdminLogin(users[i].un, UserName) : CustomerLogin(users[i].fn, users[i].un, UserName) : false;
                     i++;
                 }
 

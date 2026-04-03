@@ -1,0 +1,20 @@
+h1{
+    color: var(--pf-copper);
+}
+
+select{
+    background-color: var(--pf-card);
+    border: 1px solid var(--pf-purple);
+    color: var(--pf-white);
+    scrollbar-color: var(--pf-purple);
+}
+
+option{
+    background-color: var(--pf-bg);
+    border: 1px solid var(--pf-purple);
+}
+
+option:active, option:hover, option:focus{
+    background-color: var(--pf-cyan);
+    color: var(--pf-bg);
+}

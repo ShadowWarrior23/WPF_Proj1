@@ -1,0 +1,19 @@
+button{
+    color: var(--pf-cyan);
+    padding: .5rem;
+    box-shadow: 2px 2px 10px 1px var(--pf-purple);
+    transition: .2s;
+    border-radius: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 1px var(--pf-copper);
+    transition: .2s;
+}
+
+button:active{
+    color: var(--pf-lavender);
+    box-shadow: 2px 2px 10px 1px var(--pf-cyan);
+    transition: .2s;
+}

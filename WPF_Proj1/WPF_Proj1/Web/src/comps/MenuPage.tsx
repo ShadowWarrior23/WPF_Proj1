@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import type { DailyMenuDto } from "../types/types";
 import "./MenuPage.css";
+import 'tailwindcss';
 
 export default function MenuPage() {
     const [menus, setMenus] = useState<DailyMenuDto[]>([]);
@@ -37,7 +38,7 @@ export default function MenuPage() {
         <main className='w-full flex gap-4 flex-wrap flex-column justify-center align-middle p-4 h-full'>
             <h1 className="h-5 w-full text-center">Daily Menus</h1>
             <section>
-                {menus.map((m) => (
+                {menus.map(m => (
                     <div className="card" key={m.day}>
                         <h3 id="cDay">{m.day}</h3>
                         <p className="cInf">Soup: <span>{m.soup}</span></p>

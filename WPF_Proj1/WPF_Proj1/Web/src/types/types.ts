@@ -19,3 +19,16 @@ export interface DailyMenuDto {
   dishA: string;
   dishB: string;
 }
+
+export interface FoodItemDto {
+  foodItemName: string;
+  Categ: string;
+  ingreds: string[];
+  allergens: string[];
+  tags: string[];
+}
+
+export interface FAQ_el {
+  hText: string;
+  cont: string;
+}

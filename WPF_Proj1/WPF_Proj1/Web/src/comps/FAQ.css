@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 30vw;
+    padding: 1rem;
+}
+
+#ht {
+    color: var(--pf-cyan);
+    margin-bottom: 0.5rem;
+}
+
+#ct {
+    color: var(--pf-lavender);
+}
