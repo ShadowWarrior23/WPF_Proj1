@@ -25,11 +25,15 @@ function Rating() {
         }
     }
 
+    function changeCurrFoodItem(){
+        
+    }
+
     return (
         <>
             <h1>Rating</h1>
             <main>
-                <select id='food'>
+                <select id='food' onSelect={changeCurrFoodItem}>
                     {menus.map(f => (
                         <option key={f.day}>{f.soup}</option>
                     ))}
@@ -40,6 +44,14 @@ function Rating() {
                         <option key={f.day}>{f.dishB}</option>
                     ))}
                 </select>
+
+                <div className="card">
+                    <h3>Name: <span></span></h3>
+                    <h5>Category: <span></span></h5>
+                    <p>Ingredients: <span></span></p>
+                    <p>Allergens: <span></span></p>
+                    <p>Tags: <span></span></p>
+                </div>
             </main>
         </>
     )

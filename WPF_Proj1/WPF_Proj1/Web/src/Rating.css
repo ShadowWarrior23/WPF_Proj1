@@ -1,20 +1,41 @@
-h1{
+h1 {
     color: var(--pf-copper);
 }
 
-select{
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+select {
+    width: 15vw;
     background-color: var(--pf-card);
     border: 1px solid var(--pf-purple);
     color: var(--pf-white);
     scrollbar-color: var(--pf-purple);
 }
 
-option{
+option {
     background-color: var(--pf-bg);
     border: 1px solid var(--pf-purple);
 }
 
-option:active, option:hover, option:focus{
+option:active,
+option:hover,
+option:focus {
     background-color: var(--pf-cyan);
     color: var(--pf-bg);
+}
+
+.card {
+    width: 30vw;
+    height: 25vh;
+    color: var(--pf-cyan);
+}
+
+.card span{
+    color: var(--pf-lavender);
 }
