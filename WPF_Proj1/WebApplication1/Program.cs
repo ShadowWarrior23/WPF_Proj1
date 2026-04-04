@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using WPF_Proj1;
+using WebApplication1.Data;
 
 namespace WebApplication1
 {

@@ -11,6 +11,24 @@ namespace WPF_Proj1
         public DbSet<Order> Orders { get; set; }
         public DbSet<FoodItem> FoodItems { get; set; }
 
+        public AppDbContext()
+        {
+        }
+
+        public AppDbContext(DbContextOptions<AppDbContext> options)
+            : base(options)
+        {
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                var dbPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\PixaFork.db"));
+                optionsBuilder.UseSqlite($"Data Source={dbPath}");
+            }
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -48,7 +66,7 @@ namespace WPF_Proj1
             modelBuilder.Entity<FoodItem>()
                 .Property(f => f.Categ)
                 .IsRequired()
-                .HasMaxLength(20);
+                .HasMaxLength(4);
 
             modelBuilder.Entity<FoodItem>()
                 .Property(f => f.Ingreds)

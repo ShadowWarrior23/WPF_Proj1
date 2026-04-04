@@ -26,6 +26,23 @@ namespace WPF_Proj1.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "food_items",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Name = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
+                    Categ = table.Column<string>(type: "TEXT", maxLength: 4, nullable: false),
+                    Ingreds = table.Column<string>(type: "TEXT", nullable: false),
+                    Allergens = table.Column<string>(type: "TEXT", nullable: false),
+                    Tags = table.Column<string>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_food_items", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "users",
                 columns: table => new
                 {
@@ -72,6 +89,12 @@ namespace WPF_Proj1.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_food_items_Name",
+                table: "food_items",
+                column: "Name",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
                 name: "IX_orders_Day",
                 table: "orders",
                 column: "Day");
@@ -86,6 +109,9 @@ namespace WPF_Proj1.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "food_items");
+
             migrationBuilder.DropTable(
                 name: "orders");
 

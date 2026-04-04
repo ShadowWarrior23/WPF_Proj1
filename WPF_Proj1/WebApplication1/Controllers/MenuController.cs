@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using WebApplication1.Data;
 using WPF_Proj1.Api.Dtos;
 
 namespace WPF_Proj1.Api.Controllers

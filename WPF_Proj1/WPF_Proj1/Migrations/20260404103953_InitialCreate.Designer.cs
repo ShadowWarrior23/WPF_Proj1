@@ -11,7 +11,7 @@ using WPF_Proj1;
 namespace WPF_Proj1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260322214432_InitialCreate")]
+    [Migration("20260404103953_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -45,6 +45,42 @@ namespace WPF_Proj1.Migrations
                     b.HasKey("Day");
 
                     b.ToTable("daily_menu", (string)null);
+                });
+
+            modelBuilder.Entity("WPF_Proj1.Data.Models.FoodItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Allergens")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Categ")
+                        .IsRequired()
+                        .HasMaxLength(4)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Ingreds")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Tags")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("food_items", (string)null);
                 });
 
             modelBuilder.Entity("WPF_Proj1.Order", b =>
