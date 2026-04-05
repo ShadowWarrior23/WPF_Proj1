@@ -1,0 +1,14 @@
+.rating {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rating span {
+    color: plum;
+}
+
+.rating span.filled {
+    cursor: default;
+    color: gold;
+    text-shadow: 2px 2px 10px gold;
+}

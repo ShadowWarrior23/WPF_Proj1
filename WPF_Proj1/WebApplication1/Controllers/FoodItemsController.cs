@@ -1,9 +1,7 @@
-﻿using global::WPF_Proj1;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data;
 using WebApplication1.Dtos;
-using WPF_Proj1.Api.Dtos;
 
 namespace WebApplication1.Controllers
 {
@@ -37,7 +35,8 @@ namespace WebApplication1.Controllers
                     Categ = f.Categ,
                     Ingreds = f.Ingreds,
                     Allergens = f.Allergens,
-                    Tags = f.Tags
+                    Tags = f.Tags,
+                    Rating = f.Rating
                 })
                 .ToListAsync();
 
@@ -58,7 +57,8 @@ namespace WebApplication1.Controllers
                     Categ = f.Categ,
                     Ingreds = f.Ingreds,
                     Allergens = f.Allergens,
-                    Tags = f.Tags
+                    Tags = f.Tags,
+                    Rating = f.Rating
                 })
                 .FirstOrDefaultAsync();
 
@@ -66,6 +66,27 @@ namespace WebApplication1.Controllers
                 return NotFound();
 
             return Ok(food);
+        }
+
+        [HttpPatch("{name}/rating")]
+        public async Task<IActionResult> UpdateRating(string name, [FromBody] UpdateFoodRatingDto dto)
+        {
+            if (dto.Rating < 0 || dto.Rating > 5)
+                return BadRequest("Rating must be between 0 and 5.");
+
+            var normalized = name.Trim().ToLower();
+
+            var foodItem = await _db.FoodItems
+                .FirstOrDefaultAsync(f => f.Name.ToLower() == normalized);
+
+            if (foodItem == null)
+                return NotFound();
+
+            foodItem.Rating = dto.Rating;
+
+            await _db.SaveChangesAsync();
+
+            return NoContent();
         }
     }
 }

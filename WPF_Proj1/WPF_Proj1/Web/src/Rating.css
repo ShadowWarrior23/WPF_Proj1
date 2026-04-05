@@ -32,10 +32,17 @@ option:focus {
 
 .card {
     width: 30vw;
-    height: 25vh;
+    height: 30vh;
     color: var(--pf-cyan);
+    font-size: 1.2rem;
 }
 
-.card span{
+.card span {
     color: var(--pf-lavender);
+}
+
+.saveBtn{
+    display: flex;
+    justify-content: center;
+    padding: .2rem;
 }

@@ -35,7 +35,8 @@ namespace WPF_Proj1.Migrations
                     Categ = table.Column<string>(type: "TEXT", maxLength: 4, nullable: false),
                     Ingreds = table.Column<string>(type: "TEXT", nullable: false),
                     Allergens = table.Column<string>(type: "TEXT", nullable: false),
-                    Tags = table.Column<string>(type: "TEXT", nullable: false)
+                    Tags = table.Column<string>(type: "TEXT", nullable: false),
+                    Rating = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

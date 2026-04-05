@@ -184,7 +184,8 @@
                     Categ = categ,
                     Ingreds = Array.Empty<string>(),
                     Allergens = Array.Empty<string>(),
-                    Tags = Array.Empty<string>()
+                    Tags = Array.Empty<string>(),
+                    Rating = 0
                 });
 
                 existingNames.Add(name);

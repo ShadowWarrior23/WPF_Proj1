@@ -11,7 +11,7 @@ using WPF_Proj1;
 namespace WPF_Proj1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260404103953_InitialCreate")]
+    [Migration("20260404170336_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -70,6 +70,9 @@ namespace WPF_Proj1.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("TEXT");
+
+                    b.Property<int>("Rating")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Tags")
                         .IsRequired()

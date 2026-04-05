@@ -1,56 +1,111 @@
-import { useEffect, useState } from 'react';
-import type { DailyMenuDto } from '../types/types';
+import { useEffect, useRef, useState } from 'react';
+import type { FoodItemDto } from '../types/types';
 import '../Rating.css';
+import Stars from './Stars';
 
+const initFI: FoodItemDto = {
+    name: '',
+    categ: '',
+    ingreds: [],
+    allergens: [],
+    tags: [],
+    rating: 0
+}
 
 function Rating() {
 
-    const [menus, setMenus] = useState<DailyMenuDto[]>([]);
+    const [foodItems, setFoodItems] = useState<FoodItemDto[]>([]);
+    const [foodItem, setFoodItem] = useState<FoodItemDto>(initFI);
     const [error, setError] = useState("");
 
     useEffect(() => {
-        loadMenus();
+        getFoodItems();
     }, []);
 
-    async function loadMenus() {
+    const sel = useRef<HTMLSelectElement>(null);
+
+    async function getFoodItems() {
         try {
             setError("");
-            const response = await fetch("http://127.0.0.1:5072/api/menu", {
+            const response = await fetch("http://localhost:5072/api/FoodItems", {
                 cache: "no-store"
             });
             const data = await response.json();
-            setMenus(data);
+            setFoodItems(data);
+
+            if (data.length > 0) {
+                setFoodItem(data[0]);
+            }
         } catch (err) {
-            setError(`Failed to load menus. Reason:\n ${err}`);
+            setError(`Failed to load food items. Reason:\n ${err}`);
         }
     }
 
-    function changeCurrFoodItem(){
-        
+    async function getFoodItem(foodItemName: string) {
+        try {
+            setError("");
+            const response = await fetch(`http://localhost:5072/api/FoodItems/${encodeURIComponent(foodItemName)}`, {
+                cache: "no-store"
+            });
+
+            const data: FoodItemDto = await response.json();
+            setFoodItem(data);
+        } catch (err) {
+            setError(`Failed to load food item. Reason:\n${err}`);
+        }
     }
+
+    function changeCurrFoodItem(foodItemName: string) {
+        getFoodItem(foodItemName);
+    }
+
+    async function saveRating() {
+        try {
+            setError("");
+            const response = await fetch(
+                `http://localhost:5072/api/FoodItems/${encodeURIComponent(foodItem.name)}/rating`,
+                {
+                    method: "PATCH",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        rating: foodItem.rating
+                    })
+                }
+            );
+
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}`);
+            }
+
+            alert("Rating saved successfully.");
+        } catch (err) {
+            setError(`Failed to save rating. Reason:\n${err}`);
+        }
+    }
+
 
     return (
         <>
             <h1>Rating</h1>
             <main>
-                <select id='food' onSelect={changeCurrFoodItem}>
-                    {menus.map(f => (
-                        <option key={f.day}>{f.soup}</option>
-                    ))}
-                    {menus.map(f => (
-                        <option key={f.day}>{f.dishA}</option>
-                    ))}
-                    {menus.map(f => (
-                        <option key={f.day}>{f.dishB}</option>
+                <select id='food' ref={sel} onChange={(e) => changeCurrFoodItem(e.target.value)}>
+                    {foodItems.map(f => (
+                        <option key={f.name} value={f.name}>{f.name}</option>
                     ))}
                 </select>
 
                 <div className="card">
-                    <h3>Name: <span></span></h3>
-                    <h5>Category: <span></span></h5>
-                    <p>Ingredients: <span></span></p>
-                    <p>Allergens: <span></span></p>
-                    <p>Tags: <span></span></p>
+                    <h3>Name: <span>{foodItem.name}</span></h3>
+                    <h5>Category: <span>{foodItem.categ}</span></h5>
+                    <p>Ingredients: <span>{foodItem.ingreds.join(', ')}</span></p>
+                    <p>Allergens: <span>{foodItem.allergens.length !== 0 ? foodItem.allergens.join(', ') : 'None'}</span></p>
+                    <p>Tags: <span>{foodItem.tags.join(', ')}</span></p>
+                    <Stars value={foodItem.rating} onChange={(newRating) => setFoodItem(prev => ({ ...prev, rating: newRating }))} />
+                    <div className="saveBtn">
+                        <button onClick={saveRating}>Save</button>
+                    </div>
                 </div>
             </main>
         </>

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace WebApplication1.Data.Models
 {
@@ -17,5 +18,6 @@ namespace WebApplication1.Data.Models
         public string[] Ingreds { get; set; } = Array.Empty<string>();
         public string[] Allergens { get; set; } = Array.Empty<string>();
         public string[] Tags { get; set; } = Array.Empty<string>();
+        public int Rating {  get; set; }
     }
 }

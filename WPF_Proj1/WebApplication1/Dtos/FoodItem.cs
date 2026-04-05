@@ -7,5 +7,6 @@
         public string[] Ingreds { get; set; } = Array.Empty<string>();
         public string[] Allergens { get; set; } = Array.Empty<string>();
         public string[] Tags { get; set; } = Array.Empty<string>();
+        public int Rating {  get; set; }
     }
 }
