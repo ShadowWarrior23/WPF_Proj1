@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WPF_Proj1.View
 {
@@ -40,7 +35,7 @@ namespace WPF_Proj1.View
             if (!NodeModulesExist())
             {
                 Status("Writing the menus...");
-                await RunCommandAndWait("npm.cmd", "install", _frontendPath);
+                await RunCommandAndWait("pnpm.cmd", "install", _frontendPath);
                 Status("That's done!");
             }
             else
@@ -104,7 +99,7 @@ namespace WPF_Proj1.View
         private async Task EnsureNodeAvailable()
         {
             await RunCommandAndWait("cmd.exe", "/c node -v", _frontendPath);
-            await RunCommandAndWait("cmd.exe", "/c npm -v", _frontendPath);
+            await RunCommandAndWait("cmd.exe", "/c pnpm -v", _frontendPath);
         }
 
         private async Task RunCommandAndWait(string fileName, string arguments, string workingDirectory)

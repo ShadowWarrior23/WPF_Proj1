@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import type { FoodItemDto } from '../types/types';
 import '../Rating.css';
 import Stars from './Stars';
@@ -21,8 +21,6 @@ function Rating() {
     useEffect(() => {
         getFoodItems();
     }, []);
-
-    const sel = useRef<HTMLSelectElement>(null);
 
     async function getFoodItems() {
         try {
@@ -90,7 +88,7 @@ function Rating() {
         <>
             <h1>Rating</h1>
             <main>
-                <select id='food' ref={sel} onChange={(e) => changeCurrFoodItem(e.target.value)}>
+                <select id='food' onChange={(e) => changeCurrFoodItem(e.target.value)}>
                     {foodItems.map(f => (
                         <option key={f.name} value={f.name}>{f.name}</option>
                     ))}

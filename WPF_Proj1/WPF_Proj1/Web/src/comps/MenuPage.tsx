@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import type { DailyMenuDto } from "../types/types";
 import "./MenuPage.css";
-import 'tailwindcss';
 
 export default function MenuPage() {
     const [menus, setMenus] = useState<DailyMenuDto[]>([]);

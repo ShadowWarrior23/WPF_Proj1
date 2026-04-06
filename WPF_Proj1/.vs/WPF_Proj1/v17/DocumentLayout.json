@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\webapplication1\\controllers\\fooditemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21E0D8E9-435D-477B-9066-4A45C3026C93}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\fooditemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,19 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FoodItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Controllers\\FoodItemsController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\FoodItemsController.cs",
-              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WebApplication1\\Controllers\\FoodItemsController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\FoodItemsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T16:33:46.974Z",
-              "EditorCaption": ""
             }
           ]
         }
