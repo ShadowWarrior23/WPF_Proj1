@@ -1,6 +1,5 @@
 ﻿using System.Diagnostics;
 using System.IO;
-using System.Net.Http;
 using System.Windows;
 using System.Windows.Controls;
 using WPF_Proj1.View.UserControls;
@@ -72,203 +71,55 @@ namespace WPF_Proj1.View
 
         private void OpenConsole(object sender, RoutedEventArgs e)
         {
-        }
+            string projectPath = Path.GetFullPath(
+                Path.Combine(AppDomain.CurrentDomain.BaseDirectory,
+                @"..\..\..\..\PixaF0rk_Console\PixaF0rk_Console.csproj"));
 
-        /*private void Status(string text)
-        {
-            StatusText.Text = text;
-        }
+            string exePath = Path.GetFullPath(
+                Path.Combine(AppDomain.CurrentDomain.BaseDirectory,
+                @"..\..\..\..\PixaF0rk_Console\bin\Debug\net8.0\PixaF0rk_Console.exe"));
 
-        private void EnsureFrontendFolderExists()
-        {
-            if (!Directory.Exists(_frontendPath))
+            var buildInfo = new ProcessStartInfo
             {
-                throw new DirectoryNotFoundException(
-                    $"Frontend folder not found:\n{_frontendPath}");
-            }
-        }
-
-        private bool NodeModulesExist()
-        {
-            return Directory.Exists(Path.Combine(_frontendPath, "node_modules"));
-        }
-
-        private async Task EnsureNodeAvailable()
-        {
-            await RunCommandAndWait("cmd.exe", "/c node -v", _frontendPath);
-            await RunCommandAndWait("cmd.exe", "/c pnpm -v", _frontendPath);
-        }
-
-        private async Task RunCommandAndWait(string fileName, string arguments, string workingDirectory)
-        {
-            var psi = new ProcessStartInfo
-            {
-                FileName = fileName,
-                Arguments = arguments,
-                WorkingDirectory = workingDirectory,
+                FileName = "dotnet",
+                Arguments = $"build \"{projectPath}\" --nologo -v q",
+                UseShellExecute = false,
+                CreateNoWindow = true,
+                WindowStyle = ProcessWindowStyle.Hidden,
                 RedirectStandardOutput = true,
-                RedirectStandardError = true,
-                UseShellExecute = false,
-                CreateNoWindow = true
+                RedirectStandardError = true
             };
 
-            using var process = new Process { StartInfo = psi };
-            process.Start();
-
-            string stdOut = await process.StandardOutput.ReadToEndAsync();
-            string stdErr = await process.StandardError.ReadToEndAsync();
-
-            await process.WaitForExitAsync();
-
-            if (process.ExitCode != 0)
+            using var build = Process.Start(buildInfo);
+            if (build == null)
             {
-                throw new Exception(
-                    $"Command failed:\n{fileName} {arguments}\n\n" +
-                    $"Output:\n{stdOut}\n\nErrors:\n{stdErr}");
-            }
-        }
-
-        private void StartViteServer()
-        {
-            var psi = new ProcessStartInfo
-            {
-                FileName = "pnpm.cmd",
-                Arguments = "dev --host 127.0.0.1 --port 5173",
-                WorkingDirectory = _frontendPath,
-                UseShellExecute = false,
-                CreateNoWindow = true
-            };
-
-            _viteProcess = Process.Start(psi);
-        }
-
-        private async Task<bool> IsServerRunning(string url)
-        {
-            try
-            {
-                using var client = new HttpClient
-                {
-                    Timeout = TimeSpan.FromSeconds(1)
-                };
-
-                using var response = await client.GetAsync(url);
-                return response.IsSuccessStatusCode;
-            }
-            catch
-            {
-                return false;
-            }
-        }
-
-        private async Task WaitForServer(string url, int timeoutMs)
-        {
-            var started = DateTime.UtcNow;
-
-            while ((DateTime.UtcNow - started).TotalMilliseconds < timeoutMs)
-            {
-                if (await IsServerRunning(url))
-                    return;
-
-                await Task.Delay(500);
+                MessageBox.Show("Could not start build process.");
+                return;
             }
 
-            throw new TimeoutException("Vite dev server did not start in time.");
-        }
+            string stdOut = build.StandardOutput.ReadToEnd();
+            string stdErr = build.StandardError.ReadToEnd();
+            build.WaitForExit();
 
-        private void OpenBrowser(string url)
-        {
+            if (build.ExitCode != 0)
+            {
+                MessageBox.Show("Console project failed to build.\n\n" + stdErr + stdOut);
+                return;
+            }
+
+            if (!File.Exists(exePath))
+            {
+                MessageBox.Show("Console EXE not found after build.");
+                return;
+            }
+
             Process.Start(new ProcessStartInfo
             {
-                FileName = url,
+                FileName = exePath,
                 UseShellExecute = true
             });
         }
 
-        protected override void OnClosed(EventArgs e)
-        {
-            try
-            {
-                if (_viteProcess != null && !_viteProcess.HasExited)
-                {
-                    _viteProcess.Kill(true);
-                }
-            }
-            catch
-            {
-            }
-
-            base.OnClosed(e);
-        }
-
-        private string GetMessage(WebLaunchState state)
-        {
-            return state switch
-            {
-                WebLaunchState.Initializing => "Painting...",
-                WebLaunchState.CheckingFrontend => "Checking for staff...",
-                WebLaunchState.CheckingEnvironment => "A quick check on the admin...",
-                WebLaunchState.CheckingDependencies => "Looking at menus...",
-                WebLaunchState.InstallingDependencies => "Carrying menus...",
-                WebLaunchState.CheckingServer => "Looking outside...",
-                WebLaunchState.StartingServer => "Opening the door...",
-                WebLaunchState.WaitingForServer => "Waiting...",
-                WebLaunchState.OpeningBrowser => "Almost there!",
-                WebLaunchState.Completed => "Fired up!",
-                WebLaunchState.Error => "Something went wrong.",
-                _ => "Working..."
-            };
-        }
-
-        private void SetState(WebLaunchState state)
-        {
-            Status(GetMessage(state));
-        }
-
-        private async void OpenWeb(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                SetState(WebLaunchState.Initializing);
-
-                SetState(WebLaunchState.CheckingFrontend);
-                EnsureFrontendFolderExists();
-
-                SetState(WebLaunchState.CheckingEnvironment);
-                await EnsureNodeAvailable();
-
-                SetState(WebLaunchState.CheckingDependencies);
-                if (!NodeModulesExist())
-                {
-                    SetState(WebLaunchState.InstallingDependencies);
-                    await RunCommandAndWait("npm.cmd", "install", _frontendPath);
-                }
-
-                SetState(WebLaunchState.CheckingServer);
-                if (!await IsServerRunning(DevUrl))
-                {
-                    SetState(WebLaunchState.StartingServer);
-                    StartViteServer();
-
-                    SetState(WebLaunchState.WaitingForServer);
-                    await WaitForServer(DevUrl, 20000);
-                }
-
-                SetState(WebLaunchState.OpeningBrowser);
-                OpenBrowser(DevUrl);
-
-                SetState(WebLaunchState.Completed);
-            }
-            catch (Exception ex)
-            {
-                SetState(WebLaunchState.Error);
-
-                MessageBox.Show(
-                    ex.ToString(),
-                    "OpenWeb error",
-                    MessageBoxButton.OK,
-                    MessageBoxImage.Error);
-            }
-        }*/
 
         private async void OpenWeb(object sender, RoutedEventArgs e)
         {

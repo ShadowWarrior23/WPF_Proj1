@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Proj1", "WPF_Proj1\WPF_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{21E0D8E9-435D-477B-9066-4A45C3026C93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixaF0rk_Console", "PixaF0rk_Console\PixaF0rk_Console.csproj", "{29D2855C-0F85-4CEA-A514-E6F24372551C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{21E0D8E9-435D-477B-9066-4A45C3026C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21E0D8E9-435D-477B-9066-4A45C3026C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21E0D8E9-435D-477B-9066-4A45C3026C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D2855C-0F85-4CEA-A514-E6F24372551C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D2855C-0F85-4CEA-A514-E6F24372551C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D2855C-0F85-4CEA-A514-E6F24372551C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D2855C-0F85-4CEA-A514-E6F24372551C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

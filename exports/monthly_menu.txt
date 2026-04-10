@@ -1,0 +1,15 @@
+Day: 2026. 04. 01.; Soup: Vegetable Soup, Dish A: Cheese Pasta, Dish B: Grilled Chicken Breast with Bulgur
+Day: 2026. 04. 13.; Soup: Green Pea Soup, Dish A: Vegetable Couscous, Dish B: Roast Pork with Potatoes
+Day: 2026. 04. 14.; Soup: Garlic Cream Soup, Dish A: Mushroom Risotto, Dish B: Turkey Meatballs with Tomato Sauce
+Day: 2026. 04. 15.; Soup: Lentil Soup, Dish A: Vegetable Stir Fry, Dish B: Beef Stew
+Day: 2026. 04. 16.; Soup: Pumpkin Cream Soup, Dish A: Spinach Pasta, Dish B: Grilled Fish with Lemon Potatoes
+Day: 2026. 04. 17.; Soup: Chicken Ragout Soup, Dish A: Sweet Cottage Cheese Dumplings, Dish B: Stuffed Cabbage
+Day: 2026. 04. 20.; Soup: Tomato Soup with Basil, Dish A: Vegetable Lasagna, Dish B: Chicken Paprikash with Noodles
+Day: 2026. 04. 21.; Soup: Bean Soup, Dish A: Egg Fried Rice, Dish B: Roast Duck with Red Cabbage
+Day: 2026. 04. 22.; Soup: Cream of Broccoli Soup, Dish A: Cheese Polenta, Dish B: Pork Stew with Noodles
+Day: 2026. 04. 23.; Soup: Vegetable Ragout Soup, Dish A: Mushroom Pasta, Dish B: Fried Fish with Potato Salad
+Day: 2026. 04. 24.; Soup: Fruit Soup, Dish A: Semolina Pudding with Cocoa, Dish B: Grilled Turkey Breast with Rice
+Day: 2026. 04. 27.; Soup: Potato Soup, Dish A: Vegetable Stew with Bread, Dish B: Beef Stroganoff with Pasta
+Day: 2026. 04. 28.; Soup: Zucchini Cream Soup, Dish A: Vegetable Fried Noodles, Dish B: Roast Chicken Thigh with Rice
+Day: 2026. 04. 29.; Soup: Green Bean Soup, Dish A: Potato Dumplings with Sauce, Dish B: Braised Pork with Vegetables
+Day: 2026. 04. 30.; Soup: Cauliflower Soup, Dish A: Cheese Rice, Dish B: Grilled Fish with Couscous
