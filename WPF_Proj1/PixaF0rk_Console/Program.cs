@@ -85,10 +85,10 @@ namespace PixaF0rk_Console
 
                 else if (opt == "4")
                 {
-                    var foodItems0 = db.FoodItems.Where(f => f.Ingreds.Length != 0).ToList(); //???
+                    var foodItems0 = db.FoodItems.ToList().Where(f => f.Ingreds.Length != 0).ToList();
                     foreach (var f in foodItems0)
                     {
-                        Console.WriteLine($"Dish Name: {f.Name}; Category: {f.Categ}; Ingredients: {String.Join(", ", f.Ingreds)}; Allergens: {(f.Allergens.Length != 0 ? String.Join(", ", f.Allergens) : "None")}; Tags: {String.Join(", ", f.Tags)}");
+                        Console.WriteLine($"Dish Name: {f.Name}; Category: {f.Categ}; Ingredients: {String.Join(", ", f.Ingreds)}; Allergens: {(f.Allergens.Length != 0 ? String.Join(", ", f.Allergens) : "None")}; Tags: {String.Join(", ", f.Tags)}; Rating: {f.Rating}");
                     }
 
                     Console.Write("Would you like to export it? (Y/N) ");
@@ -99,7 +99,7 @@ namespace PixaF0rk_Console
                         {
                             foreach (var f in foodItems0)
                             {
-                                sw.WriteLine($"Dish Name: {f.Name}; Category: {f.Categ}; Ingredients: {f.Ingreds.ToString()}; ");
+                                sw.WriteLine($"Dish Name: {f.Name}; Category: {f.Categ}; Ingredients: {String.Join(", ", f.Ingreds)}; Allergens: {(f.Allergens.Length != 0 ? String.Join(", ", f.Allergens) : "None")}; Tags: {String.Join(", ", f.Tags)}; Rating: {f.Rating}");
                             }
                         }
                         Console.WriteLine("Successful export!");
