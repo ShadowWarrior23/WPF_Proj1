@@ -1,6 +1,0 @@
-Name: Szabó Bence, Username: S137B, Email: bencepor@gmail.com, Password: L_LV.843, Balance: 500000
-Name: Takács Ákos, Username: T012Á, Email: takacsakos@gmail.com, Password: C$FB,000, Balance: 5000
-Name: Várkonyi Lulu, Username: V632L, Email: , Password: C&Sc*624, Balance: 0
-Name: Czmorek Ákos, Username: C746Á, Email: , Password: Q.Od!067, Balance: 0
-Name: Domán Martin, Username: D381M, Email: , Password: A;SP!951, Balance: 0
-Name: Hammer Péter, Username: H881P, Email: , Password: p.hV;755, Balance: 0

@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\financesadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\financesadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|c:\\users\\bence\\desktop\\vsc\\gui_cs\\wpf_proj1\\wpf_proj1\\view\\usercontrols\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873140C0-4F2D-4E3A-A33C-3CCC126375E3}|WPF_Proj1\\WPF_Proj1.csproj|solutionrelative:wpf_proj1\\view\\usercontrols\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,19 +34,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FinancesAdmin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\FinancesAdmin.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\FinancesAdmin.xaml.cs",
-              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\FinancesAdmin.xaml.cs",
-              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\FinancesAdmin.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T06:27:07.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FinancesAdmin.xaml",
               "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\FinancesAdmin.xaml",
@@ -50,7 +41,33 @@
               "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\FinancesAdmin.xaml",
               "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\FinancesAdmin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-11T06:27:03.377Z",
+              "WhenOpened": "2026-04-11T21:20:06.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FinancesAdmin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\FinancesAdmin.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\FinancesAdmin.xaml.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\FinancesAdmin.xaml.cs",
+              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\FinancesAdmin.xaml.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwGoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T21:18:43.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\Bence\\Desktop\\VSC\\GUI_CS\\WPF_Proj1\\WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
+              "RelativeToolTip": "WPF_Proj1\\View\\UserControls\\Login.xaml.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T20:21:09.068Z",
               "EditorCaption": ""
             }
           ]
