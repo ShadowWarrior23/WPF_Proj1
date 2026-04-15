@@ -1,0 +1,16 @@
+#filt {
+    margin: 2rem;
+}
+
+#search{
+    border: 1px solid #800080;
+    color: var(--pf-lavender);
+    padding: .3rem;
+}
+
+#maino {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 3rem;
+}

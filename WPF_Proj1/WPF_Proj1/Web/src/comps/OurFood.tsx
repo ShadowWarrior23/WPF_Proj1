@@ -1,83 +1,76 @@
 import { useEffect, useState } from 'react';
 import type { FoodItemDto } from '../types/types';
-
+import './OurFood.css';
 
 function OurFood() {
-
     const [foodItems, setFoodItems] = useState<FoodItemDto[]>([]);
-    const [ingreds, setIngreds] = useState<string[]>([]);
-    const [allergens, setAllergens] = useState<string[]>([]);
-    const [tags, setTags] = useState<string[]>([]);
+    const [allFoodItems, setAllFoodItems] = useState<FoodItemDto[]>([]);
     const [error, setError] = useState("");
-    const [categSel, setCategSel] = useState<'' | 'Soups' | 'Dishes'>('');
+    const [categSel, setCategSel] = useState('');
+    const [search, setSearch] = useState("");
 
     useEffect(() => {
         getFoodItems();
     }, []);
 
+    useEffect(() => {
+        filterFood(search, categSel);
+    }, [search, categSel, allFoodItems]);
+
     async function getFoodItems() {
         try {
             setError("");
+
             const resp = await fetch("http://127.0.0.1:5072/api/FoodItems", {
                 cache: "no-store"
             });
-            // Select filter w/ soup/dish
-            /* const baseUrl = "http://127.0.0.1:5072/api/FoodItems";
 
-            const url =
-                selected === "Soups"
-                    ? `${baseUrl}?categ=soup`
-                    : selected === "Dishes"
-                        ? `${baseUrl}?categ=dish`
-                        : baseUrl;
-
-            const resp = await fetch(url, {
-                cache: "no-store"
-            }); */
             const data = await resp.json();
-            setFoodItems(data);
-            filterCorrect();
-            setArrs();
+
+            const filteredData = data.filter((f: FoodItemDto) => f.tags.length !== 0);
+
+            setAllFoodItems(filteredData);
+            setFoodItems(filteredData);
         } catch (err) {
             setError(`Failed to load menus. Reason:\n ${err}`);
         }
     }
 
-    function filterCorrect() {
-        setFoodItems(foodItems => foodItems.filter(f => f.tags.length !== 0))
-    }
+    function filterFood(searchText: string, category: string) {
+        let filtered = [...allFoodItems];
 
-    function setArrs() {
-        const ingArr: string[] = Array.from(new Set(foodItems.flatMap(f => f.ingreds)));
-        setIngreds(ingArr);
-        const allArr: string[] = Array.from(new Set(foodItems.flatMap(f => f.allergens)));
-        setAllergens(allArr);
-        const tagArr: string[] = Array.from(new Set(foodItems.flatMap(f => f.tags)));
-        setTags(tagArr);
-    }
+        if (searchText.trim() !== "") {
+            filtered = filtered.filter(f =>
+                f.name.toLowerCase().includes(searchText.toLowerCase())
+            );
+        }
 
-    function filterFood() {
+        if (category === "soup") {
+            filtered = filtered.filter(f => f.categ.toLowerCase() === "soup");
+        } else if (category === "dish") {
+            filtered = filtered.filter(f => f.categ.toLowerCase() === "dish");
+        }
 
+        setFoodItems(filtered);
     }
 
     return (
         <>
             <h1>Our Food</h1>
-            <section>
-                <input type="text" id="search" placeholder='Search here...' />
-                <select id="Category" onChange={e => setCategSel(e.target)}>
-                    <option value="all">All</option>
+
+            {error && <p>{error}</p>}
+
+            <section id='filt'>
+                <input type="text" id="search" placeholder='Search here...' value={search} onChange={e => setSearch(e.target.value)} />
+
+                <select id="Category" value={categSel} onChange={e => setCategSel(e.target.value)}>
+                    <option value="">All</option>
                     <option value="soup">Soups</option>
                     <option value="dish">Main Dishes</option>
                 </select>
-                <select id="Ingredients">
-                    <option value="">None</option>
-                    {ingreds.map(ing => (
-                        <option key={ing} value={ing}>{ing}</option>
-                    ))}
-                </select>
             </section>
-            <main>
+
+            <main id='maino'>
                 {foodItems.map(f => (
                     <div className="card" key={f.name}>
                         <h3>Name: <span>{f.name}</span></h3>
@@ -89,7 +82,7 @@ function OurFood() {
                 ))}
             </main>
         </>
-    )
+    );
 }
 
 export default OurFood;

@@ -1,11 +1,12 @@
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: row !important;
     justify-content: space-evenly;
 }
 
-.card{
+.cardFAQ{
     width: 30vw;
+    height: 45vh !important;
     padding: 1rem;
 }
 

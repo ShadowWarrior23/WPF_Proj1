@@ -2,10 +2,10 @@ h1 {
     color: var(--pf-copper);
 }
 
-main {
+#mainr {
     width: 100vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     gap: 3rem;
     align-items: center;
 }
@@ -45,4 +45,5 @@ option:focus {
     display: flex;
     justify-content: center;
     padding: .2rem;
+    margin: .5rem;
 }

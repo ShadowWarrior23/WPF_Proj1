@@ -87,7 +87,7 @@ function Rating() {
     return (
         <>
             <h1>Rating</h1>
-            <main>
+            <main id='mainr'>
                 <select id='food' onChange={(e) => changeCurrFoodItem(e.target.value)}>
                     {foodItems.map(f => (
                         <option key={f.name} value={f.name}>{f.name}</option>
